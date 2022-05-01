@@ -2,9 +2,6 @@
 
 ## PARTICIPANTES
 
-### Jessica A. Rodriguez
-
-### Luis Navarro
 
 ### Marco
 
@@ -18,3 +15,7 @@
 
 ### Yuvisa
 ### Neufa
+
+### Jessica A. Rodriguez
+
+### Luis Navarro

@@ -2,6 +2,10 @@
 
 Este folder contiene las información y minutas de las juntas que hemos tenido, además de algunos documentos con tutoriales u otra información relevante.
 
+## Notas
+
++ Mayo 1, 2022: [Junta_010522](Junta_010522)
+
 ## Links que se han compartido
 
 ### Archivos de media: videos, imágenes, entrevistas, audios, etc.

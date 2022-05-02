@@ -6,7 +6,7 @@ Este folder contiene las información y minutas de las juntas que hemos tenido, 
 
 ### Archivos de media: videos, imágenes, entrevistas, audios, etc.
 
-[https://drive.google.com/drive/folders/17dMh5Q7GXFq9y4neunFkfA6y5oP1sODd](https://drive.google.com/drive/folders/17dMh5Q7GXFq9y4neunFkfA6y5oP1sODd)  
+Drive compartido: [https://drive.google.com/drive/folders/17dMh5Q7GXFq9y4neunFkfA6y5oP1sODd](https://drive.google.com/drive/folders/17dMh5Q7GXFq9y4neunFkfA6y5oP1sODd)  
 
 Link para juntas: [https://meet.jit.si/yup4n4_s1m1__](https://meet.jit.si/yup4n4_s1m1__)
 

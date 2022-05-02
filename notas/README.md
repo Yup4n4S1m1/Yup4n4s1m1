@@ -4,7 +4,7 @@ Este folder contiene las información y minutas de las juntas que hemos tenido, 
 
 ## Notas
 
-+ Mayo 1, 2022: [Junta_010522](Junta_010522)
++ Mayo 1, 2022: [Junta_010522.md](Junta_010522.md)
 
 ## Links que se han compartido
 

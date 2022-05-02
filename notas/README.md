@@ -4,6 +4,7 @@ Este folder contiene las información y minutas de las juntas que hemos tenido, 
 
 ## Notas
 
+  + [Plan General de Trabajo](Plan_General.md)
   + Mayo 1, 2022: [Junta_010522.md](Junta_010522.md)
 
 ## Documentos

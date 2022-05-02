@@ -9,6 +9,7 @@ Este folder contiene las información y minutas de las juntas que hemos tenido, 
 ## Documentos
 
   + Modificar, crear o subir información a nuestro GitHub: [TutorialGitHub.md](TutorialGitHub.md)
+  + Referencia rápida de funciones de CineCer0: []()
 
 ## Links que se han compartido
 

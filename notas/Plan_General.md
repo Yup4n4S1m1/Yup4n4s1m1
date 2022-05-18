@@ -7,11 +7,12 @@
 
 ### Plan de Trabajo inicial / Juntas de 2 horas cada una:
 1. Configuración de repositorio / Intro a Estuary y CineCer0 (para video, texto y sonido)
-2. Más en CineCer0 / Jam colaborativo / Lluvia de ideas de funciones para modificar visuales en nuestro lenguaje
-3. JSoLangs / Actividad sobre el diseño de la sintaxis
-4. Into a Tidal Cycles e importar sonidos a Estuary
-5. Más sobre Tidal Cycles / Jam colaborativo / Lluvia de ideas de funciones para modificar sonido en nuestro lenguaje 
-6. JSoLangs / Actividad sobre el diseño de la sintaxis
+2. Más en CineCer0 / Jam colaborativo / Intro a diseño de sintaxis / Actividad: Lluvia de ideas de funciones para modificar visuales en nuestro lenguaje
+3. Diseño de sintaxis 2 / JSoLangs / Aplicación introductoria
+4. JSoLangs 2 / Aplicaciòn para visuales
+5. Into a Tidal Cycles e importar sonidos a Estuary
+6. Más sobre Tidal Cycles / Jam colaborativo / Lluvia de ideas de funciones para modificar sonido en nuestro lenguaje 
+7. JSoLangs / Actividad sobre el diseño de la sintaxis
 
 ## RECOPILACIÓN DE MEDIA: AUDIO VIDEO, IMÁGEN Y TEXTO
 + Optimizar materiales

@@ -1,0 +1,49 @@
+
+
+NOTAS del 22 de julio
+
+Recordatorios sintaxix CineCer0
+
+video "url"
+image "url"
+text "texto"
+
+transformaciones x $ video "url"
+
+allqu = video
+
+sacha = url
+
+sacha allqu = reproduce un vieo especifico
+
+setOpacity 0.5 = chiwchi
+
+chiwchi $ sacha allqu = video con una opacidad especifica
+
+chiwchi 0.5 $ sacha allqu = video con una opacidad con parametro
+
+chiwchi = setOpacity 0.5 $ 
+video con una opacidad fija
+
+
+
+
+Transformaciones:
+
+setOpacity #
+setBrightness
+setSaturate
+setContrast
+setGrayscale
+circleMask
+rectMask
+setPostX
+setPostY
+setCoord
+setSize
+setRotation
+
+
+Actividad:
+Diccionario : traducción
+

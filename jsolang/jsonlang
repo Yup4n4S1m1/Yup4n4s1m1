@@ -72,7 +72,8 @@ rapi_llimpi ="rapi llimpi"i { return "\"http://yupanasimi.org/video/202.mp4\";" 
 
 sayaynin ="sayaynin"i { return "setWidth" }
 maypiX ="maypiX"i { return "setPosX" }
-maypiY ="maypiY"i { return "setPosY" }maypi ="maypi"i { return "setCoord" }
+maypiY ="maypiY"i { return "setPosY" }
+maypi ="maypi"i { return "setCoord" }
 chikan ="chikan"i { return "setSize" }
 chhikan ="chhikan"i { return "setSize" }
 kinray ="kinray"i { return "setHight" }

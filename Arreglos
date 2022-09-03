@@ -53,3 +53,22 @@ setSaturate 15 $ quant 0.05 0 $ setRotate (-45) $ setCoord 0.14 (0.5) $ setSize 
 setSaturate 15 $ quant 0.05 0 $ setRotate 75 $ setCoord 0.15 (-0.5) $ setSize 0.2 $ video "http://yupanasimi.org/video/019.mp4";
 setSaturate 15 $ quant 0.05 0 $ setRotate 45 $ setSize 0.2 $ video "http://yupanasimi.org/video/019.mp4";
 
+
+////////////
+
+
+setWidth 0.3 $ setHeight 0.9 $ video "http://yupanasimi.org/video/203.mp4";
+setPosX 0.3 $ setPosY (-0.5) $ circleMask 0.8 $ video "http://yupanasimi.org/video/203.mp4"
+
+
+setBrightness 0.8 $ setGrayscale 0.8 $ video "http://yupanasimi.org/video/304.mp4";
+quant 4 0 $ hsv (ramp 0.5 0 0.66) 0.5 0.6 $ sqrMask 0.5 $ setGrayscale 0.7 $ video "http://yupanasimi.org/video/115.mp4"
+
+
+
+setWidth 1.2 $ setHeight 1.2 $ video "http://yupanasimi.org/video/003.mp4";
+setOpacity 0.5 $ video "http://yupanasimi.org/video/101.mp4"
+
+
+snapMetre 4 $ video "http://yupanasimi.org/video/308.mp4";
+setBlur (range 0 20 $ sin 0.1) $ size 0.7 $ video "http://yupanasimi.org/video/103.mp4"

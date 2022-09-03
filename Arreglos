@@ -1,0 +1,55 @@
+
+// arreglos
+
+setSize 4 $ video "http://yupanasimi.org/video/028.mp4";
+circleMask' 0.5 0.2 0.1 $ setSize 2 $ setRotate 10 $ video "http://yupanasimi.org/video/028.mp4";
+circleMask' 0.5 0.5 0.1 $ setCoord 0.9 0.000001 $ video "http://yupanasimi.org/video/028.mp4";
+
+
+
+
+Agua, Laguna, Corriente 
+
+setPosX 0.5 $ setPosY (0.0) $ video "http://yupanasimi.org/video/014.mp4";
+setPosX (-0.5) $ setPosY (0.0) $ video "http://yupanasimi.org/video/014.mp4";
+setPosX (sin 0.1) $ setSize 1 $ video "http://yupanasimi.org/video/014.mp4";
+setPosX (sin 0.01) $ setSize 1 $ video "http://yupanasimi.org/video/014.mp4"
+
+setPosX 0.5 $ setPosY (0.0) $ video "http://yupanasimi.org/video/014.mp4";
+setBrightness 5 $ setPosX (-0.5) $ setPosY (0.0) $ video "http://yupanasimi.org/video/014.mp4";
+setBrightness 2 $ setPosX (sin 0.1) $ setSize 1 $ video "http://yupanasimi.org/video/014.mp4";
+setPosX (sin 0.01) $ setSize 1 $ video "http://yupanasimi.org/video/014.mp4"
+
+setPosX 0.5 $ setPosY (0.0) $ video "http://yupanasimi.org/video/014.mp4";
+setOpacity 0.5 $ setBrightness 5 $ setPosX (-0.5) $ setPosY (0.0) $ video "http://yupanasimi.org/video/014.mp4";
+setBrightness 2 $ setPosX (sin 0.1) $ setSize 1 $ video "http://yupanasimi.org/video/014.mp4";
+setOpacity 0.5 $ setPosX (sin 0.01) $ setSize 1 $ video "http://yupanasimi.org/video/014.mp4"
+
+
+
+setPosX 0.5 $ setPosY (0.5) $ video "http://yupanasimi.org/video/014.mp4";
+setPosX (-0.5) $ setPosY (-0.5) $ setSize 2 $ video "http://yupanasimi.org/video/014.mp4";
+setOpacity 0.5 $ setBrightness 5 $ setPosX (-0.5) $ setPosY (-0.5) $ video "http://yupanasimi.org/video/014.mp4";
+setOpacity 0.5 $ setBrightness 2 $ setPosX (sin 0.1) $ setSize 1 $ video "http://yupanasimi.org/video/014.mp4";
+setOpacity 0.5 $ setPosX (sin 0.01) $ setSize 1 $ video "http://yupanasimi.org/video/014.mp4";
+
+
+circleMask 0.8 $ setPosX 0.5 $ setPosY (0.5) $ video "http://yupanasimi.org/video/014.mp4";
+circleMask 0.8 $setPosX (-0.5) $ setPosY (-0.5) $ setSize 2 $ video circleMask 0.8 $"http://yupanasimi.org/video/014.mp4";
+circleMask 0.8 $ setOpacity 0.5 $ setBrightness 5 $ setPosX (-0.5) $ setPosY (-0.5) $ video "http://yupanasimi.org/video/014.mp4";
+circleMask 0.8 $ setOpacity 0.5 $ setBrightness 2 $ setPosX (sin 0.1) $ setSize 1 $ video "http://yupanasimi.org/video/014.mp4";
+circleMask 0.8 $ setOpacity 0.5 $ setPosX (sin 0.01) $ setSize 1 $ video "http://yupanasimi.org/video/014.mp4";
+
+
+// serpiente en laguna
+
+setSize 2 $ video "http://yupanasimi.org/video/029.mp4";
+setSaturate 15 $ quant 0.05 0 $ setRotate (-70) $ setCoord (-0.6) (0.2) $ setSize 0.2 $ video "http://yupanasimi.org/video/019.mp4";
+setSaturate 15 $ quant 0.05 0 $ setRotate 15 $ setCoord (-0.5) (-0.1) $ setSize 0.2 $ video "http://yupanasimi.org/video/019.mp4";
+setSaturate 15 $ quant 0.05 0 $ setRotate 15 $ setCoord (-0.3) (-0.39) $ setSize 0.2 $ video "http://yupanasimi.org/video/019.mp4";
+setSaturate 15 $ quant 0.05 0 $ setRotate 15 $ setCoord (-0.05) (-0.61) $ setSize 0.2 $ video "http://yupanasimi.org/video/019.mp4";
+setSaturate 15 $ quant 0.05 0 $ setRotate 15 $ setCoord 0.349 (0.60) $ setSize 0.2 $ video "http://yupanasimi.org/video/019.mp4";
+setSaturate 15 $ quant 0.05 0 $ setRotate (-45) $ setCoord 0.14 (0.5) $ setSize 0.2 $ video "http://yupanasimi.org/video/019.mp4";
+setSaturate 15 $ quant 0.05 0 $ setRotate 75 $ setCoord 0.15 (-0.5) $ setSize 0.2 $ video "http://yupanasimi.org/video/019.mp4";
+setSaturate 15 $ quant 0.05 0 $ setRotate 45 $ setSize 0.2 $ video "http://yupanasimi.org/video/019.mp4";
+

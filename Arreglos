@@ -72,3 +72,16 @@ setOpacity 0.5 $ video "http://yupanasimi.org/video/101.mp4"
 
 snapMetre 4 $ video "http://yupanasimi.org/video/308.mp4";
 setBlur (range 0 20 $ sin 0.1) $ size 0.7 $ video "http://yupanasimi.org/video/103.mp4"
+
+
+///////////
+
+
+setSize 2 $ video "http://yupanasimi.org/video/028.mp4";
+circleMask' 0.5 0.2 0.1 $ setSize 2 $ video "http://yupanasimi.org/video/028.mp4";
+circleMask' 0.5 0.5 0.1 $ setCoord 0.9 0.000001 $ video "http://yupanasimi.org/video/028.mp4";
+
+
+setSize 4 $ video "http://yupanasimi.org/video/028.mp4";
+circleMask' 0.5 0.2 0.1 $ setSize 2 $ setRotate 10 $ video "http://yupanasimi.org/video/028.mp4";
+circleMask' 0.5 0.5 0.1 $ setCoord 0.9 0.000001 $ video "http://yupanasimi.org/video/028.mp4";

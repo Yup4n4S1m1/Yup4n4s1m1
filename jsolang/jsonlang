@@ -1,7 +1,7 @@
 ##JSoLang YupanaSimi
 
 main = x:allRules* { return "##cineCer0\n" + x.join("") }
-allRules = rit_i_orqo / sonqo / riti_urqu / sunqu / t_ika / tika / wayta / t_ika_llimphi / tika_llimphi / wayta_llimpi / orqo / urqu / wachwa / yunka / muyuq_wayra / muyuq_wayra / muyuq_yaku / muyuq_unu / misi / michi / wachu / mayo / mayu / mama_qucha / mama_qocha / kuyuq_yaku / kuyuq_unu / huchuy_tawa_kuchu / huch_uy_tawa_k_uchu / uchuy_rapi / huch_uy_raphi / chakana_llimpi / chakana_llimphi / askha_qocha / achka_qucha / chakana / chakana_llimpi / pata_pata_llimphi / pata_pata_llimpi / perqa / pirqa / perqa_llimphi / pirqa_llimpi  / pillpintu / pisqu / puka_nawi / puka_qocha / puka_qucha / puka_yarqa / q_enqo / liwi / qinqu / qocha / qucha / qocha_llimphi / qucha_llimpi / qocha_pillpintu / qucha_pillpintu / raphi / rapi / raphi_llimpi / rapi_llimpi / maypi / chikan / kinray / ayphu / hiqichiy / illay / tupachiy / yananiraqkuna / ruyru_qawana / tawa_kuchu_qawana / chutarisqa_tawa_kuchu_qawana / winaraanyCharacter
+allRules = rit_i_orqo / sonqo / riti_urqu / sunqu / t_ika / tika / wayta / t_ika_llimphi / tika_llimphi / wayta_llimpi / orqo / urqu / wachwa / yunka / muyuq_wayra / muyuq_wayra / muyuq_yaku / muyuq_unu / misi / michi / wachu / mayo / mayu / mama_qucha / mama_qocha / kuyuq_yaku / kuyuq_unu / huchuy_tawa_kuchu / huch_uy_tawa_k_uchu / uchuy_rapi / huch_uy_raphi / chakana_llimpi / chakana_llimphi / askha_qocha / achka_qucha / chakana / chakana_llimpi / pata_pata_llimphi / pata_pata_llimpi / perqa / pirqa / perqa_llimphi / pirqa_llimpi  / pillpintu / pisqu / puka_nawi / puka_qocha / puka_qucha / puka_yarqa / q_enqo / liwi / qinqu / qocha / qucha / qocha_llimphi / qucha_llimpi / qocha_pillpintu / qucha_pillpintu / raphi / rapi / raphi_llimpi / rapi_llimpi / maypi / chikan / kinray / ayphu / hiqichiy / illay / tupachiy / yananiraqkuna / ruyru_qawana / tawa_kuchu_qawana / chutarisqa_tawa_kuchu_qawana / winara / sayaynin / maypiX / maypiY / anyCharacter
 anyCharacter = .
 
 // video
@@ -70,7 +70,9 @@ rapi_llimpi ="rapi llimpi"i { return "\"http://yupanasimi.org/video/202.mp4\";" 
 
 //Funciones
 
-maypi ="maypi"i { return "setCoord" }
+sayaynin ="sayaynin"i { return "setWidth" }
+maypiX ="maypiX"i { return "setPosX" }
+maypiY ="maypiY"i { return "setPosY" }maypi ="maypi"i { return "setCoord" }
 chikan ="chikan"i { return "setSize" }
 chhikan ="chhikan"i { return "setSize" }
 kinray ="kinray"i { return "setHight" }

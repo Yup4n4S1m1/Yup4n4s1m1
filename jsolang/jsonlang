@@ -1,7 +1,7 @@
 ##JSoLang YupanaSimi
 
 main = x:allRules* { return "##cineCer0\n" + x.join("") }
-allRules = rit_i_orqo / sonqo / riti_urqu / sunqu / t_ika / tika / wayta / t_ika_llimphi / tika_llimphi / wayta_llimpi / orqo / urqu / wachwa / yunka / muyuq_wayra / muyuq_wayra / muyuq_yaku / muyuq_unu / misi / michi / wachu / mayo / mayu / mama_qucha / mama_qocha / kuyuq_yaku / kuyuq_unu / huchuy_tawa_kuchu / huch_uy_tawa_k_uchu / uchuy_rapi / huch_uy_raphi / chakana_llimpi / chakana_llimphi / askha_qocha / achka_qucha / chakana / chakana_llimpi / pata_pata_llimphi / pata_pata_llimpi / perqa / pirqa / perqa_llimphi / pirqa_llimpi  / pillpintu / pisqu / puka_nawi / puka_qocha / puka_qucha / puka_yarqa / q_enqo / liwi / qinqu / qocha / qucha / qocha_llimphi / qucha_llimpi / qocha_pillpintu / qucha_pillpintu / raphi / rapi / raphi_llimpi / rapi_llimpi / maypi / chikan / chhikan / kinray / ayphu / chiqichiy / illay / tupachiy / yananiraqkuna / ruyru_qawana / tawa_kuchu_qawana / chutarisqa_tawa_kuchu_qawana / winara / sayaynin / maypix / maypiy / conector / anyCharacter
+allRules = rit_i_orqo / sonqo / riti_urqu / sunqu / t_ika / tika / wayta / t_ika_llimphi / tika_llimphi / wayta_llimpi / orqo / urqu / wachwa / yunka / muyuq_wayra / muyuq_wayra / muyuq_yaku / muyuq_unu / misi / michi / wachu / mayo / mayu / mama_qucha / mama_qocha / kuyuq_yaku / kuyuq_unu / huchuy_tawa_kuchu / huch_uy_tawa_k_uchu / uchuy_rapi / huch_uy_raphi / chakana_llimpi / chakana_llimphi / askha_qocha / achka_qucha / chakana / chakana_llimpi / pata_pata_llimphi / pata_pata_llimpi / perqa / pirqa / perqa_llimphi / pirqa_llimpi  / pillpintu / pisqu / puka_nawi / puka_qocha / puka_qucha / puka_yarqa / q_enqo / liwi / qinqu / qocha / qucha / qocha_llimphi / qucha_llimpi / qocha_pillpintu / qucha_pillpintu / raphi / rapi / raphi_llimpi / rapi_llimpi / maypi / chikan / chhikan / kinray / ayphu / chiqichiy / illay / tupachiy / yananiraqkuna / ruyru_qawana / tawa_kuchu_qawana / chutarisqa_tawa_kuchu_qawana / winara / sayaynin / maypix / maypiy / conector / huntachiy / anyCharacter
 anyCharacter = .
 
 // video
@@ -87,4 +87,5 @@ tawa_kuchu_qawana ="tawa kuchu qawana"i { return "sqrMask" }
 chutarisqa_tawa_kuchu_qawana ="chutarisqa tawa kuchu qawana"i { return "rectMask" }
 winara ="winara"i { return "volume" }
 conector = "&"i { return "$" }
+huntachiy = "hunt´achiy"i { return "setSaturate" }
 

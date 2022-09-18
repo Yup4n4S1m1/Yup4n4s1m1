@@ -8,10 +8,17 @@
 + text "Este es mi texto" 
 "" -- estado vacío, borra lo que te tenga 
 
+## Valores fijos
+
++ 1 -- números completos  
++ 1.5 -- números con decimales 
++ (-1) -- números negativos siempre con paréntesis
+
 ## Cambiar posición de material multimedia
-setPosX [x] $ -- izquierda (-1) a derecha 1  
-setPosY [y] $ -- de abajo (-1) hacia arriba 1  
-setCoord [x] [y] $ -- todos los valores negativos van entre paréntesis 
+
++ setPosX [x] $ -- izquierda (-1) a derecha 1  
++ setPosY [y] $ -- de abajo (-1) hacia arriba 1  
++ setCoord [x] [y] $
 
 ## Audio en Videos
 
@@ -49,20 +56,17 @@ bold -- negritas
 italic -- itálicas 
 z [n] -- cambia la posición de la capa. Todos los materiales multimedia se reproducen en capas que se acumulan. 
 
-## ramp
+## Valores dinámicos
 
-(ramp [Dur_In_Cycles] [Initial_Value] [End_Value])  
++ (ramp [tiempo-en-ciclos] [valor-inicial] [valor-final]) -- corre una única vez
++ (fadeIn [tiempo-en-ciclos]) -- corre una única vez
++ (fadeOut [tiempo-en-ciclos]) -- corre una única vez 
++ (sin [frecuencia]) -- 0-1 = más lento, 1++ = más rápido -- corre en loop
++ (range [valor-1] [valor-2] $ sin [frecuencia]) -- corre en loop, anima ida y vuelta de un valor a otro en la frecuencia dada
 
-ramp can be use in style functions. Example  
-width (ramp x y z)  
+## Funciones de tiempo
 
-fadeIn [Dur_In_Cycles]  
-
-fadeOut [Dur_In_Cycles]  
-
-## quant
-
-$ quant [Cicle_Multiplier] [Offset]  
++ quant [Cicle_Multiplier] [Offset] $  
 
 quant function has two values. Cycle multiplier aligns the anchor time with multiples of the given value. Offset is a value from 0 to 1 that will shift the starting position of the quantisation  
 

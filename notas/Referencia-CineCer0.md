@@ -1,55 +1,53 @@
-# Cinecer0 Reference
+# Cinecer0 Referencia
 
-The CineCer0 mini-language (pronounced “sin–ay–ser-oh”) language allows video files to be projected temporally and geometrically, targeting similar functionality to that of [CineVivo](https://github.com/essteban/CineVivo), again with an economical Haskell-like notation. Additional functions that enable the audio of the video and allow the player to add text on top of the video (or without any relationship with the video) have been implemented.  
+## Reproducir video, imágen, GIFs y texto
 
-## Playing Videos, Images, or Text
++ "URLvideo" -- reproduce video
++ video "URLvideo" -- reproduce video 
++ image "URLimagen-o-URLgif"  
++ text "Este es mi texto" 
+"" -- estado vacío, borra lo que te tenga 
 
-video "myVideo.extension" or image "myImage.extension"  --videos/images play as a string  
-video "videoURL"  
-image "imageURL"  
-text "This is not a text" -- the string represents the text that will be displayed in the canvas  
-"" --empty state  
+## Cambiar posición de material multimedia
+setPosX [x] $ -- izquierda (-1) a derecha 1  
+setPosY [y] $ -- de abajo (-1) hacia arriba 1  
+setCoord [x] [y] $ -- todos los valores negativos van entre paréntesis 
 
-## Position on Videos, Images, or Text
-setPosX [x] $ -- from left (-1) to right 1  
-setPosY [y] $ -- from bottom (-1) to top 1  
-setCoord [x] [y] $   
+## Audio en Videos
 
-## Videos with Audio
++ vol 0.5 $ "myVideo.extension" -- por default, los videos se reproducen sin audio, al agregar esta función se activa el audio  
 
-vol 0.5 $ "myVideo.extension" -- videos play with unmuted audio  
+## Funciones para video, imágen y GIFs
 
-## Video/Image functions
++ setWidth [w] $ -- 1 = ancho natural del video
++ setHeight [h] $ -- 1 = alto natural del video  
++ setSize [wh] $ -- un único parámetro afecta tanto el ancho como el alto 
++ setRotate [d] $ -- rotar, valor en grados  
++ setOpacity [o] $ -- va de opacidad 0 a 1 (sin opacidad)  
++ setBlur [bl] $ -- 0 = sin desenfoque (1++ = más desenfoque)  
++ setBrightness [br] $ --  0-0.9 = menos brillo, 1++ = más brillo  
++ setContrast [c] $ -- 0-0.9 = menos contraste, 1++ = más contraste  
++ setGrayscale [g] $ -- 0 = sin escala de grises, 1 = completamente en escala de grises  
++ setSaturate [s] $ -- 0-0.9 = menos saturación, 1++ = más saturación
++ circleMask [m] $ -- 0 sin máscara, 0-0.99 la máscara circular crece desde el centro  
++ circleMask' [m] [x] [y] $ -- similar a la anterior pero dos parametros más que configuran la posición del centro de la máscara
++ sqrMask [m] $ -- 0 sin máscara, 0-0.99 la máscara cuadrada crece desde el centro   
++ rectMask [t] [r] [b] [l] $ -- 4 valores para incrementar la máscara a partir de los lados: arriba derecha abajo izquierda 
++ z [n] -- cambia la posición de la capa. Todos los materiales multimedia se reproducen en capas que se acumulan.  
 
-setWidth [w] $ -- 1 = natural video width  
-setHeight [h] $ -- 1 = natural video height  
-setSize [wh] $ --one parameter will affect both width and heigh proportionally  
-setRotate [d] $ -- parameter in degrees  
-setOpacity [o] $ -- from 0 - 1 (no opacity)  
-setBlur [bl] $ -- 0 = no blur (1++ = more)  
-setBrightness [br] $ --  0-0.9 = less, 1++ = more  
-setContrast [c] $ -- 0-0.9 = less, 1++ = more  
-setGrayscale [g] $ -- 0 = no grayscale, 1 = full grayscale  
-setSaturate [s] $ -- 1 = natural video saturation (1++ = more, 1-- =less)  
-circleMask [m] $ -- 0 is no mask, 0-0.99 makes the mask appear from biggest to smallest (it grows/decrease from the centre)  
-circleMask' [m] [x] [y] $ -- similar to circleMask but with two more parameters that move the center of the circleMask  
-sqrMask [m] $ -- 0 is no mask, 0-0.99 makes the mask appear from biggest to smallest (it grows/decrease from the centre)  
-rectMask [t] [r] [b] [l] $ -- accepts four parameters: top right bottom left, which are the amount of reduction in each side  
-z [n] -- changes the depth of the video being reproduced  
+## Funciones para el texto
 
-## Text Function
-
-size [n] --change the size of the text, grows from 1  
-font "fontType" -- fonts available depending on browser characteristics  
-colour "colour" -- adds colour by name or by hexacolor (all colour funcs will be applied to the text)  
-rgb [r] [g] [b] -- adds colour by rgb, normalised from 0 to 1  
-rgba [r] [g] [b] [a] -- adds colour by rgb and alpha  
-hsl [h] [s] [l] -- adds colour by hue, saturation and lightness, parameters are normalised from 0 to 1  
-hsla [h] [s] [l] [a] -- adds colours by hsl and alpha  
-strike -- strikes the text with a white line  
-bold -- the weight of the font becomes heavier  
-italic -- the style of the font changes to italic  
-z [n] -- changes the depth of the text, z 0 is the top layer  
+size [n] -- 1 = tamaño por default, 1++ incremento 
+font "fontType" -- las fuentes disponibles dependen del browser  
+colour "colour" -- valor requerido: hexacolor
+rgb [r] [g] [b] -- 3 valores: rojo verde azul, los parámetros van de 0-1
+rgba [r] [g] [b] [a] -- similar a la anterior pero con el valor alpha que modifica opacidad (va de 0 a 1) 
+hsl [h] [s] [l] -- 3 valores: rojo verde azul matiz, saturación y brillo, los parámetros van de 0-1
+hsla [h] [s] [l] [a] -- similar a la anterior pero con el valor alpha que modifica opacidad (va de 0 a 1)  
+strike -- tachado  
+bold -- negritas 
+italic -- itálicas 
+z [n] -- cambia la posición de la capa. Todos los materiales multimedia se reproducen en capas que se acumulan. 
 
 ## ramp
 

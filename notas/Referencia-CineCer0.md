@@ -44,17 +44,17 @@
 
 ## Funciones para el texto
 
-size [n] -- 1 = tamaño por default, 1++ incremento 
-font "fontType" -- las fuentes disponibles dependen del browser  
-colour "colour" -- valor requerido: hexacolor
-rgb [r] [g] [b] -- 3 valores: rojo verde azul, los parámetros van de 0-1
-rgba [r] [g] [b] [a] -- similar a la anterior pero con el valor alpha que modifica opacidad (va de 0 a 1) 
-hsl [h] [s] [l] -- 3 valores: rojo verde azul matiz, saturación y brillo, los parámetros van de 0-1
-hsla [h] [s] [l] [a] -- similar a la anterior pero con el valor alpha que modifica opacidad (va de 0 a 1)  
-strike -- tachado  
-bold -- negritas 
-italic -- itálicas 
-z [n] -- cambia la posición de la capa. Todos los materiales multimedia se reproducen en capas que se acumulan. 
++ size [n] -- 1 = tamaño por default, 1++ incremento 
++ font "fontType" -- las fuentes disponibles dependen del browser  
++ colour "colour" -- valor requerido: hexacolor
++ rgb [r] [g] [b] -- 3 valores: rojo verde azul, los parámetros van de 0-1
++ rgba [r] [g] [b] [a] -- similar a la anterior pero con el valor alpha que modifica opacidad (va de 0 a 1) 
++ hsl [h] [s] [l] -- 3 valores: rojo verde azul matiz, saturación y brillo, los parámetros van de 0-1
++ hsla [h] [s] [l] [a] -- similar a la anterior pero con el valor alpha que modifica opacidad (va de 0 a 1)  
++ strike -- tachado  
++ bold -- negritas 
++ italic -- itálicas 
++ z [n] -- cambia la posición de la capa. Todos los materiales multimedia se reproducen en capas que se acumulan. 
 
 ## Valores dinámicos
 

@@ -66,25 +66,14 @@ z [n] -- cambia la posición de la capa. Todos los materiales multimedia se repr
 
 ## Funciones de tiempo
 
-+ quant [Cicle_Multiplier] [Offset] $  
++ quant [Cicle_Multiplier] [Offset] $
 
-quant function has two values. Cycle multiplier aligns the anchor time with multiples of the given value. Offset is a value from 0 to 1 that will shift the starting position of the quantisation  
+## Funaciones de tiempo para videos
 
-quant can be use with any style functions with or without a ramp. Example:  
-+ opacity (ramp x y z) $ quant x y  
-
-## Time Functions (for Videos)
-
-natural [shift] $ -- aligns the starting time of the video with the first beat of the first measure  
-
-every [cycles] [shift] $ -- adjusts the length to a given number of cycles  
-
-round [shift] $ -- adjusts the length to the nearest number of measures in Estuary's tempo.  
-
-roundMetre [shift] $ -- adjusts the length to the nearest number of measures multiple of 2,4,8,16,etc. in order to maintain the video synchronised with Estuary's tempo.  
-
-chop [startPos] [endPos] [cycles] [shift] $ -- plays the video from the starting position (0-1) to the end position (0-1) stretching or compressing the length to adjust it to the number of cycles provided as a parameter.  
-
-chop' [startPos] [cycles] [shift] $ --  plays the video from the starting position (0-1) stretching or compressing its length to adjust it to the number of cycles provided as a parameter.  
-
-chopSecs [startPos] [endPos] [cycles] [shift] $ -- plays the video from the starting position to the end position stretching or compressing its length to adjust it to the number of cycles provided as a parameter. This function does not have the start and end positions normalized from 0 to 1.  
++ every [tiempo-en-ciclos] [shift] $ -- elonga/comprime la velocida de reproducción del video ajustándose a duración dada
++ snap [shift] $ -- ajusta la duración del video al número de ciclos más cercano
++ snapMetre [shift] $ -- similar a snap solo que esta ajusta la duración del video a 2,4,8,16,32, etc
++ freeSeg [tiempo-inicial] [tiempo-final] $ -- reproduce el segmento (en procentaje) del video indicado
++ seg [tiempo-inicial] [tiempo-final] [tiempo-en-ciclos] $ -- igual a la anterior pero indicando duración
++ seg (secs [valor-inicial]) (secs [valor-final]) [tiempo-en-ciclos] $ -- variación de la anterior pero con valores en segundos
++ freeRun $ -- reproduccion del video libre

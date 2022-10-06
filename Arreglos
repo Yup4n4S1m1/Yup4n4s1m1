@@ -65,7 +65,6 @@ setBrightness 0.8 $ setGrayscale 0.8 $ video "http://yupanasimi.org/video/304.mp
 quant 4 0 $ hsv (ramp 0.5 0 0.66) 0.5 0.6 $ sqrMask 0.5 $ setGrayscale 0.7 $ video "http://yupanasimi.org/video/115.mp4"
 
 
-
 setWidth 1.2 $ setHeight 1.2 $ video "http://yupanasimi.org/video/003.mp4";
 setOpacity 0.5 $ video "http://yupanasimi.org/video/101.mp4"
 
@@ -85,3 +84,18 @@ circleMask' 0.5 0.5 0.1 $ setCoord 0.9 0.000001 $ video "http://yupanasimi.org/v
 setSize 4 $ video "http://yupanasimi.org/video/028.mp4";
 circleMask' 0.5 0.2 0.1 $ setSize 2 $ setRotate 10 $ video "http://yupanasimi.org/video/028.mp4";
 circleMask' 0.5 0.5 0.1 $ setCoord 0.9 0.000001 $ video "http://yupanasimi.org/video/028.mp4";
+
+
+//////////
+
+
+chhikan 4 & huch'uy raphi
+ruyru qawana' 0.5 0.2 0.1 & chhikan 2 & muyuy 10 & pirqa
+ruyru qawana' 0.5 0.5 0.1 & maypi 0.9 0.000001 & mama qucha
+
+
+qocha pillpintu
+ayphu 0.5 & illay 0.5 & pillpintu
+illay 2 & chhikan 1.3 & puka ñawi
+ayphu 0.5 & chhikan 0.7 & kuyuq unu
+

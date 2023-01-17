@@ -1,0 +1,43 @@
+##JSoLang YupanaSimi
+
+main = x:allRules* { return "##cineCer0\n" + x.join("") }
+allRules = huq / iskay / kimsa / tawa / pisqa / suqta / kanchis / pusaq / isqun / chunka / chunkahuq / chunkaiskay / chunkakimsa / chunkatawa / chunkapisqa / chunkasuqta / chunkakanchis / chunkapusaq / chunkaisqun / iskaychunka / iskaychunkahuq / iskaychunkaiskay / iskaychunkakimsa/ iskaychunkatawa / iskaychunkapisqa / iskaychunkasuqta / iskaychunkakanchis / iskaychunkapusaq / iskaychunkaisqun / kimsachunka / kimsachunkahuq / kimsachunkaiskay / kimsachunkakimsa / kimsachunkatawa / kimsachunkapisqa / kimsachunkasuqta / kimsachunkakanchis / anyCharacter
+anyCharacter = .
+
+huq = "astalamanta munakusqay"i { return " setSize 0.84 $ video \"http://yupanasimi.org/video/603.mp4\"; " }
+iskay = "intitaytapaq killamamapaq"i { return " circleMask' 0.5 0.2 0.1 $ setSize 0.8 $ setRotate 10 $ video \"http://yupanasimi.org/video/028.mp4\"; " }
+kimsa = "sumaq pacha mamapaq"i { return " circleMask' 0.5 0.5 0.1 $ setCoord 0.9 0.000001 $ video \"http://yupanasimi.org/video/502.mp4\"; " }
+tawa = "kay yana phuyucha munay warmicha"i { return " setPosX 0.5 $ setPosY (0.0) $ video \"http://yupanasimi.org/video/404.mp4\"; " }
+pisqa = "ñuqanchik patapiña"i { return " setPosX (-0.5) $ setPosY (0.0) $ video \"http://yupanasimi.org/video/501.mp4\"; " }
+suqta = "puyñu qipiyusqallaña"i { return " setPosX (sin 0.1) $ setSize 0.7 $ video \"http://yupanasimi.org/video/602.mp4\"; " }
+kanchis = "tupananchiskama"i { return " setPosX (sin 0.01) $ setSize 0.7 $ video \"http://yupanasimi.org/video/603.mp4\"; " }
+pusaq = "llikllayarakamun"i { return " setPosX 0.5 $ setPosY (0.0) $ video \"http://yupanasimi.org/video/021.mp4\"; " }
+isqun = "iphu iphuchamanta"i { return " setOpacity 0.5 $ setBrightness 5 $ setPosX (-0.5) $ setPosY (0.0) $ video \"http://yupanasimi.org/video/022.mp4\"; " }
+chunka = "chatu aysayusqallaña"i { return " setBrightness 2 $ setPosX (sin 0.1) $ setSize 0.7 $ video \"http://yupanasimi.org/video/024.mp4\"; " }
+chunkahuq = "uqi llikllachanwan"i { return " setOpacity 0.5 $ setPosX (sin 0.01) $ setSize 0.5 $ video \"http://yupanasimi.org/video/025.mp4\"; " }
+chunkaiskay = "chiri unu samaychan"i { return " setPosX 0.5 $ setPosY (0.5) $ video \"http://yupanasimi.org/video/101.mp4\"; " }
+chunkakimsa = "qusñirimushanña"i { return " setPosX (-0.5) $ setPosY (-0.5) $ setSize 0.82 $ video \"http://yupanasimi.org/video/502.mp4\"; " }
+chunkatawa = "chiñi ruru wiqiychan"i { return " setOpacity 0.5 $ setBrightness 5 $ setPosX (-0.5) $ setPosY (-0.5) $ video \"http://yupanasimi.org/video/103.mp4\"; " }
+chunkapisqa = "takakamushanña"i { return " setOpacity 0.5 $ setBrightness 2 $ setPosX (sin 0.1) $ setSize 0.81 $ video \"http://yupanasimi.org/video/104.mp4\"; " }
+chunkasuqta = "kay warmicha para yaku mama"i { return " setOpacity 0.5 $ setPosX (sin 0.01) $ setSize 0.81 $ video \"http://yupanasimi.org/video/105.mp4\"; " }
+chunkakanchis = "intiq taytaq urphun"i { return " circleMask 0.8 $ setPosX 0.5 $ setPosY (0.5) $ video \"http://yupanasimi.org/video/214.mp4\"; " }
+chunkapusaq = "sunqun chayaytaraq"i { return " circleMask 0.8 $setPosX (-0.5) $ setPosY (-0.5) $ setSize 0.72 $ circleMask 0.8 $ video \"http://yupanasimi.org/video/213.mp4\"; " }
+chunkaisqun = "killa mamaq rakin"i { return " circleMask 0.8 $ setOpacity 0.5 $ setBrightness 5 $ setPosX (-0.5) $ setPosY (-0.5) $ video \"http://yupanasimi.org/video/212.mp4\"; " }
+iskaychunka = "sunqun huntaytaraq"i { return " circleMask 0.8 $ setOpacity 0.5 $ setBrightness 2 $ setPosX (sin 0.1) $ setSize 0.81 $ video \"http://yupanasimi.org/video/211.mp4\"; " }
+iskaychunkahuq = "timpuriramushan"i { return " circleMask 0.8 $ setOpacity 0.5 $ setPosX (sin 0.01) $ setSize 0.71 $ video \"http://yupanasimi.org/video/210.mp4\"; " }
+iskaychunkaiskay = "wasaparamushan"i { return " setSize 0.82 $ video \"http://yupanasimi.org/video/305.mp4\"; " }
+iskaychunkakimsa = "kunallanmi"i { return " setSaturate 15 $ quant 0.05 0 $ setRotate (-70) $ setCoord (-0.6) (0.2) $ setSize 0.35 $ video \"http://yupanasimi.org/video/306.mp4\"; " }
+iskaychunkatawa = "puyñu pakiytaraq"i { return " setSaturate 15 $ quant 0.05 0 $ setRotate 15 $ setCoord (-0.5) (-0.1) $ setSize 0.35 $ video \"http://yupanasimi.org/video/307.mp4\"; " }
+iskaychunkapisqa = "hichayakamunqa"i { return " setSaturate 15 $ quant 0.05 0 $ setRotate 15 $ setCoord (-0.3) (-0.39) $ setSize 0.35 $ video \"http://yupanasimi.org/video/308.mp4\"; " }
+iskaychunkasuqta = "chatu challuytaraq"i { return " setSaturate 15 $ quant 0.05 0 $ setRotate 15 $ setCoord (-0.05) (-0.61) $ setSize 0.35 $ video \"http://yupanasimi.org/video/309.mp4\"; " }
+iskaychunkakanchis = "talliyakamunqa"i { return " setSaturate 15 $ quant 0.05 0 $ setRotate 15 $ setCoord 0.349 (0.60) $ setSize 0.35 $ video \"http://yupanasimi.org/video/310.mp4\"; " }
+iskaychunkapusaq = "chaska anka ninawaman"i { return " setSaturate 15 $ quant 0.05 0 $ setRotate (-45) $ setCoord 0.14 (0.5) $ setSize 0.35 $ video \"http://yupanasimi.org/video/311.mp4\"; " }
+iskaychunkaisqun = "yasta hichayakamunpacha"i { return " setSaturate 15 $ quant 0.05 0 $ setRotate 75 $ setCoord 0.15 (-0.5) $ setSize 0.35 $ video \"http://yupanasimi.org/video/312.mp4\"; " }
+kimsachunka = "yaku para mama"i { return " setSaturate 15 $ quant 0.05 0 $ setRotate 45 $ setSize 0.35 $ video \"http://yupanasimi.org/video/313.mp4\"; " }
+kimsachunkahuq = "talliyakamunpacha"i { return " setWidth 0.3 $ setHeight 0.9 $ video \"http://yupanasimi.org/video/302.mp4\"; " }
+kimsachunkaiskay = "sumaq allin kawsay"i { return " setPosX 0.3 $ setPosY (-0.5) $ circleMask 0.8 $ video \"http://yupanasimi.org/video/309.mp4\"; " }
+kimsachunkakimsa = "imaynallam"i { return " setBrightness 0.8 $ setGrayscale 0.8 $ video \"http://yupanasimi.org/video/313.mp4\"; " }
+kimsachunkatawa = "sunqunchis chayaytaraq"i { return " quant 4 0 $ hsv (ramp 0.5 0 0.66) 0.5 0.6 $ sqrMask 0.5 $ setGrayscale 0.7 $ video \"http://yupanasimi.org/video/401.mp4\"; " }
+kimsachunkapisqa = "manañan pipas"i { return " setWidth 1.2 $ setHeight 1.2 $ video \"http://yupanasimi.org/video/402.mp4\"; " }
+kimsachunkasuqta = "amachanmanchu"i { return " setOpacity 0.5 $ video \"http://yupanasimi.org/video/403.mp4\"; " }
+kimsachunkakanchis = "tukukunan kama"i { return " snapMetre 4 $ video \"http://yupanasimi.org/video/404.mp4\"; " }

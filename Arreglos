@@ -94,5 +94,27 @@ circleMask' 0.5 0.5 0.1 $ setCoord 0.9 0.000001 $ video "http://yupanasimi.org/v
 
 rgb (range 1 1 $ sin 0.9) 1 (range 3 0 $ sin 1.5) $ setPosX (sin 1) $setSize (ramp 1 0.8 3 ) $setOpacity  (ramp 1 8 9 )$video"http://yupanasimi.org/video/113.mp4";
   
-  
-
+14 03 2023  
+/QINSAYANANNTINTI
+setSaturate 8 $setPosX 0.3 $setPosY (-2.4)$setRotate (-90) $setSize 3 $every 10.9 1"http://yupanasimi.org/video/008.mp4";setSaturate 4.8 $setPosX 0.3 $setPosY 5.4 $setRotate 90 $setSize 3 $every 10.9 1"http://yupanasimi.org/video/008.mp4";setPosY (sin 0.2) $setSaturate 3 $setPosX 0.3  $setPosY (ramp 0.1  0.1 0.4) $circleMask 0.9  $every 10.9
+ 1"http://yupanasimi.org/video/019.mp4" ;setPosX 0.6 $setPosY 0.4 $setRotate 90 $setSize 0.1 $every 10.9
+ 1"http://yupanasimi.org/video/003.mp4";setPosX 0 $setPosY 0.1 $setRotate 90 $setSize 0.1 $every 10.9
+ 1"http://yupanasimi.org/video/003.mp4";setPosX 0 $setPosY (-0.5) $setRotate 90 $setSize 0.1 $every 10.9
+ 1"http://yupanasimi.org/video/003.mp4" ;setPosX 0 $setPosY (-0.2) $setRotate 90 $setSize 0.1 $every 10.9
+ 1"http://yupanasimi.org/video/003.mp4" ;setPosX 0 $setPosY 0.4 $setRotate 90 $setSize 0.1 $every 10.9
+ 1"http://yupanasimi.org/video/003.mp4";setPosX 0.6 $setPosY 0.1 $setRotate 90 $setSize 0.1 $every 10.9
+ 1"http://yupanasimi.org/video/003.mp4";setPosX 0.6 $setPosY (-0.5) $setRotate 90 $setSize 0.1 $every 10.9
+ 1"http://yupanasimi.org/video/003.mp4" ;setPosX 0.6 $setPosY (-0.2) $setRotate 90 $setSize 0.1 $every 10.9
+ 1"http://yupanasimi.org/video/003.mp4"
+ 
+ /ILLAPA
+ setOpacity (sin 0.2) $setPosX 0.3 $setPosY 0 $setRotate 90 $setSize 2 $every 10.9
+ 1"http://yupanasimi.org/video/207.mp4" ;setOpacity (sin 0.9) $setPosX (-0.6) $setPosY 0 $setRotate 90 $setSize 2 $every 10.9
+ 1"http://yupanasimi.org/video/207.mp4"
+ 
+/TOTTEM
+setOpacity (sin 0.1) $sqrMask 0.9 $setPosX 0 $setPosY (sin 0.4) $setRotate 90 $setSize (sin 0.1) $every 10.9
+ 1"http://yupanasimi.org/video/101.mp4" ;setPosX (sin 0.1) $setPosY 0 $setRotate 90 $setSize (sin 0.1) $every 5.9
+ 1"http://yupanasimi.org/video/101.mp4" ;setOpacity (sin 0.1) $setPosX (-50) $setPosY 0 $setRotate 90 $setSize 3 $every 10.9
+ 1"http://yupanasimi.org/video/207.mp4" ;setOpacity (sin 0.1) $setPosX 50 $setPosY 0 $setRotate 90 $setSize 3 $every 10.9
+ 1"http://yupanasimi.org/video/207.mp4"

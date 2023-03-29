@@ -227,4 +227,10 @@ setBrightness (sin 0.5) $ size (sin 0.9) $ setPosY (sin 1) $ circleMask' (range 
 setWidth (sin 0.5) $ setHeight 0.8 $ setBlur (range 0 20 $ sin 0.1) $ sqrMask (sin 0.5) $ "http://yupanasimi.org/video/003.mp4"
 
 
+////////
+
+28 NARZO 2023
+
+/////////
+
 

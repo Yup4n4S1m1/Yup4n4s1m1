@@ -232,5 +232,35 @@ setWidth (sin 0.5) $ setHeight 0.8 $ setBlur (range 0 20 $ sin 0.1) $ sqrMask (s
 28 NARZO 2023
 
 /////////
+URPICHA
 
+setOpacity (sin 0.2) $setPosX 0.3 $setPosY 0 $setRotate 90 $setSize 2 $every 10.9
+ 1"http://yupanasimi.org/video/727.mp4" ;setOpacity (sin 0.9) $setPosX (-0.6) $setPosY 0 $setRotate 59 $setSize 2 $every 10.9
+ 1"http://yupanasimi.org/video/726.mp4"
 
+CHASKACHAN
+
+setOpacity (sin 0.1) $setPosX (sin 0.3) $setPosY 0 $setRotate (sin 90) $setSize (sin 0.2) $every 10.9
+ 1"http://yupanasimi.org/video/703.mp4" ;setOpacity (sin 0.2) $setPosX (-0.6) $setPosY 0 $setRotate (sin 0.9) $setSize 2 $every 10.9
+ 1"http://yupanasimi.org/video/702.mp4"
+ 
+ KUnTUrCHA
+ 
+circleMask (sin 30) $setOpacity (sin 0.1) $setPosX 0 $setPosY 0 $setRotate 0 $setSize (sin 0.2) $every 40.9
+ 1"http://yupanasimi.org/video/701.mp4" ;setOpacity 0.3 $every 40.9 1"http://yupanasimi.org/video/701.mp4"
+
+KAusanTIKACHAN
+
+circleMask (sin 30) $setOpacity (sin 0.1) $setPosX 1 $setPosY 2 $setRotate 0 $setSize 0.9 $every 40.9 1"http://yupanasimi.org/video/724.mp4" 
+;setSaturate (sin 1.3) $setOpacity 0.6 $setPosX 0 $setPosY 0 $setRotate 0 $setSize 0.9 $every 40.9 1"http://yupanasimi.org/video/724.mp4"} 
+;circleMask (sin 30) $setOpacity (sin 0.1) $setPosX 1 $setPosY 0 $setRotate 0 $setSize 0.9 $every 40.9 1"http://yupanasimi.org/video/725.mp4" 
+;setSaturate (sin 1.3) $circleMask (sin 30) $setOpacity (sin 0.6) $setPosX 0 $setPosY 0 $setRotate 0 $setSize 0.9 $every 40.9 1"http://yupanasimi.org/video/725.mp4" 
+ 
+ 
+Q'ENTECHA TIKACHA MIJUIy
+
+setSaturate 10 $ quant 0.05 0 $ setRotate (-70)  $ setCoord (-0.6) (0.2) $setSize (sin 0.2) $every 10.9 1"http://yupanasimi.org/video/720.mp4" 
+;setOpacity (sin 0.1) $setPosX (sin 0.3) $setPosY 0 $setRotate (sin 90) $setSize (sin 0.2) $every 10.9 1"http://yupanasimi.org/video/720.mp4" 
+;setSaturate 10 $setOpacity (sin 0.1) $setPosX (-0.6) $setPosY 0 $setRotate (sin 0.9) $setSize 2 $every 7.9 2"http://yupanasimi.org/video/721.mp4"
+
+///////

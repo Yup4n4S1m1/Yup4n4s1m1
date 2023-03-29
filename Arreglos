@@ -263,4 +263,11 @@ setSaturate 10 $ quant 0.05 0 $ setRotate (-70)  $ setCoord (-0.6) (0.2) $setSiz
 ;setOpacity (sin 0.1) $setPosX (sin 0.3) $setPosY 0 $setRotate (sin 90) $setSize (sin 0.2) $every 10.9 1"http://yupanasimi.org/video/720.mp4" 
 ;setSaturate 10 $setOpacity (sin 0.1) $setPosX (-0.6) $setPosY 0 $setRotate (sin 0.9) $setSize 2 $every 7.9 2"http://yupanasimi.org/video/721.mp4"
 
+
+PHUyU MAMACoCHA
+
+setSaturate 96 $setOpacity 0.3 $setSize 2 $setPosY (-2.3) $every 30.9 2"http://yupanasimi.org/video/403.mp4" 
+;circleMask (sin 0.3) $setRotate 45 $setSize 2 $every 30.9 2"http://yupanasimi.org/video/404.mp4"
+;setOpacity 0.5 $setRotate 45 $setSize 22 $every 30.9 2"http://yupanasimi.org/video/721.mp4"
+
 ///////

@@ -270,4 +270,11 @@ setSaturate 96 $setOpacity 0.3 $setSize 2 $setPosY (-2.3) $every 30.9 2"http://y
 ;circleMask (sin 0.3) $setRotate 45 $setSize 2 $every 30.9 2"http://yupanasimi.org/video/404.mp4"
 ;setOpacity 0.5 $setRotate 45 $setSize 22 $every 30.9 2"http://yupanasimi.org/video/721.mp4"
 
+MiCHIKan
+
+setPosY(sin 0.1) $setPosX (sin 0.1) $setSaturate  (sin 11) $setRotate (sin 3.9) $sqrMask 0.4$setSize 0.3$every 30.9 2 "http://yupanasimi.org/video/010.mp4" 
+;setSaturate 96 $setOpacity 0.3 $setSize 2 $setPosX (0.3) $every 30.9 2"http://yupanasimi.org/video/502.mp4"
+;setSaturate 96 $setOpacity 0.3 $setSize 2 $setPosY (2.3) $every 30.9 2"http://yupanasimi.org/video/502.mp4"
+;setSaturate 96 $setOpacity 0.3 $setSize 2 $setPosY (-2.3) $every 30.9 2"http://yupanasimi.org/video/502.mp4"
+
 ///////

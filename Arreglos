@@ -278,3 +278,60 @@ setPosY(sin 0.1) $setPosX (sin 0.1) $setSaturate  (sin 11) $setRotate (sin 3.9) 
 ;setSaturate 96 $setOpacity 0.3 $setSize 2 $setPosY (-2.3) $every 30.9 2"http://yupanasimi.org/video/502.mp4"
 
 ///////
+
+RUNTUKUNA PHAWACHKAN
+
+setPosY (sin 0.1) $ circleMask' ( ramp 3 0.2 0.9) 0.5 0.5  $ setRotate 270 $ every 2 0 "http://yupanasimi.org/video/733.mp4"; 
+
+setSize (ramp 3 0 0.5) $ sqrMask ( ramp 0.1 2 0.19)  $ setRotate 270 $ every 4 0 "http://yupanasimi.org/video/731.mp4"; 
+setPosX (sin 0.7) $ circleMask' (sin 0.9) 0.25 0.25  $ setRotate 270 $ every 3 0 "http://yupanasimi.org/video/803.mp4"; 
+setPosY (sin 0.1) $ circleMask' (ramp 0.3 2 0.9) 0.5 0.5  $ setRotate 270 $ every 2 0 "http://yupanasimi.org/video/733.mp4";
+
+
+setSize (ramp 1 0 0.5) $ setBlur (range 10 20 $ sin 0.1) $ setRotate 270 $ every 4 0 "http://yupanasimi.org/video/701.mp4"; 
+setPosX (sin 0.7) $ circleMask' (sin 0.1) 0.25 0.25  $ setRotate 270 $ every 3 0 "http://yupanasimi.org/video/503.mp4"; 
+size 0.5 $ opacity (0.5 * (fadeIn 1)) $ circleMask' (ramp 0.3 2 0.9) 0.5 0.5  $ setRotate 170 $ every 2 0 "http://yupanasimi.org/video/713.mp4";
+
+
+
+snap 0.5 $ video "https://yupanasimi.org/video/113.mp4";
+setPosY (sin 0.1) $ setSize (sin 0.5) $ every 2 0 "https://yupanasimi.org/video/312.mp4";
+setBlur (range 0 20 $ sin 0.7) $ setSize 0.5 $ every 3 0 "https://yupanasimi.org/video/303.mp4";
+
+
+setBlur (range 0 20 $ sin 0.1)  $ snap 0.5 $ rotate (sin 0.5) $ every 1 2 "https://yupanasimi.org/video/403.mp4";
+setBlur (range 0 20 $ sin 0.7) $ setSize (sin 0.05) $ every 3 0 "https://yupanasimi.org/video/211.mp4";
+circleMask 0.8 $ setPosY (sin 0.1) $ setSize (sin 0.5) $ every 2 0 "https://yupanasimi.org/video/601.mp4";
+
+
+setBlur (range 0 20 $ sin 0.1)  $ snap 0.5 $ rotate (sin 0.5) $ every 0 2 "https://yupanasimi.org/video/403.mp4";
+setBlur (range 0 20 $ sin 0.7) $ setSize (sin 0.5) $ every 3 0 "https://yupanasimi.org/video/211.mp4";
+circleMask (sin 0.8) $ setPosY (sin 0.1) $ setSize (sin 0.5) $ every 2 0 "https://yupanasimi.org/video/601.mp4";
+
+
+setBlur (range 0 20 $ sin 0.1)  $ snap 0.5 $ rotate (sin 0.5) $ every 0 2 "https://yupanasimi.org/video/403.mp4";
+setBlur (range 0 20 $ sin 0.7) $ setSize (sin 0.5) $ every 3 0 "https://yupanasimi.org/video/211.mp4";
+circleMask (sin 0.8) $ setPosY 0.7 $ setSize (sin 0.5) $ every 2 0 "https://yupanasimi.org/video/601.mp4";
+circleMask (sin 0.8) $ setPosY (-0.7) $ setSize (sin 0.5) $ every 1 0 "https://yupanasimi.org/video/601.mp4";
+
+
+
+
+opacity (0.75 * (fadeIn 1)) $ setSize (ramp 3 0 1.5) $ setBlur (range 0 20 $ sin 0.3)  $ snap 0.5 $ rotate (sin 0.5) $ every 0 2 "https://yupanasimi.org/video/406.mp4";
+
+
+
+opacity (0.75 * (fadeIn 1)) $ setSize (ramp 3 0 1.5) $ setBlur (range 0 20 $ sin 0.3)  $ snap 0.5 $ rotate (sin 0.5) $ every 0 2 "https://yupanasimi.org/video/406.mp4";
+circleMask 0.7 $ setCoord (sin 0.3) (sin 0.3) $ setSize (sin 0.5) $ every 1 0 "https://yupanasimi.org/video/701.mp4";
+circleMask 0.3 $ setPosY 0.7 $ setSize (sin 0.5) $ every 2 0 "https://yupanasimi.org/video/719.mp4";
+
+
+
+
+opacity (0.75 * (fadeIn 1)) $ setSize (ramp 3 0 1.5) $ setBlur (range 0 20 $ sin 0.3)  $ snap 0.5 $ rotate (sin 0.5) $ every 0 2 "https://yupanasimi.org/video/406.mp4";
+circleMask 0.7 $ setCoord (sin 0.3) (sin 0.3) $ setSize (sin 0.5) $ every 1 0 "https://yupanasimi.org/video/701.mp4";
+circleMask 0.7 $ setCoord (sin 0.4) (sin 0.4) $ every 2 0 "https://yupanasimi.org/video/719.mp4";
+
+
+
+///////

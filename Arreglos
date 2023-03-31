@@ -1,3 +1,4 @@
+27 agosto 22
 
 // arreglos
 
@@ -88,7 +89,9 @@ circleMask' 0.5 0.2 0.1 $ setSize 2 $ setRotate 10 $ video "http://yupanasimi.or
 circleMask' 0.5 0.5 0.1 $ setCoord 0.9 0.000001 $ video "http://yupanasimi.org/video/028.mp4";
 
 
+//////////
 
+14 marzo 2023
 
 /////////
 
@@ -229,7 +232,7 @@ setWidth (sin 0.5) $ setHeight 0.8 $ setBlur (range 0 20 $ sin 0.1) $ sqrMask (s
 
 ////////
 
-28 NARZO 2023
+28 MARZO 2023
 
 /////////
 URPICHA

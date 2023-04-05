@@ -2,3 +2,52 @@
 every 2 rev $ n "111 [~ 2] 6" # sound "107" 
 # delaytime "<0 0.01 0.1 0.2 0.5>" 
 # delayfeedback "[0.1 0.5 0.9]/9" # delay "0.5"  
+
+
+
+//Je
+Primer momento
+s "114*2" # cutoff "100 1000 2000" # begin "<0 0.25 0.5>" # crush "<16 4 2>"
+
+repeatCycles 7 $ shuffle 5 $ s "107" 
+
+s "212" # delayfeedback "[0.1 0.5 0.1]/2" # delay "0.5"
+
+
+
+Segundo momento
+s "114*2" # cutoff "100 1000 2000" # begin "<0 0.25 0.5>" # crush "<16 4 2>"
+
+repeatCycles 7 $ shuffle 5 $ s "107" # cutoff "100 1000 2000" 
+
+s "212" # delayfeedback "[0.1 0.5 0.1]/2" # delay "0.5"
+
+
+Tercer momento
+s "114*2" # cutoff "100 1000 200"  
+
+repeatCycles 3 $ shuffle 3 $ s "107"  
+
+s "212" # delayfeedback "[0.1 0.5 0.1]/2" # delay "2"
+
+
+Variaciones
+
+slowcat [s "114*2" # cutoff "100 1000 2000" # begin "<0 0.25 0.5>" # crush "<16 4 2>",
+slow 2 $ repeatCycles 7 $ shuffle 5 $ s "107",
+s "212" # delayfeedback "[0.1 0.5 0.1]/2" # delay "0.5"]
+
+slowcat [s "114*2" # cutoff "100 1000 2000" # begin "<0 0.25 0.5>" # crush "<16 4 2>",
+repeatCycles 7 $ shuffle 5 $ s "107",
+s "212" # delayfeedback "[0.1 0.5 0.1]/2" # delay "0.5"]
+
+stack [s "204(2,4)" ,
+every 2 (density 2.5) $ every 4 (rev) $ slow 4 $ chop 6 $ sound "106" # gain "1 2 0.75 0.3",
+whenmod 8 4 (fast 0.5) (sound "205") # gain "1 0.5 0.75 0.3"
+]
+
+
+stack [s "202(2,4) ~ " # gain "0.5 1 2",
+whenmod 8 4 (fast 0.5) (sound "106") # gain "1 0.5 1 0.5",
+every 2 (density 1.5) $ every 2 (rev) $ slow 8 $ chop 14 $s "205" # gain " 0.5 0.75 0.3" 
+]

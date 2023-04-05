@@ -1,4 +1,4 @@
-//MUSKUY ARPA 
+//MUSQUY ARPA 
 every 2 rev $ n "111 [~ 2] 6" # sound "107" 
 # delaytime "<0 0.01 0.1 0.2 0.5>" 
 # delayfeedback "[0.1 0.5 0.9]/9" # delay "0.5"  
@@ -51,3 +51,18 @@ stack [s "202(2,4) ~ " # gain "0.5 1 2",
 whenmod 8 4 (fast 0.5) (sound "106") # gain "1 0.5 1 0.5",
 every 2 (density 1.5) $ every 2 (rev) $ slow 8 $ chop 14 $s "205" # gain " 0.5 0.75 0.3" 
 ]
+
+
+///////
+
+slow 4 $ n (run "<4 8 4 3>") # s "201 203" # speed "0.5"
+
+slow 2 $ n (run "<1 4 2 1>") # s "205 203" # speed "0.2"
+
+slow 2 $ s "205 213" # speed (choose [1.1, 0.6, 0.4, 0.7]) # crush "<8 2 1>"
+
+slow 1.5 $ s "209 211" # speed (choose [1.1, 0.6, 0.4, 0.7]) # crush "<8 2 1>"
+
+sometimes (slow 0.5) $ s "209 103" # speed (choose [1.1, 0.6, 0.4, 0.7]) # cutoff "100 1000 2000"
+
+sometimes (slow 0.5) $ s "205 105" # speed "[0.1 0.6 0.4 0.7]/8" # cutoff "100 1000 2000"

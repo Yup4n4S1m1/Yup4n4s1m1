@@ -1,3 +1,5 @@
+04.04.2023
+
 //MUSQUY ARPA 
 every 2 rev $ n "111 [~ 2] 6" # sound "107" 
 # delaytime "<0 0.01 0.1 0.2 0.5>" 

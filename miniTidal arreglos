@@ -70,3 +70,38 @@ slow 1.5 $ s "209 211" # speed (choose [1.1, 0.6, 0.4, 0.7]) # crush "<8 2 1>"
 sometimes (slow 0.5) $ s "209 103" # speed (choose [1.1, 0.6, 0.4, 0.7]) # cutoff "100 1000 2000"
 
 sometimes (slow 0.5) $ s "205 105" # speed "[0.1 0.6 0.4 0.7]/8" # cutoff "100 1000 2000"
+
+////////
+18 abril 2023
+
+Je
+
+stack [s "801*2" # cutoff "100 1000 2000" # begin "<0 0.25 0.5>" # crush "<16 4 2>",
+whenmod 8 4 (fast 0.5) (sound "902") # gain "1 0.5 1 0.5",
+repeatCycles 3 $ shuffle 3 $ s "210"
+]
+
+
+stack [ repeatCycles 3 $ shuffle 3 $ s "210",
+repeatCycles 3 $ shuffle 3 $ s "210" # gain "0.5 1 0.5 1",
+s "110*16" # speed (slow 2 $ range 0.5 2 tri) # gain "0.7 0.5 0.7 0.5" # pan sine
+]
+
+
+
+slowcat [ sometimes (# crush 2) $ n "0 1 [~ 2] 3" # s "110*16" # speed (slow 2 $ range 0.5 2 tri) # gain "0.7 0.5 0.7 0.5" # pan sine,
+ply 3  $ s "107 ~ 108" # gain "0.05 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8"  # pan (slow 2 saw)
+]
+
+
+stack [ s "107 ~ 108" # gain "0.05 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8"  # pan (slow 5 saw),
+chop 16 $ sound "114 ~ 907*2" # gain "0.5 0.2 0.5",
+s "001*4" # pan sine # gain " 0.5 0.75 0.3" 
+]
+
+fastcat  [chop 16 $ sound "114 ~ 907*2" # gain "0.5 0.2 0.5",
+sound "002*8" # pan cosine # speed (sine + 0.5),
+s "805" # delayfeedback "[0.1 0.5 0.1]/4" # delay "0.08",
+s "207*8" # cutoff "100 1000 2000" # coarse "<4 8 16 24>" 
+
+]

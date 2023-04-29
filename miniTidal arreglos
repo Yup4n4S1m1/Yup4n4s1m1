@@ -154,4 +154,20 @@ s " 810*2 106/3"
 # speed "0.5"
 # gain 0.8 # vowel "o"
 
+////////
+28 abril 2023
+Maje
 
+rarely (# vowel "[a i u]") $ stack [
+    sound "801(2,5)" # cut "33" # pan 0 # begin "<0 0.5>",
+    sound "802(3,7)" # cut "4" # pan 1 # begin "<0 0.25>"
+] 
+
+slow 4 $ stut 32 0.5 0.87 $ sometimesBy 0.3 (#speed 0.75) $ sound "803*10" 
+    # pan rand 
+    # bandf "200 1000 2000" 
+    # bandq "<8 6 4 2 1>" 
+    # speed "<1 1.1 1.25>"
+
+// sumado a 
+striate' 16 (1/7) $  sound "804" # speed "0.625" # gain "0.7 0.9 1"

@@ -196,3 +196,17 @@ rarely (# speed 0.4) $ almostNever (#crush 32) $ jux (rev) $ slow 3 $ sound "119
 almostNever (#crush 4) $ sound "120*5" 
     # delay 0.5 # delaytime "<0.03 0.1 0.3 0.2 0.5>" # delayfeedback 0.7 
     # pan sine # speed "<1 0.97 0.95 0.93 0.91 0.89 1.04 1.07 1 0.96>"
+
+
+///////1/may/23
+/Paseando entre los apus
+s "801*0.3" #delaytime "<0 1.01 0.7 0.2 0.5>" # delay "1.5"  # cutoff "100 1000 4000" # crush "<16 4 2>" # pan "0 1 0.25 0.75"
+
+
+
+/atakau en la puna
+
+s "808*0.9" # delayfeedback "[1.1 1.5 0.9]/8" # delay "5.0" # cutoff "80 890 180"  # pan cosine # speed (sine + 0.09) 
+
+////////
+

@@ -171,3 +171,28 @@ slow 4 $ stut 32 0.5 0.87 $ sometimesBy 0.3 (#speed 0.75) $ sound "803*10"
 
 // sumado a 
 striate' 16 (1/7) $  sound "804" # speed "0.625" # gain "0.7 0.9 1"
+
+'
+//////
+08 mayo 2023
+Maje
+
+stut 4 0.5 0.2 $ cat [
+ slow 0.1 $ sound "124*3" # speed 1,
+ slow 0.2 $ sound "124*3" # speed 0.9,
+ slow 0.25 $ sound "124*3" # speed 0.75,
+ slow 0.33 $ sound "124*3" # speed 0.5,
+ slow 0.05 $ sound "124" # speed 0.2
+] # pan (sine + 0.5)
+
+stack [
+ struct "t~~t~t~" $ sound "<115 116 117>" # cutoff "<1000 2000 3800>" # resonance "0.4" # begin rand # end 0.5,
+ fast 3 $ sound "[bd:1(3,7), bd:2]" # pan sine # speed (sine*6),
+ sound "118" # accelerate "<0 1 -1 0.25 -0.5 2.1 -3>" # begin 0.5 # end 0.9
+]
+
+rarely (# speed 0.4) $ almostNever (#crush 32) $ jux (rev) $ slow 3 $ sound "119" # speed 0.2 # vowel "<a i u>" # pan "<0 0.5 1>"
+
+almostNever (#crush 4) $ sound "120*5" 
+    # delay 0.5 # delaytime "<0.03 0.1 0.3 0.2 0.5>" # delayfeedback 0.7 
+    # pan sine # speed "<1 0.97 0.95 0.93 0.91 0.89 1.04 1.07 1 0.96>"

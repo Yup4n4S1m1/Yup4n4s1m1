@@ -1,14 +1,14 @@
-llimpichay 96 $ ayphu 0.3 $ chikan 2 $ maypim 0 (-0.3) $ sapa 30.9 2 tika
-ruyru (winqu 0.3) $ muyuy 45 $ sayay 2 $ sapa 30.9 2 puru
-ayphu 0.5 $ muyuy 45 $ chikan 22 $ sapa 30.9 2 chiwaku
+llimpichay 96 & ayphu 0.3 & chikan 2 & maypim 0 (-0.3) & sapa 30.9 2 tika
+ruyru (winqu 0.3) & muyuy 45 & sayay 2 & sapa 30.9 2 puru
+ayphu 0.5 & muyuy 45 & chikan 22 & sapa 30.9 2 chiwaku
 
 
 
-ayphu (winqu 0.2) $ maypim 0.3 0 $ muyuy 90 $ chikan 2 $ sapa 10.9 1 nina rapi
-ayphu (winqu 0.9) $ maypitaq (-0.6) 0 $ muyuy 59 $ sayay 2 $sapa 10.9 1 yutucha
+ayphu (winqu 0.2) & maypim 0.3 0 & muyuy 90 & chikan 2 & sapa 10.9 1 nina rapi
+ayphu (winqu 0.9) & maypitaq (-0.6) 0 & muyuy 59 & sayay 2 & sapa 10.9 1 yutucha
 
 
-kulli tika
-ayphu (0.75 * (yaykuna 0.1)) $ chikan (pata 3 0 1.5) $ chiqichiy (chay 0 20 $ winqu 0.3)  $ snap 0.5 $ muyuy (winqu 0.5) $ sapa 0 2 tawa tikakuna
+challuy 0.9 & kulli tika
+ayphu (0.75 * (yaykuna 0.1)) & chikan (pata 3 0 1.5) & chiqichiy (chay 0 20 & winqu 0.3) & challuy 0.5 & muyuy (winqu 0.5) & sapa 0 2 tawa tikakuna
 ruyru 0.7 $ maypim (winqu 0.3) (winqu 0.3) $ chikan (winqu 0.5) $ sapa 1 0 tutura
 ruyru 0.7 $ maypim 0 0.7 $ sayay (winqu 0.5) $ sapa 2 0 hatun kuntur

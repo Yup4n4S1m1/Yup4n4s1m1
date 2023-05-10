@@ -1,9 +1,45 @@
 ##JSoLang YupanaSimi
 
 main = x:allRules* { return "##cineCer0\n" + x.join("") }
-allRules = hatunqoyllur / hatunkuntur / hatuntika / hatuntikakunallimpi / tikakunachallimpi / sapanqoyllur / qintipaña / hatunqinti / kullitika / urqutamusquy / tikapipillpintu / yutucha / ninarapi / challwallimpi / mayullimpi / llimpisapa / sunquwayra / illa / kallpa / urpi / añawicha / llama / mallkucha / llamacha / musquy / wikuñamallkupas / muyuqqoyllur / qoyllurkuna / puriqtika / inkill / mikuqqinti / puru / uqullukuna / uqullu / qantu / hatunqantu / anchatawayra / puyullimpi / anqasqantu / muyu / muyukuna / hatunyuraqmayu / yuraqmayu / kulliqantu / muyuqkulliqantu / wayrapipuyu / hatunmamaqucha / muyuqmamaqucha / rupay / mallku / utqaytawayra / miskirurucha / anqaschallwa / anqaspillpintu / miskinina / ñawi / hatunñawi / anqaswayracha / hatunwayra / mikuqqintikuna / tutaqinti / illariyqinti / illariypiqintikuna / chiwaku / puyu / phaway / yutu / paway / anyCharacter
+allRules = mamaquchallimpi / rapipana / pillpintucha / illapapipillpintu / illapa / pisqu / waytaillapapas / illachallimpi / chakanallimpi / kuyuqunu / sunqu / chakanacha / parallimpi / waytaurqu / ritiurqu / sunquruna / waytaapunapas / pillpintutatikapas / sunqukuna / waytachaskapas / warmi / tikapukacha / tikakunallimpi / wawauya / amaru / tawatikakuna / nana / uru / tutapatapata / pukapatapata / patapata / nankuna / qoyllur / miskiruru / chikan / sayay / muyuy / maypitaq / maypim / ayphu / chiqichiy / illay / tupachiy / yananiraqkuna / llimpichay / ruyru / tawakuchu / chay /  chutarisqatawakuchu / winara / pata / yaykuna / lluqsina / hayka / sapa / winqu / hatunqoyllur / hatunkuntur / hatuntika / hatuntikakunallimpi / tikakunachallimpi / sapanqoyllur / qintipaña / hatunqinti / kullitika / urqutamusquy / tikapipillpintu / yutucha / ninarapi / challwallimpi / mayullimpi / llimpisapa / sunquwayra / illa / kallpa / urpi / añawicha / llama / mallkucha / llamacha / musquy / wikuñamallkupas / muyuqqoyllur / qoyllurkuna / puriqtika / inkill / mikuqqinti / puru / uqullukuna / uqullu / qantu / hatunqantu / anchatawayra / puyullimpi / anqasqantu / muyu / muyukuna / hatunyuraqmayu / yuraqmayu / kulliqantu / muyuqkulliqantu / wayrapipuyu / hatunmamaqucha / muyuqmamaqucha / rupay / mallku / utqaytawayra / miskirurucha / anqaschallwa / anqaspillpintu / miskinina / ñawi / hatunñawi / anqaswayracha / hatunwayra / mikuqqintikuna / tutaqinti / illariyqinti / illariypiqintikuna / chiwaku / puyu / phaway / yutu / paway / anyCharacter
 anyCharacter = .
 
+// video URL
+
+mamaquchallimpi = "mama qucha llimpi"i { return "\"http://yupanasimi.org/video/208.mp4\"; " }
+rapipana = "rapi paña"i { return "\"http://yupanasimi.org/video/209.mp4\"; " }
+pillpintucha = "pillpintucha"i { return "\"http://yupanasimi.org/video/210.mp4\"; " }
+illapapipillpintu = "illapapi pillpintu"i { return "\"http://yupanasimi.org/video/211.mp4\"; " }
+illapa = "illapa"i { return "\"http://yupanasimi.org/video/212.mp4\"; " }
+pisqu = "pisqu"i { return "\"http://yupanasimi.org/video/213.mp4\"; " }
+waytaillapapas = "wayta illapapas"i { return "\"http://yupanasimi.org/video/214.mp4\"; " }
+illachallimpi = "illacha llimpi"i { return "\"http://yupanasimi.org/video/301.mp4\"; " }
+chakanallimpi = "chakana llimpi"i { return "\"http://yupanasimi.org/video/302.mp4\"; " }
+kuyuqunu = "kuyuq unu"i { return "\"http://yupanasimi.org/video/303.mp4\"; " }
+sunqu = "sunqu"i { return "\"http://yupanasimi.org/video/304.mp4\"; " }
+chakanacha = "chakanacha"i { return "\"http://yupanasimi.org/video/305.mp4\"; " }
+parallimpi = "para llimpi"i { return "\"http://yupanasimi.org/video/306.mp4\"; " }
+waytaurqu = "wayta urqu"i { return "\"http://yupanasimi.org/video/307.mp4\"; " }
+ritiurqu = "riti urqu"i { return "\"http://yupanasimi.org/video/308.mp4\"; " }
+sunquruna = "sunquruna"i { return "\"http://yupanasimi.org/video/309.mp4\"; " }
+waytaapunapas = "wayta apunapas"i { return "\"http://yupanasimi.org/video/310.mp4\"; " }
+pillpintutatikapas = "pillpintuta tikapas"i { return "\"http://yupanasimi.org/video/311.mp4\"; " }
+sunqukuna = "sunqukuna"i { return "\"http://org.yupanasimi/video/312.mp4\"; " }
+waytachaskapas = "wayta chaskapas"i { return "\"http://yupanasimi.org/video/313.mp4\"; " }
+warmi = "warmi"i { return "\"http://yupanasimi.org/video/401.mp4\"; " }
+tikapukacha = "tika pukacha"i { return "\"http://yupanasimi.org/video/402.mp4\"; " }
+tikakunallimpi = "tikakuna llimpi"i { return "\"http://yupanasimi.org/video/403.mp4\"; " }
+wawauya = "wawa uya"i { return "\"http://yupanasimi.org/video/404.mp4\"; " }
+amaru = "amaru"i { return "\"http://yupanasimi.org/video/405.mp4\"; " }
+tawatikakuna = "tawa tikakuna"i { return "\"http://yupanasimi.org/video/406.mp4\"; " }
+nana = "ñan"i { return "\"http://yupanasimi.org/video/501.mp4\"; " }
+uru = "uru"i { return "\"http://yupanasimi.org/video/502.mp4\"; " }
+tutapatapata = "tuta pata pata"i { return "\"http://yupanasimi.org/video/601.mp4\"; " }
+pukapatapata = "puka pata pata"i { return "\"http://yupanasimi.org/video/602.mp4\"; " }
+patapata = "pata pata"i { return "\"http://yupanasimi.org/video/603.mp4\"; " }
+nankuna = "ñankuna"i { return "\"http://yupanasimi.org/video/694.mp4\"; " }
+qoyllur = "qoyllur"i { return "\"http://yupanasimi.org/video/695.mp4\"; " }
+miskiruru = "miski ruru"i { return "\"http://yupanasimi.org/video/696.mp4\"; " }
 hatunqoyllur = "hatun qoyllur"i { return "\"http://yupanasimi.org/video/715.mp4\"; " }
 hatunkuntur = "hatun kuntur"i { return "\"http://yupanasimi.org/video/716.mp4\"; " }
 hatuntika = "hatun tika"i { return "\"http://yupanasimi.org/video/717.mp4\"; " }
@@ -52,3 +88,28 @@ muyuqkulliqantu = "muyuq kulli qantu"i { return "\"http://yupanasimi.org/video/8
 wayrapipuyu = "wayrapi puyu"i { return "\"http://yupanasimi.org/video/820.mp4\"; " }
 hatunmamaqucha = "hatun mama qucha"i { return "\"http://yupanasimi.org/video/821.mp4\"; " }
 muyuqmamaqucha = "muyuq mama qucha"i { return "\"http://yupanasimi.org/video/822.mp4\"; " }
+
+// CINECERO
+
+chikan = "chikan"i { return " setSize " }
+sayay = "sayay"i { return " setSize " }
+muyuy = "muyuy"i { return " setRotate " }
+maypitaq = "maypitaq"i { return " setCoord " }
+maypim = "maypim"i { return " setCoord " }
+ayphu = "ayphu"i { return " setOpacity " }
+chiqichiy = "chiqichiy"i { return " setBlur " }
+illay = "illay"i { return " setBrightness " }
+tupachiy = "tupachiy"i { return " setContrast " }
+yananiraqkuna = "yananiraqkuna"i { return " setGrayscale " }
+llimpichay = "llimpichay"i { return " setSaturate " }
+ruyru = "ruyru"i { return " circleMask' " }
+tawakuchu = "tawa kuchu"i { return " sqrMask " }
+chutarisqatawakuchu = "chutarisqa tawa kuchu"i { return " rectMask " }
+winara = "winara"i { return " volume " }
+pata = "pata"i { return " ramp " }
+yaykuna = "yaykuna"i { return " fadeIn " }
+lluqsina = "lluqsina"i { return " fadeOut " }
+hayka = "hayka"i { return " quant " }
+sapa = "sapa"i { return " every " }
+chay = "chay"i { return " range " }
+winqu = "winqu"i { return " sin "}

@@ -1,3 +1,8 @@
+##JSoLang YupanaSimi
+
+main = x:allRules* { return "##cineCer0\n" + x.join("") }
+allRules = hatunqoyllur / hatunkuntur / hatuntika / hatuntikakunallimpi / tikakunachallimpi / sapanqoyllur / qintipaña / hatunqinti / kullitika / urqutamusquy / tikapipillpintu / yutucha / ninarapi / challwallimpi / mayullimpi / llimpisapa / sunquwayra / illa / kallpa / urpi / añawicha / llama / mallkucha / llamacha / musquy / wikuñamallkupas / muyuqqoyllur / qoyllurkuna / puriqtika / inkill / mikuqqinti / puru / uqullukuna / uqullu / qantu / hatunqantu / anchatawayra / puyullimpi / anqasqantu / muyu / muyukuna / hatunyuraqmayu / yuraqmayu / kulliqantu / muyuqkulliqantu / wayrapipuyu / hatunmamaqucha / muyuqmamaqucha / rupay / mallku / utqaytawayra / miskirurucha / anqaschallwa / anqaspillpintu / miskinina / ñawi / hatunñawi / anqaswayracha / hatunwayra / mikuqqintikuna / tutaqinti / illariyqinti / illariypiqintikuna / chiwaku / puyu / phaway / yutu / paway / anyCharacter
+anyCharacter = .
 
 hatunqoyllur = "hatun qoyllur"i { return "\"http://yupanasimi.org/video/715.mp4\"; " }
 hatunkuntur = "hatun kuntur"i { return "\"http://yupanasimi.org/video/716.mp4\"; " }

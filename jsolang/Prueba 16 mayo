@@ -221,7 +221,7 @@ lluqsina = "lluqsina"i { return " fadeOut " }
 hayka = "hayka"i { return " quant " }
 sapa = "sapa"i { return " every " }
 chay = "chay"i { return " range " }
-winqu = "qinqu"i { return " sin "}
+qinqu = "qinqu"i { return " sin "}
 challuy = "challuy"i { return " snap " }
 hunuy = "&" { return " $ "}
 

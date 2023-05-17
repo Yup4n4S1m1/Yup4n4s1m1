@@ -10,3 +10,59 @@ qocha pillpintu
 ayphu 0.5 & illay 0.5 & pillpintu
 illay 2 & chhikan 1.3 & puka ñawi
 ayphu 0.5 & chhikan 0.7 & kuyuq unu
+
+ruyru 0.3 0.9 $ qucha pillpintu;
+maypi 0.3 (-0.5) $ ruyru 0.8 $ qucha pillpintu
+
+
+
+illay 0.8 $ yananiraqkuna 0.8 $ sunqu;
+haykam 4 0 $ hsv (ramp 0.5 0 0.66) 0.5 0.6 $ tawa kuchu 0.5 $ yananiraqkuna 0.7 $ wayta canchis
+
+
+chikan 1.2 1.2 $ urqu;
+ayphu 0.5 $ yunka
+
+
+snapMetre 4 $ riti urqu;
+chiqichiy (chay 0 20 $ qinqu 0.1) $ chikan 0.7 $ qumir wayta llimpi
+
+chikan 2 $ urqu llimpi;
+ruyru 0.5 0.2 0.1 $ chikan 2 $ urqu llimpi;
+ruyru 0.5 0.5 0.1 $ maypi 0.9 0.000001 $ video urqu llimpi;
+
+
+
+
+chikan 4 $ urqu llimpi,
+ruyru 0.5 0.2 0.1 $ chikan 2 $ muyuy 10 $ urqu llimpi;
+ruyru 0.5 0.5 0.1 $ maypi 0.9 0.000001 $ urqu llimpi;
+
+
+
+Urpicha//
+ayphu (sin 0.2) $ chikan 0.3 0 $ muyuy 90 $ chikan 2 $ sapa 10.9 $ nina rapi;
+ayphu (sin 0.9) $ chikan (-0.6) 0 $ muyuy 59 $ chikan 2 $ sapa 10.9 $ yutucha
+
+
+Chascachan//
+ayphu (qinqu 0.1) $ chikan (qinqu 0.3) 0 $ muyuy (qinqu 90) $ chikan (qinqu 0.2) $ sapa 10.9 $ qarachi;
+ayphu (sin 0.2) $chikn (-0.6) 0 $ muyuy (sin 0.9) $ chikan 2 $ sapa10.9 $ kulli
+
+
+kunturcha//
+circleMask (sin 30) $ ayphu (sin 0.1) $ maypi 0 0 $ muyuy 0 $ chikan (qinqu 0.2) $ sapa 40.9 $ mallkukuna;
+ayphu 0.3 $ sapa 40.9 $ mallkukuna
+
+kausa Tikachan//
+ruyru (sin 30) $ ayphu (qinqu 0.1) $ chikan 1 2 $ mayuye 0 $ chikan 0.9 $ sapa 40.9 $ urquta musquy;
+llimpichay (sin 1.3) $ ayphu 0.6 $ chikan 0 0 $ muyuy 0 $ chikan 0.9 $ sapa 40.9 $ urquta musquy;
+ruyru (qinqu 30) $ ayphu (sin 0.1) $ chikan 1 0 $ muyuy 0 $ chikan 0.9 $ sapa 40.9 $ tikapi pillpintu,
+llimpichay (sin 1.3) $ ruyru (sin 30) $ ayphu (qinqu 0.6) $ chikan 0 0 $ muyuy 0 $ chikan 0.9 $ sapa 40.9 $ tikapi pillpintu
+
+
+
+
+
+
+

@@ -64,7 +64,7 @@ llimpisapa /
 mallku /
 mallkuwikunapas /
 mallkucha /
-mallkuwikunapas /
+mallkuwikunakunapas /
 mamaqucha /
 mamaquchallimpi /
 mayu /
@@ -87,9 +87,9 @@ muyuqmamaqucha /
 muyuqqinti /
 muyuqqoyllur /
 muyuqwayra /
-muyuq wayra llimpi /
-muyuq wayracha /
-muyuq wayrakuna /
+muyuqwayrallimpi /
+muyuqwayracha /
+muyuqwayrakuna /
 muyuqyaku /
 nana /
 nankuna /
@@ -294,7 +294,7 @@ llimpisapa = "llimpisapa"i { return "\"http://yupanasimi.org/video/730.mp4\"; " 
 mallku = "mallku"i { return "\"http://yupanasimi.org/video/824.mp4\"; " }
 mallkuwikunapas = "mallku wikuñapas"i { return "\"http://yupanasimi.org/video/824.mp4\"; " }
 mallkucha = "mallkucha"i { return "\"http://yupanasimi.org/video/737.mp4\"; " }
-mallkuwikunapas = "mallku wikuñapas"i { return "\"http://yupanasimi.org/video/866.mp4\"; " }
+mallkuwikunakunapas = "mallku wikuñakunapas"i { return "\"http://yupanasimi.org/video/866.mp4\"; " }
 mamaqucha = "mama qucha"i { return  "\"http://yupanasimi.org/video/205.mp4\"; " }
 mamaquchallimpi = "mama qucha llimpi"i { return "\"http://yupanasimi.org/video/208.mp4\"; " }
 mayu = "mayu"i { return "\"http://yupanasimi.org/video/004.mp4\"; " }

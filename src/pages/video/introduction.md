@@ -21,13 +21,13 @@ Example:
 ```js
 export const SIDEBAR = [
     { text: "Core", header: true },
-    { text: "Introduction", link: "/core/introduction" },
+    { text: "Introduction", link: "/yupanasimi/introduction" },
     ...,
-    { text: "Components", header: true },
-    { text: "Buttons", link: "/components/buttons" },
+    { text: "audio", header: true },
+    { text: "Buttons", link: "/audio/buttons" },
     ...,
-    { text: "New section", header: true },
-    { text: "New component", link: "/new-section/new-component.md" },
+    { text: "video", header: true },
+    { text: "New component", link: "/video/colors" },
 ];
 ```
 

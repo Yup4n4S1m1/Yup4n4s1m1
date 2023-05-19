@@ -2,22 +2,22 @@
 import { SITE } from "../config";
 const navItems = [
 	{
-		title: 'Core',
-		description: 'Base colors, typography, shadows, and more.',
-		url: '/core/introduction',
-		img: '/Core.jpg'
+		title: 'Lenguaje',
+		description: 'Acerca de yupanasimi',
+		url: '/yupanasimi/introduction',
+		img: 'https://yupanasimi.org/imagen/305.jpg'
 	},
 	{
-		title: 'Components',
-		description: 'The building blocks for our UI.',
-		url: '/components/buttons',
-		img: '/Components.jpg'
+		title: 'Audio',
+		description: 'Cómo crear audio con yupanasimi',
+		url: '/audio/buttons',
+		img: 'https://yupanasimi.org/imagen/213.jpg'
 	},
 	{
-		title: 'Patterns',
-		description: 'Common patterns for building interfaces.',
-		url: '/patterns/introduction',
-		img: '/Patterns.jpg'
+		title: 'Video',
+		description: 'Cómo crear video con yupanasimi',
+		url: '/video/introduction',
+		img: 'https://yupanasimi.org/imagen/113.jpg'
 	}
 ]
 
@@ -25,10 +25,10 @@ const navItems = [
 
 
 
-<div class="bg-slate-100 min-h-screen text-center">
-	<header class="pt-12 pb-24 px-4 bg-gradient-to-br from-slate-700 to-black">
+<div class=" min-h-screen text-center">
+	<header class="pt-12 pb-24 px-4 bg-[url('https://yupanasimi.org/imagen/302.jpg')] from-slate-700 to-black">
 		<div class="flex items-center justify-center p-4">
-			<img src="/astro-design-system-logo.svg" alt="Astro Design System Logo">
+			
 		</div>
 		<h1 class=" text-white text-4xl font-medium drop-shadow-sm">{SITE.title}</h1>
 		<p class="text-lg mt-4 text-slate-300">{SITE.description}</p>

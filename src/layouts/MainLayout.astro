@@ -1,0 +1,45 @@
+---
+import HeadCommon from '../components/HeadCommon.astro';
+import HeadSEO from '../components/HeadSEO.astro';
+import Header from '../components/Header/Header.astro';
+import PageContent from '../components/PageContent.astro';
+import LeftSidebar from '../components/LeftSidebar.astro';
+import RightSidebar from '../components/RightSidebar.astro';
+import * as CONFIG from '../config';
+import '../styles/main.scss';
+
+const { content = {} } = Astro.props;
+const currentPage = new URL(Astro.request.url).pathname;
+// const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`;
+---
+
+<html dir={content.dir ?? 'ltr'} lang={content.lang ?? 'en-us'} class="initial">
+	<head>
+		<HeadCommon />
+		<HeadSEO {content} canonicalURL={Astro.canonicalURL} />
+		<title>{content.title ? `${content.title} 🚀 ${CONFIG.SITE.title}` : CONFIG.SITE.title}</title>
+	</head>
+
+	<body class="bg-slate-100">
+		<div class="sticky top-0 z-10 w-full">
+			<Header currentPage={currentPage} />
+		</div>
+		<div class="grid grid-cols-12">
+			<div class="col-span-3 sticky top-0 pt-12 h-screen flex">
+				<div class="ml-auto">
+					<LeftSidebar currentPage={currentPage} />
+				</div>
+			</div>
+			<main class="py-4 px-8 pb-32 col-span-6  overflow-auto">
+				<div>
+					<PageContent content={content}>
+						<slot />
+					</PageContent>
+				</div>
+			</main>
+			<div class="col-span-3 sticky top-0 h-screen flex">
+				<RightSidebar content={content} />
+			</div>
+		</div>
+	</body>
+</html>

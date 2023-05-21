@@ -5,19 +5,19 @@ const navItems = [
 		title: 'Lenguaje',
 		description: 'Acerca de yupanasimi',
 		url: '/yupanasimi/introduction',
-		img: 'https://yupanasimi.org/imagen/305.jpg'
+		img: 'https://raw.githubusercontent.com/Noisk8/Yup4n4s1m1/main/public/310.jpg'
 	},
 	{
 		title: 'Audio',
 		description: 'Cómo crear audio con yupanasimi',
 		url: '/audio/palabras',
-		img: 'https://yupanasimi.org/imagen/213.jpg'
+		img: 'https://raw.githubusercontent.com/Noisk8/Yup4n4s1m1/main/public/311.jpg'
 	},
 	{
 		title: 'Video',
 		description: 'Cómo crear video con yupanasimi',
 		url: '/video/introduction',
-		img: 'https://yupanasimi.org/imagen/113.jpg'
+		img: 'https://raw.githubusercontent.com/Noisk8/Yup4n4s1m1/main/public/105.jpg'
 	}
 ]
 
@@ -30,7 +30,7 @@ const navItems = [
 		<div class="flex items-center justify-center p-4">
 			
 		</div>
-		<h1 class=" text-white text-8xl font-medium drop-shadow-sm">{SITE.title}</h1>
+		<h1 class="text-green-500 lowercase hover:uppercase  text-8xl font-medium drop-shadow-sm">{SITE.title}</h1>
 		<p class="text-2xl mt-4 text-white">{SITE.description}</p>
 	</header>
 	<nav>
@@ -39,7 +39,7 @@ const navItems = [
 			navItems.map(({ title, description, url, img }) => (
 				<a href={url} class="flex flex-col bg-white rounded-md hover:-translate-y-1 hover:shadow-lg transition-all flex-1 items-center p-4">
 					<img src={img} alt={title}>
-					<h2 class="text-4xl font-medium">{title}</h2>
+					<h2 class="text-green-500 text-4xl font-medium">{title}</h2>
 					<p class="text-slate-500">{description}</p>
 				</a>
 			))

@@ -12,32 +12,53 @@ const { content = {} } = Astro.props;
 const currentPage = new URL(Astro.request.url).pathname;
 // const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`;
 ---
-
 <html dir={content.dir ?? 'ltr'} lang={content.lang ?? 'en-us'} class="initial">
 	<head>
 		<HeadCommon />
-		<HeadSEO {content} canonicalURL={Astro.canonicalURL} />
+	
 		<title>{content.title ? `${content.title} 🚀 ${CONFIG.SITE.title}` : CONFIG.SITE.title}</title>
+		<style>
+			@media (max-width: 370px) {
+				.col-span-3 {
+					flex: 0 0 auto;
+					width: auto;
+				}
+
+				.main-container {
+					grid-template-columns: 1fr;
+				}
+
+				.left-sidebar,
+				.right-sidebar {
+					display: none;
+				}
+
+				.main-content {
+					margin-left: 0;
+					margin-right: 0;
+				}
+			}
+		</style>
 	</head>
 
 	<body class="bg-slate-100">
 		<div class="sticky top-0 z-10 w-full">
 			<Header currentPage={currentPage} />
 		</div>
-		<div class="grid grid-cols-12">
-			<div class="col-span-3 sticky top-0 pt-12 h-screen flex">
+		<div class="grid grid-cols-12 main-container">
+			<div class="col-span-3 sticky top-0 pt-12 h-screen flex left-sidebar">
 				<div class="ml-auto">
 					<LeftSidebar currentPage={currentPage} />
 				</div>
 			</div>
-			<main class="py-4 px-8 pb-32 col-span-6  overflow-auto">
+			<main class="py-4 px-8 pb-32 col-span-6  overflow-auto main-content">
 				<div>
 					<PageContent content={content}>
 						<slot />
 					</PageContent>
 				</div>
 			</main>
-			<div class="col-span-3 sticky top-0 h-screen flex">
+			<div class="col-span-3 sticky top-0 h-screen flex right-sidebar">
 				<RightSidebar content={content} />
 			</div>
 		</div>

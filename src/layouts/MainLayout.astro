@@ -18,10 +18,10 @@ const currentPage = new URL(Astro.request.url).pathname;
 	
 		<title>{content.title ? `${content.title} 🚀 ${CONFIG.SITE.title}` : CONFIG.SITE.title}</title>
 		<style>
-			@media (max-width: 370px) {
+			@media (max-width: 400px) {
 				.col-span-3 {
-					flex: 0 0 auto;
-					width: auto;
+					flex: 0 0 25%;
+					width: 25%;
 				}
 
 				.main-container {
@@ -30,7 +30,8 @@ const currentPage = new URL(Astro.request.url).pathname;
 
 				.left-sidebar,
 				.right-sidebar {
-					display: none;
+					width: 25%;
+					margin: 0;
 				}
 
 				.main-content {
@@ -51,7 +52,7 @@ const currentPage = new URL(Astro.request.url).pathname;
 					<LeftSidebar currentPage={currentPage} />
 				</div>
 			</div>
-			<main class="py-4 px-8 pb-32 col-span-6  overflow-auto main-content">
+			<main class="py-4 px-8 pb-32 col-span-6 overflow-auto main-content">
 				<div>
 					<PageContent content={content}>
 						<slot />

@@ -17,17 +17,15 @@ export const OPEN_GRAPH = {
 
 export const SIDEBAR = [
   { text: "Yup4n4s1m1", header: true },
-  { text: "Introduction", link: "/core/introduction" },
-  { text: "Colors", link: "/core/colors" },
-  { text: "Typography", link: "/core/typography" },
-  { text: "Shadows", link: "/core/shadows" },
+  { text: "Introducción", link: "/yupanasimi/introduction" },
+  { text: "Investigación", link: "/yupanasimi/investigacion" },
+  { text: "Sintaxis", link: "/yupanasimi/sintaxis" },
+
 
   { text: "Audio", header: true },
-  { text: "Buttons", link: "/components/buttons" },
-  { text: "Input", link: "/components/input" },
-  { text: "Status pills", link: "/components/status-pill" },
-  { text: "Table", link: "/components/table" },
+  { text: "Simi", link: "/audio/palabras" },
+
 
   { text: "Video", header: true },
-  { text: "Introduction", link: "/patterns/introduction" },
+  { text: "Simi", link: "/video/palabras" },
 ];

@@ -1,7 +1,6 @@
 ---
 layout: ../../layouts/MainLayout.astro
-setup: |
-  import MainColors from '../../components/MainColors.vue';
+
 ---
 
 <h1>Simi</h1>

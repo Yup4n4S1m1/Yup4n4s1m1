@@ -9,3 +9,18 @@ const headers = content.astro?.headers || [];
 		<TableOfContents headers={headers} />
 	</div>
 </nav>
+
+<style>
+@media screen and (max-width: 550px) {
+	nav {
+	  font-size: 0.8rem;
+	  padding: 0.5rem;
+	}
+  
+	.px-8 {
+	  padding-left: 0;
+	  padding-right: 0;
+	}
+  }
+
+</style>

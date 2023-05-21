@@ -60,3 +60,81 @@
     border-radius: 0.44rem;
   }
 }
+
+
+  /* Media queries for responsive design */
+
+  /* Small screens */
+  @media only screen and (max-width: 576px) {
+    h1 {
+      font-size: 24pt;
+    }
+    h2 {
+      font-size: 16pt;
+    }
+    h3 {
+      font-size: 14pt;
+    }
+    h4 {
+      font-size: 12pt;
+    }
+    p {
+      font-size: 14px;
+    }
+    .component-preview {
+      padding: 2rem;
+    }
+    .astro-code {
+      padding: 0.5rem;
+    }
+  }
+
+  /* Medium screens */
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    h1 {
+      font-size: 26pt;
+    }
+    h2 {
+      font-size: 16pt;
+    }
+    h3 {
+      font-size: 14pt;
+    }
+    h4 {
+      font-size: 12pt;
+    }
+    p {
+      font-size: 14px;
+    }
+    .component-preview {
+      padding: 3rem;
+    }
+    .astro-code {
+      padding: 0.75rem;
+    }
+  }
+
+  /* Large screens */
+  @media only screen and (min-width: 769px) {
+    h1 {
+      font-size: 30pt;
+    }
+h2 {
+      font-size: 17pt;
+    }
+    h3 {
+      font-size: 15pt;
+    }
+    h4 {
+      font-size: 13pt;
+    }
+    p {
+      font-size: 15px;
+    }
+    .component-preview {
+      padding: 4rem;
+    }
+    .astro-code {
+      padding: 1rem;
+    }
+  }

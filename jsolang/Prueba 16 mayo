@@ -227,7 +227,8 @@ tawakuchu /
 tupachiy /
 winara /
 yananiraqkuna /
-yaykuna / anyCharacter
+yaykuna /
+may1 / anyCharacter
 anyCharacter = .
 
 // video URL
@@ -463,3 +464,8 @@ tupachiy = "tupachiy"i { return " setContrast " }
 winara = "winara"i { return " volume " }
 yananiraqkuna = "yananiraqkuna"i { return " setGrayscale " }
 yaykuna = "yaykuna"i { return " fadeIn " }
+
+
+// ARREGLOS
+
+may1 = "Maymanta hamunki tuta tikacha"i { return " setSaturate 96 $ setOpacity 0.3 $ setSize 2 $ setCoord 0 (-0.3) $ every 30.9 2 \"http://yupanasimi.org/video/402.mp4\"; " }

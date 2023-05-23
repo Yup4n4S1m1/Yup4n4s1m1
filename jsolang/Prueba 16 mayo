@@ -14,8 +14,8 @@ anqasqantu /
 anqastika /
 anqaswayracha /
 anqasya /
-añawi /
-añawicha /
+anawi /
+anawicha /
 chakana /
 chakanacha /
 chakanallimpi /
@@ -171,7 +171,7 @@ tikakuna /
 tikakunachallimpi /
 tikakunallimpi /
 tikapipillpintu /
-tikapukacha /
+tutatikacha /
 tutapatapata /
 tutapimayu /
 tutaqinti /
@@ -232,20 +232,20 @@ anyCharacter = .
 
 // video URL
 
-achkanmayu  = "achka mayu"i { return "\"http://yupanasimi.org/video/102.mp4\"; " }
-achkanqucha  = "achkan qucha"i { return "\"http://yupanasimi.org/video/022.mp4\"; " }
-achokcha  = "achokcha"i { return "\"http://yupanasimi.org/video/709.mp4\"; " }
-amaru = "amaru"i { return "\"http://yupanasimi.org/video/405.mp4\"; " }
-anchatawayra = "anchata wayra"i { return "\"http://yupanasimi.org/video/811.mp4\"; " }
-anqas = "anqas"i { return "\"http://yupanasimi.org/video/878.mp4\"; " }
-anqaschallwa = "anqas challwa"i { return "\"http://yupanasimi.org/video/827.mp4\"; " }
-anqaspillpintu = "anqas pillpintu"i { return "\"http://yupanasimi.org/video/828.mp4\"; " }
-anqasqantu = "anqas qantu"i { return "\"http://yupanasimi.org/video/813.mp4\"; " }
-anqastika = "anqas tika"i { return "\"http://yupanasimi.org/video/711.mp4\"; " }
-anqaswayracha = "anqas wayracha"i { return "\"http://yupanasimi.org/video/832.mp4\"; " }
-anqasya = "anqasya"i { return "\"http://yupanasimi.org/video/881.mp4\"; " }
-añawi  = "añawi "i { return "\"http://yupanasimi.org/video/698.mp4\"; " }
-añawicha = "añawicha"i { return "\"http://yupanasimi.org/video/735.mp4\"; " }
+achkanmayu  = "achka mayu"i { return "\"https://yupanasimi.org/video/102.mp4\"; " }
+achkanqucha  = "achkan qucha"i { return "\"https://yupanasimi.org/video/022.mp4\"; " }
+achokcha  = "achokcha"i { return "\"https://yupanasimi.org/video/709.mp4\"; " }
+amaru = "amaru"i { return "\"https://yupanasimi.org/video/405.mp4\"; " }
+anchatawayra = "anchata wayra"i { return "\"https://yupanasimi.org/video/811.mp4\"; " }
+anqas = "anqas"i { return "\"https://yupanasimi.org/video/878.mp4\"; " }
+anqaschallwa = "anqas challwa"i { return "\"https://yupanasimi.org/video/827.mp4\"; " }
+anqaspillpintu = "anqas pillpintu"i { return "\"https://yupanasimi.org/video/828.mp4\"; " }
+anqasqantu = "anqas qantu"i { return "\"https://yupanasimi.org/video/813.mp4\"; " }
+anqastika = "anqas tika"i { return "\"https://yupanasimi.org/video/711.mp4\"; " }
+anqaswayracha = "anqas wayracha"i { return "\"https://yupanasimi.org/video/832.mp4\"; " }
+anqasya = "anqasya"i { return "\"https://yupanasimi.org/video/881.mp4\"; " }
+anawi  = "añawi "i { return "\"https://yupanasimi.org/video/735.mp4\"; " }
+anawicha = "añawicha"i { return "\"http://yupanasimi.org/video/698.mp4\"; " }
 chakana  = "chakana"i { return "\"http://yupanasimi.org/video/015.mp4\"; " }
 chakanacha = "chakanacha"i { return "\"http://yupanasimi.org/video/305.mp4\"; " }
 chakanallimpi = "chakana llimpi"i { return "\"http://yupanasimi.org/video/302.mp4\"; " }
@@ -401,7 +401,7 @@ tikakuna = "tikakuna"i { return "\"http://yupanasimi.org/video/706.mp4\"; " }
 tikakunachallimpi = "tikakunacha llimpi"i { return "\"http://yupanasimi.org/video/719.mp4\"; " }
 tikakunallimpi = "tikakuna llimpi"i { return "\"http://yupanasimi.org/video/403.mp4\"; " }
 tikapipillpintu = "tikapi pillpintu"i { return "\"http://yupanasimi.org/video/725.mp4\"; " }
-tikapukacha = "tika pukacha"i { return "\"http://yupanasimi.org/video/402.mp4\"; " }
+tutatikacha = "tuta tikacha"i { return "\"http://yupanasimi.org/video/402.mp4\"; " }
 tutapatapata = "tuta pata pata"i { return "\"http://yupanasimi.org/video/601.mp4\"; " }
 tutapimayu = "tutapi mayu"i { return "\"http://yupanasimi.org/video/891.mp4\"; " }
 tutaqinti = "tuta qinti"i { return "\"http://yupanasimi.org/video/851.mp4\"; " }

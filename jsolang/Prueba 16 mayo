@@ -228,7 +228,9 @@ tupachiy /
 winara /
 yananiraqkuna /
 yaykuna /
-may1 / anyCharacter
+may1 / 
+may2 /
+may3 /anyCharacter
 anyCharacter = .
 
 // video URL
@@ -469,3 +471,5 @@ yaykuna = "yaykuna"i { return " fadeIn " }
 // ARREGLOS
 
 may1 = "Maymanta hamunki tuta tikacha"i { return " setSaturate 96 $ setOpacity 0.3 $ setSize 2 $ setCoord 0 (-0.3) $ every 30.9 2 \"http://yupanasimi.org/video/402.mp4\"; " }
+may2 = "kaypiqa tutaya"i { return " setSize 2.5 \"http://yupanasimi.org/video/403.mp4\"; circleMask' 0.5 0.2 0.1 $ setSize 2 \"http://yupanasimi.org/video/403.mp4\"; circleMask' 0.5 0.5 0.1 $ setCoord 0.9 0.000001 \"http://yupanasimi.org/video/403.mp4\"; " }
+may3 = "quyllurkunata yuparqanchik"i { return " setSize (ramp 1 0 0.5) $ setBlur (range 10 20 $ sin 0.1) $ setRotate 270 $ every 4 0 \"http://yupanasimi.org/video/701.mp4\"; setPosX (sin 0.7) $ circleMask' (sin 0.1) 0.25 0.25  $ setRotate 270 $ every 3 0 \"http://yupanasimi.org/video/701.mp4\"; size 0.5 $ opacity (0.5 * (fadeIn 1)) $ circleMask' (ramp 0.3 2 0.9) 0.5 0.5  $ setRotate 170 $ every 2 0 \"http://yupanasimi.org/video/701.mp4\";" }

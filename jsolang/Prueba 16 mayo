@@ -231,7 +231,8 @@ yaykuna /
 may1 / 
 may2 /
 may3 /
-may4 / anyCharacter
+may4 / 
+may5 / anyCharacter
 anyCharacter = .
 
 
@@ -242,6 +243,7 @@ may1 = "Maymanta hamunki tuta tikacha"i { return " setSaturate 96 $ setOpacity 0
 may2 = "kaypiqa tutaya"i { return " setSize 2.5 \"http://yupanasimi.org/video/403.mp4\"; circleMask' 0.5 0.2 0.1 $ setSize 2 \"http://yupanasimi.org/video/403.mp4\"; circleMask' 0.5 0.5 0.1 $ setCoord 0.9 0.000001 \"http://yupanasimi.org/video/403.mp4\"; " }
 may3 = "quyllurkunata yuparqanchik"i { return " setSize (ramp 1 0 0.5) $ setBlur (range 10 20 $ sin 0.1) $ setRotate 270 $ every 4 0 \"http://yupanasimi.org/video/701.mp4\"; setPosX (sin 0.7) $ circleMask' (sin 0.1) 0.25 0.25  $ setRotate 270 $ every 3 0 \"http://yupanasimi.org/video/701.mp4\"; size 0.5 $ opacity (0.5 * (fadeIn 1)) $ circleMask' (ramp 0.3 2 0.9) 0.5 0.5  $ setRotate 170 $ every 2 0 \"http://yupanasimi.org/video/701.mp4\";" }
 may4 = "ima sumaqcha miski ruru"i { return " circleMask (sin 0.3) $ setRotate 45 $ setSize 2 $ every 30.9 2 \"http://yupanasimi.org/video/696.mp4\"; " }
+may5 = "Chaypi challwakuna mayupi kusisqa kachkanku"i {return " size 2$video \"http://yupanasimi.org/video/405.mp4\" ;rectMask 0 0.1 0 0.4 $setCoord 0.0 0.3 $ setSize 0.4 $setSize 0.3$ \"http://yupanasimi.org/video/404.mp4\" ;setSize 0.6$ rectMask 1 1.0 0 1.3 $ \"http://yupanasimi.org/video/695.mp4\"; setBlur (range 0 11 $ sin 0.1) $ size 0.3 $ setSize 1.9$ rectMask 0 0.1 0 0.4 $ setPosX 0.4 $ setPosY (-0.5)$ \"http://yupanasimi.org/video/603.mp4\"; " }
 
 
 

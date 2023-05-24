@@ -211,7 +211,7 @@ chiqichiy /
 chutarisqatawakuchu /
 hayka /
 hunuy /
-illay /
+achkankallpa /
 llimpichay /
 lluqsina /
 maypim /
@@ -219,8 +219,8 @@ maypitaq /
 muyuy /
 pata /
 qinqu /
-ruyru /
-ruyrucha /
+ruyruchiy /
+wichqay /
 sapa /
 sayay /
 tawakuchu /
@@ -230,10 +230,52 @@ yananiraqkuna /
 yaykuna /
 may1 / 
 may2 /
-may3 /anyCharacter
+may3 /
+may4 / anyCharacter
 anyCharacter = .
 
-// video URL
+
+
+// ARREGLOS
+
+may1 = "Maymanta hamunki tuta tikacha"i { return " setSaturate 96 $ setOpacity 0.3 $ setSize 2 $ setCoord 0 (-0.3) $ every 30.9 2 \"http://yupanasimi.org/video/402.mp4\"; " }
+may2 = "kaypiqa tutaya"i { return " setSize 2.5 \"http://yupanasimi.org/video/403.mp4\"; circleMask' 0.5 0.2 0.1 $ setSize 2 \"http://yupanasimi.org/video/403.mp4\"; circleMask' 0.5 0.5 0.1 $ setCoord 0.9 0.000001 \"http://yupanasimi.org/video/403.mp4\"; " }
+may3 = "quyllurkunata yuparqanchik"i { return " setSize (ramp 1 0 0.5) $ setBlur (range 10 20 $ sin 0.1) $ setRotate 270 $ every 4 0 \"http://yupanasimi.org/video/701.mp4\"; setPosX (sin 0.7) $ circleMask' (sin 0.1) 0.25 0.25  $ setRotate 270 $ every 3 0 \"http://yupanasimi.org/video/701.mp4\"; size 0.5 $ opacity (0.5 * (fadeIn 1)) $ circleMask' (ramp 0.3 2 0.9) 0.5 0.5  $ setRotate 170 $ every 2 0 \"http://yupanasimi.org/video/701.mp4\";" }
+may4 = "puñuyta munani tutaya"i { return " circleMask (sin 0.3) $ setRotate 45 $ setSize 2 $ every 30.9 2 \"http://yupanasimi.org/video/403.mp4\"; " }
+
+
+
+// CINECERO
+
+ayphu = "ayphu"i { return " setOpacity " }
+challuy = "challuy"i { return " snap " }
+chay = "chay"i { return " range " }
+chikan = "chikan"i { return " setSize " }
+chiqichiy = "chiqichiy"i { return " setBlur " }
+chutarisqatawakuchu = "chutarisqa tawa kuchu"i { return " rectMask " }
+hayka = "hayka"i { return " quant " }
+hunuy = "&" { return " $ "}
+achkankallpa = "achkan kallpa"i { return " setBrightness " }
+llimpichay = "llimpichay"i { return " setSaturate " }
+lluqsina = "lluqsina"i { return " fadeOut " }
+maypim = "maypim"i { return " setCoord " }
+maypitaq = "maypitaq"i { return " setCoord " }
+muyuy = "huq muyuy"i { return " setRotate " }
+pata = "pata"i { return " ramp " }
+qinqu = "winqu"i { return " sin "}
+wichqay = "wichqay"i { return " circleMask´ " }
+ruyruchiy = "ruyruchiy"i { return " circleMask " }
+sapa = "sapa"i { return " every " }
+sayay = "sayay"i { return " setSize " }
+tawakuchu = "tawa kuchu"i { return " sqrMask " }
+tupachiy = "tupachiy"i { return " setContrast " }
+winara = "winara"i { return " volume " }
+yananiraqkuna = "yananiraqkuna"i { return " setGrayscale " }
+yaykuna = "yaykuna"i { return " fadeIn " }
+
+
+// VIDEOS URL
+
 
 achkanmayu  = "achka mayu"i { return "\"https://yupanasimi.org/video/102.mp4\"; " }
 achkanqucha  = "achkan qucha"i { return "\"https://yupanasimi.org/video/022.mp4\"; " }
@@ -436,40 +478,3 @@ yunka = "yunka"i { return "\"http://yupanasimi.org/video/101.mp4\"; " }
 yuraqmayu = "yuraq mayu"i { return "\"http://yupanasimi.org/video/817.mp4\"; " }
 yutu = "yutu"i { return "\"http://yupanasimi.org/video/857.mp4\"; " }
 yutucha = "yutucha"i { return "\"http://yupanasimi.org/video/726.mp4\"; " }
-
-
-
-// CINECERO
-
-ayphu = "ayphu"i { return " setOpacity " }
-challuy = "challuy"i { return " snap " }
-chay = "chay"i { return " range " }
-chikan = "chikan"i { return " setSize " }
-chiqichiy = "chiqichiy"i { return " setBlur " }
-chutarisqatawakuchu = "chutarisqa tawa kuchu"i { return " rectMask " }
-hayka = "hayka"i { return " quant " }
-hunuy = "&" { return " $ "}
-illay = "illay"i { return " setBrightness " }
-llimpichay = "llimpichay"i { return " setSaturate " }
-lluqsina = "lluqsina"i { return " fadeOut " }
-maypim = "maypim"i { return " setCoord " }
-maypitaq = "maypitaq"i { return " setCoord " }
-muyuy = "muyuy"i { return " setRotate " }
-pata = "pata"i { return " ramp " }
-qinqu = "qinqu"i { return " sin "}
-ruyru = "ruyru"i { return " circleMask " }
-ruyrucha = "ruyrucha"i { return " circleMask' " }
-sapa = "sapa"i { return " every " }
-sayay = "sayay"i { return " setSize " }
-tawakuchu = "tawa kuchu"i { return " sqrMask " }
-tupachiy = "tupachiy"i { return " setContrast " }
-winara = "winara"i { return " volume " }
-yananiraqkuna = "yananiraqkuna"i { return " setGrayscale " }
-yaykuna = "yaykuna"i { return " fadeIn " }
-
-
-// ARREGLOS
-
-may1 = "Maymanta hamunki tuta tikacha"i { return " setSaturate 96 $ setOpacity 0.3 $ setSize 2 $ setCoord 0 (-0.3) $ every 30.9 2 \"http://yupanasimi.org/video/402.mp4\"; " }
-may2 = "kaypiqa tutaya"i { return " setSize 2.5 \"http://yupanasimi.org/video/403.mp4\"; circleMask' 0.5 0.2 0.1 $ setSize 2 \"http://yupanasimi.org/video/403.mp4\"; circleMask' 0.5 0.5 0.1 $ setCoord 0.9 0.000001 \"http://yupanasimi.org/video/403.mp4\"; " }
-may3 = "quyllurkunata yuparqanchik"i { return " setSize (ramp 1 0 0.5) $ setBlur (range 10 20 $ sin 0.1) $ setRotate 270 $ every 4 0 \"http://yupanasimi.org/video/701.mp4\"; setPosX (sin 0.7) $ circleMask' (sin 0.1) 0.25 0.25  $ setRotate 270 $ every 3 0 \"http://yupanasimi.org/video/701.mp4\"; size 0.5 $ opacity (0.5 * (fadeIn 1)) $ circleMask' (ramp 0.3 2 0.9) 0.5 0.5  $ setRotate 170 $ every 2 0 \"http://yupanasimi.org/video/701.mp4\";" }

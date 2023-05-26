@@ -245,13 +245,6 @@ may3 = "quyllurkunata yuparqanchik"i { return " setSize (ramp 1 0 0.5) $ setBlur
 may4 = "ima sumaqcha miski ruru"i { return " circleMask (sin 0.3) $ setRotate 45 $ setSize 2 $ every 30.9 2 \"http://yupanasimi.org/video/695.mp4\"; " }
 may5 = "kaypi challwakuna mayupi kusisqa kachkanku"i {return " setSize 2 $ video \"http://yupanasimi.org/video/405.mp4\" ; rectMask 0 0.1 0 0.4 $ setCoord 0.0 0.3 $ setSize 0.4 $ \"http://yupanasimi.org/video/404.mp4\" ; setSize 0.6 $ rectMask 1 1.0 0 1.3 $ \"http://yupanasimi.org/video/694.mp4\"; setBlur (range 0 11 $ sin 0.1) $ size 0.3 $ rectMask 0 0.1 0 0.4 $ setCoord 0.4 (-0.5) $ \"http://yupanasimi.org/video/603.mp4\"; " }
 
-// ARREGLOS EN QUECHUA
-
-may2 = "kaypiqa tutaya"i { return " chikan 2.5 \"http://yupanasimi.org/video/403.mp4\"; ruyruchiy' 0.5 0.2 0.1 hunuy chikan 2 \"http://yupanasimi.org/video/403.mp4\"; ruyruchiy' 0.5 0.5 0.1 hunuy maypim 0.9 0.000001 \"http://yupanasimi.org/video/403.mp4\"; " }
-may3 = "quyllurkunata yuparqanchik"i { return " chikan (pata 1 0 0.5) hunuy chiqichiy (chay 10 20 hunuy qinqu 0.1) hunuy muyuy 270 hunuy sapa 4 0 \"http://yupanasimi.org/video/698.mp4\"; setPosX (qinqu 0.7) hunuy ruyruchiy (qinqu 0.1) hunuy muyuy 270 hunuy sapa 3 0 \"http://yupanasimi.org/video/697.mp4\"; chikan 0.5 hunuy opacity (0.5 * (fadeIn 1)) hunuy ruyruchiy (pata 10.3 12 0.9) hunuy muyuy 170 hunuy sapa 2 0 \"http://yupanasimi.org/video/696.mp4\";" }
-may4 = "ima sumaqcha miski ruru"i { return " ruyruchiy (qinqu 0.3) hunuy muyuy 45 hunuy chikan 2 hunuy sapa 30.9 2 \"http://yupanasimi.org/video/695.mp4\"; " }
-may5 = "kaypi challwakuna mayupi kusisqa kachkanku"i {return " chikan 2 hunuy video \"http://yupanasimi.org/video/405.mp4\" ; wichqay 0 0.1 0 0.4 hunuy maypim 0.0 0.3 hunuy chikan 0.4 hunuy \"http://yupanasimi.org/video/404.mp4\" ; chikan 0.6 hunuy wichqay 1 1.0 0 1.3 hunuy \"http://yupanasimi.org/video/694.mp4\"; chiqichiy (chay 0 11 hunuy qinqu 0.1) hunuy chikan 0.3 hunuy wichqay 0 0.1 0 0.4 hunuy maypim 0.4 (-0.5) hunuy \"http://yupanasimi.org/video/603.mp4\"; " }
-
 
 
 // CINECERO

@@ -236,3 +236,66 @@ s "[806*7, 805*2, 804*4, 803*5]"
 # hcutoff 2000 # cutoff (range 3000 5000 sine) # end 0.5 # pan cosine,
 slow 2 $ s "806" # speed 0.7 # vowel "[u a]/2"
 ]
+
+//////
+20 junio 2023
+Maje
+
+-- Esta vez lo haremos un poco más didáctico
+striate "<2 3 4 1>" $
+sometimesBy 0.45 (#speed "<1.2 0.9 2 1.5 1.74>") $
+s "[[807 ~]*4, bd:1*8]" 
+# end "<0.2 0.3 0.5>" -- para que el sonido no corra más allá del tiempo que necesitamos
+# pan (cat [sine, cosine]) -- a través de nuestras orejas
+
+stack [
+jux rev $ slow 2 $ s "[808 ~](8,39)" 
+# begin "0 0.1 0.2 0.3" # end "0.1 0.2 0.3 0.4" # speed "1 1.4 1.65 2",
+s "808bd*4" # n "1" # speed "2",
+s "[~ 808sd:1]*2",
+struct "[[~~ t!2] [~!2 t!2] [~ t!2 t] t]" $ s "808oh",
+s "808" # begin "<0 0.3 0.9 0.7>" # speed (cat [0.3, 0.5, 0.7, 0.9]) # crush 4 # cutoff "3000"
+]
+
+-- jux rev $
+-- brak $
+stack [
+striate 2 $
+struct "t(3, 8)"
+$ s "[809, bd, 810]"
+# pan "<0 0.5 1>" # end 0.3 # crush 16
+-- # cutoff "1200"
+,
+s "810*12" 
+# speed 2 -- o 1.5
+# delay 0.9 # delaytime 0.4 # delayfeedback 0.8 
+# cutoff (cat [1200, 1500])
+# pan cosine
+]
+
+struct "t(5,16)" $ s "<901 902 903 904>" # delay 1.6 # delaytime 0.4 # delayfeedback 0.9 +| pan tri
+
+stack [
+struct "<t(24,34) [t*9 ~~] t(3,8)>" -- añadir los ritmos que quieran
+$ s "905" # end 0.4,
+degradeBy 0.2 $ struct "[t [~~tt] t [~ t]]" $ s "ades4" # n (irand 4) # speed (rand *1.2) # pan rand,
+s "[clubkick*4, [~ sn]*2]" # n "2" # speed 2,
+s "[~ e:1]*16" # n (irand 7) # speed 0.7,
+s "905*2" # speed 0.1 # gain 1.4 # crush 2
+]
+
+-- tortuguita
+jux rev $
+slow 4 $ stack [
+s "[~~~ 906]" # speed (rand + 1),
+s "[amencutup(23,43) ~~~]" # n (irand 12) # speed 1.4 # hcutoff "1000",
+s "[~ 906 ~]" # speed 0.3 # cutoff "1500"
+]
+
+-- s "[907 908]" # pan sine
+-- s "[907 908(13,24)]" # pan sine
+jux rev $ 
+striate 2 $
+s "[907 908(13,24)]" # pan sine 
+# delay 0.4 # delaytime 0.4 #delayfeedback 0.5
+# gain 1.2 # speed (rand + 0.4)

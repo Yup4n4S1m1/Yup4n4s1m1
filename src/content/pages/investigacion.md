@@ -7,24 +7,24 @@ draft: false
 
 #### Estuary
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+Estuary es una plataforma para la colaboración y el aprendizaje a través de la codificación en vivo. Estuary permite experimentar con sonido, música e imágenes en un navegador web. Así mismo, Estuary reúne una colección curada de lenguajes de codificación en vivo en un solo entorno, sin el requisito de instalar software (que no sea un navegador web) y con soporte para agrupaciones artísticas en red (ya sea con gente participando en la misma sala o distribuida por todo el mundo). Estuary es un software gratuito y de código abierto, publicado bajo los términos de la Licencia Pública GNU (versión 3). Algunos de los lenguajes de codificación disponibles en Estuary son:
 
-pretium, aliquam sit. Praesent elementum magna amet, tincidunt eros, nibh in leo. Malesuada purus, lacus, at aliquam suspendisse tempus. Quis tempus amet, velit nascetur sollicitudin. At sollicitudin eget amet in. Eu velit nascetur sollicitudin erhdfvssfvrgss eget viverra nec elementum. Lacus, facilisis tristique lectus in.
+* TidalCycles: para hacer patrones de eventos musicales (creado/mantenido por Alex McLean)
 
-#### Gathering of Personal Information
+* Puntual: para sintetizar audio y/o video de la misma notación (creado/mantenido por David Ogborn)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
+* CineCer0: for videos and typography (created/maintained by the Estuary development team)
 
-#### Protection of Personal- Information
+* TimeNot: para crear cánones temporales (creado/mantenido por Alejandro Franco Briones)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus.
+* Seis8s: para explorar los géneros musicales latinos (creado/mantenido por Luis Navarro del Angel)
 
-Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat
+* Hydra: para síntesis de video (creado/mantenido por Olivia Jack)
 
-#### Privacy Policy Changes
+Algunas características adicionales de Estuary son:
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+interfaces para la colaboración y la comunicación en agrupaciones artísticas en red
+tutoriales y materiales de referencia
+localización de texto hacia un conjunto creciente de lenguajes naturales
+personalización visual a través de temas (descritos por CSS)
+

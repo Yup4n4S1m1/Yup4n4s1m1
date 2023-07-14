@@ -1,0 +1,49 @@
+{
+  "main": [
+    {
+      "name": "inicio",
+      "url": "/"
+    },
+    {
+      "name": "Acerca de",
+      "url": "/about"
+    },
+
+    {
+      "name": "Sintaxis",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Audio",
+          "url": "/audio"
+        },
+        {
+          "name": "Video",
+          "url": "/video"
+        }
+
+
+      ]
+    },
+    {
+      "name": "Tutoriales",
+      "url": "/blog"
+    },
+    {
+      "name": "Investigación",
+      "url": "/investigacion"
+    }
+
+  ],
+  "footer": [
+    {
+      "name": "Asimtria",
+      "url": "/elements"
+    },
+    {
+      "name": "Yupanasimi",
+      "url": "/privacy-policy"
+    }
+  ]
+}

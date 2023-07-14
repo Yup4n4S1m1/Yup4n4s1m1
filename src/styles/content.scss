@@ -1,0 +1,140 @@
+.content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1.77rem;
+  }
+  h1 {
+    font-size: 30pt;
+    
+  }
+  h2 {
+    font-size: 17pt;
+    
+  }
+  h3 {
+    font-size: 15pt;
+    
+  }
+  h4 {
+    font-size: 13pt;
+  }
+  p {
+    margin-top: 0.77rem;
+    color: black;
+    font-size: 15px;;
+  }
+  a {
+    color: theme("colors.blue.600");
+  }
+
+  pre.astro-code {
+    margin: 0.5rem;
+  }
+
+  code {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco,
+      Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .component-preview {
+    padding: 4rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/grid_dot.svg");
+    background-repeat: repeat;
+    background-size: 1.5rem;
+    border-radius: 0.33rem;
+    border: 1px solid theme("colors.slate.200");
+    margin: 0.5rem;
+    resize: both;
+  }
+
+  .astro-code {
+    padding: 1rem;
+    border-radius: 0.44rem;
+  }
+}
+
+
+  /* Media queries for responsive design */
+
+  /* Small screens */
+  @media only screen and (max-width: 576px) {
+    h1 {
+      font-size: 24pt;
+    }
+    h2 {
+      font-size: 16pt;
+    }
+    h3 {
+      font-size: 14pt;
+    }
+    h4 {
+      font-size: 12pt;
+    }
+    p {
+      font-size: 14px;
+    }
+    .component-preview {
+      padding: 2rem;
+    }
+    .astro-code {
+      padding: 0.5rem;
+    }
+  }
+
+  /* Medium screens */
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    h1 {
+      font-size: 26pt;
+    }
+    h2 {
+      font-size: 16pt;
+    }
+    h3 {
+      font-size: 14pt;
+    }
+    h4 {
+      font-size: 12pt;
+    }
+    p {
+      font-size: 14px;
+    }
+    .component-preview {
+      padding: 3rem;
+    }
+    .astro-code {
+      padding: 0.75rem;
+    }
+  }
+
+  /* Large screens */
+  @media only screen and (min-width: 769px) {
+    h1 {
+      font-size: 30pt;
+    }
+h2 {
+      font-size: 17pt;
+    }
+    h3 {
+      font-size: 15pt;
+    }
+    h4 {
+      font-size: 13pt;
+    }
+    p {
+      font-size: 15px;
+    }
+    .component-preview {
+      padding: 4rem;
+    }
+    .astro-code {
+      padding: 1rem;
+    }
+  }

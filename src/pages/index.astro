@@ -1,0 +1,52 @@
+---
+import { SITE } from "../config";
+const navItems = [
+	{
+		title: 'Lenguaje',
+		description: 'Acerca de yupanasimi',
+		url: '/yupanasimi/introduction',
+		img: 'https://raw.githubusercontent.com/Noisk8/Yup4n4s1m1/main/public/310.jpg'
+	},
+	{
+		title: 'Audio',
+		description: 'Cómo crear audio con yupanasimi',
+		url: '/audio/palabras',
+		img: 'https://raw.githubusercontent.com/Noisk8/Yup4n4s1m1/main/public/311.jpg'
+	},
+	{
+		title: 'Video',
+		description: 'Cómo crear video con yupanasimi',
+		url: '/video/palabras',
+		img: 'https://raw.githubusercontent.com/Noisk8/Yup4n4s1m1/main/public/105.jpg'
+	}
+]
+
+---
+
+
+
+<div class=" min-h-screen text-center">
+	<header class="pt-12 pb-24 px-4 bg-[url('https://yupanasimi.org/imagen/302.jpg')] from-slate-700 to-black">
+		<div class="flex items-center justify-center p-4">
+			
+		</div>
+		<h1 class="text-green-500 lowercase hover:uppercase  text-8xl font-medium drop-shadow-sm">{SITE.title}</h1>
+		<p class="text-2xl mt-4 text-white">{SITE.description}</p>
+	</header>
+	<nav>
+		<ul class="flex gap-4 max-w-5xl mx-auto text-left mt-12">
+		{
+			navItems.map(({ title, description, url, img }) => (
+				<a href={url} class="flex flex-col bg-white rounded-md hover:-translate-y-1 hover:shadow-lg transition-all flex-1 items-center p-4">
+					<img src={img} alt={title}>
+					<h2 class="text-green-500 text-4xl font-medium">{title}</h2>
+					<p class="text-slate-500">{description}</p>
+				</a>
+			))
+		}
+		</ul>
+	</nav>
+</div>
+
+<script is:inline>
+</script>

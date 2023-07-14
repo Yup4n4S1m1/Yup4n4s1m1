@@ -1,0 +1,211 @@
+!reslist "https://yup4n4s1m1.github.io/Yup4n4s1m1/testaudio/uno.json"
+
+04.04.2023
+
+//MUSQUY ARPA 
+every 2 rev $ n "111 [~ 2] 6" # sound "107" 
+# delaytime "<0 0.01 0.1 0.2 0.5>" 
+# delayfeedback "[0.1 0.5 0.9]/9" # delay "0.5"  
+
+
+
+//Je
+Primer momento
+s "114*2" # cutoff "100 1000 2000" # begin "<0 0.25 0.5>" # crush "<16 4 2>"
+
+repeatCycles 7 $ shuffle 5 $ s "107" 
+
+s "212" # delayfeedback "[0.1 0.5 0.1]/2" # delay "0.5"
+
+
+
+Segundo momento
+s "114*2" # cutoff "100 1000 2000" # begin "<0 0.25 0.5>" # crush "<16 4 2>"
+
+repeatCycles 7 $ shuffle 5 $ s "107" # cutoff "100 1000 2000" 
+
+s "212" # delayfeedback "[0.1 0.5 0.1]/2" # delay "0.5"
+
+
+Tercer momento
+s "114*2" # cutoff "100 1000 200"  
+
+repeatCycles 3 $ shuffle 3 $ s "107"  
+
+s "212" # delayfeedback "[0.1 0.5 0.1]/2" # delay "2"
+
+
+Variaciones
+
+slowcat [s "114*2" # cutoff "100 1000 2000" # begin "<0 0.25 0.5>" # crush "<16 4 2>",
+slow 2 $ repeatCycles 7 $ shuffle 5 $ s "107",
+s "212" # delayfeedback "[0.1 0.5 0.1]/2" # delay "0.5"]
+
+slowcat [s "114*2" # cutoff "100 1000 2000" # begin "<0 0.25 0.5>" # crush "<16 4 2>",
+repeatCycles 7 $ shuffle 5 $ s "107",
+s "212" # delayfeedback "[0.1 0.5 0.1]/2" # delay "0.5"]
+
+stack [s "204(2,4)" ,
+every 2 (density 2.5) $ every 4 (rev) $ slow 4 $ chop 6 $ sound "106" # gain "1 2 0.75 0.3",
+whenmod 8 4 (fast 0.5) (sound "205") # gain "1 0.5 0.75 0.3"
+]
+
+
+stack [s "202(2,4) ~ " # gain "0.5 1 2",
+whenmod 8 4 (fast 0.5) (sound "106") # gain "1 0.5 1 0.5",
+every 2 (density 1.5) $ every 2 (rev) $ slow 8 $ chop 14 $s "205" # gain " 0.5 0.75 0.3" 
+]
+
+
+///////
+
+slow 4 $ n (run "<4 8 4 3>") # s "201 203" # speed "0.5"
+
+slow 2 $ n (run "<1 4 2 1>") # s "205 203" # speed "0.2"
+
+slow 2 $ s "205 213" # speed (choose [1.1, 0.6, 0.4, 0.7]) # crush "<8 2 1>"
+
+slow 1.5 $ s "209 211" # speed (choose [1.1, 0.6, 0.4, 0.7]) # crush "<8 2 1>"
+
+sometimes (slow 0.5) $ s "209 103" # speed (choose [1.1, 0.6, 0.4, 0.7]) # cutoff "100 1000 2000"
+
+sometimes (slow 0.5) $ s "205 105" # speed "[0.1 0.6 0.4 0.7]/8" # cutoff "100 1000 2000"
+
+////////
+18 abril 2023
+
+Je
+
+stack [s "801*2" # cutoff "100 1000 2000" # begin "<0 0.25 0.5>" # crush "<16 4 2>",
+whenmod 8 4 (fast 0.5) (sound "902") # gain "1 0.5 1 0.5",
+repeatCycles 3 $ shuffle 3 $ s "210"
+]
+
+
+stack [ repeatCycles 3 $ shuffle 3 $ s "210",
+repeatCycles 3 $ shuffle 3 $ s "210" # gain "0.5 1 0.5 1",
+s "110*16" # speed (slow 2 $ range 0.5 2 tri) # gain "0.7 0.5 0.7 0.5" # pan sine
+]
+
+
+
+slowcat [ sometimes (# crush 2) $ n "0 1 [~ 2] 3" # s "110*16" # speed (slow 2 $ range 0.5 2 tri) # gain "0.7 0.5 0.7 0.5" # pan sine,
+ply 3  $ s "107 ~ 108" # gain "0.05 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8"  # pan (slow 2 saw)
+]
+
+
+stack [ s "107 ~ 108" # gain "0.05 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8"  # pan (slow 5 saw),
+chop 16 $ sound "114 ~ 907*2" # gain "0.5 0.2 0.5",
+s "001*4" # pan sine # gain " 0.5 0.75 0.3" 
+]
+
+fastcat  [chop 16 $ sound "114 ~ 907*2" # gain "0.5 0.2 0.5",
+sound "002*8" # pan cosine # speed (sine + 0.5),
+s "805" # delayfeedback "[0.1 0.5 0.1]/4" # delay "0.08",
+s "207*8" # cutoff "100 1000 2000" # coarse "<4 8 16 24>" 
+
+]
+
+Ma
+
+s (fit 7 ["901", "805", "106"] "2 [~ 1] 2 1")
+
+s (fit 3 ["901", "805", "106"] "0 [1 ~ 1] 1 1")
+
+slowcat [s "808 ~ 111 808"
+# vowel "a u"
+# pan sine,
+s "201*3 124"
+# speed "0.8 0.5"]
+
+slow 2 $ s "[207 908/2] [806*2]/2"
+# speed "0.9 0.9 0.12"
+
+s "810 [~ [907/3 905/2] 121]" # cut "-1"
+
+randcat [s "902",
+s "903",
+s "908"]
+
+slow 2.6 $ stack [s "107*4"
+# pan sine,
+s "114*2 [113/3]"
+# speed "0.3 0.2 0.5"]
+
+sometimes (slow 1.5) $ s "211*3" # begin "<0 0.25 0.5>"
+
+s "[802 204]*2 906" # delay "[0 0.9]/2" # pan sine
+
+s (fit 9 ["809", "802", "213"] "1 [0 2] ~ 2")
+# speed "0.7"
+# pan sine
+
+sometimes (rev) $ chop 4 $ slowcat[sound "203 ~ 205*2 208"
+# pan sine,
+s "[807*2] ~"
+# pan cosine]
+
+randcat [sometimes (rev) $ slow 4 $ every 2 (slow 1.5) $ striate 4 $ sound "901 902 210/2 904 [~ 206]"
+# pan cosine
+# speed "0.75"
+#gain "1.5",
+s " 810*2 106/3"
+# pan sine
+# speed "0.5"
+# gain 0.8 # vowel "o"
+
+////////
+28 abril 2023
+Maje
+
+rarely (# vowel "[a i u]") $ stack [
+    sound "801(2,5)" # cut "33" # pan 0 # begin "<0 0.5>",
+    sound "802(3,7)" # cut "4" # pan 1 # begin "<0 0.25>"
+] 
+
+slow 4 $ stut 32 0.5 0.87 $ sometimesBy 0.3 (#speed 0.75) $ sound "803*10" 
+    # pan rand 
+    # bandf "200 1000 2000" 
+    # bandq "<8 6 4 2 1>" 
+    # speed "<1 1.1 1.25>"
+
+// sumado a 
+striate' 16 (1/7) $  sound "804" # speed "0.625" # gain "0.7 0.9 1"
+
+'
+
+///////1/may/23
+/Paseando entre los apus
+s "801*0.3" #delaytime "<0 1.01 0.7 0.2 0.5>" # delay "1.5"  # cutoff "100 1000 4000" # crush "<16 4 2>" # pan "0 1 0.25 0.75"
+
+
+
+/atakau en la puna
+
+s "808*0.9" # delayfeedback "[1.1 1.5 0.9]/8" # delay "5.0" # cutoff "80 890 180"  # pan cosine # speed (sine + 0.09) 
+
+////////
+
+//////
+08 mayo 2023
+Maje
+
+stut 4 0.5 0.2 $ cat [
+ slow 0.1 $ sound "124*3" # speed 1,
+ slow 0.2 $ sound "124*3" # speed 0.9,
+ slow 0.25 $ sound "124*3" # speed 0.75,
+ slow 0.33 $ sound "124*3" # speed 0.5,
+ slow 0.05 $ sound "124" # speed 0.2
+] # pan (sine + 0.5)
+
+stack [
+ struct "t~~t~t~" $ sound "<115 116 117>" # cutoff "<1000 2000 3800>" # resonance "0.4" # begin rand # end 0.5,
+ fast 3 $ sound "[bd:1(3,7), bd:2]" # pan sine # speed (sine*6),
+ sound "118" # accelerate "<0 1 -1 0.25 -0.5 2.1 -3>" # begin 0.5 # end 0.9
+]
+
+rarely (# speed 0.4) $ almostNever (#crush 32) $ jux (rev) $ slow 3 $ sound "119" # speed 0.2 # vowel "<a i u>" # pan "<0 0.5 1>"
+
+almostNever (#crush 4) $ sound "120*5" 
+    # delay 0.5 # delaytime "<0.03 0.1 0.3 0.2 0.5>" # delayfeedback 0.7 
+    # pan sine # speed "<1 0.97 0.95 0.93 0.91 0.89 1.04 1.07 1 0.96>"

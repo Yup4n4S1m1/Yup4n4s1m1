@@ -1,0 +1,495 @@
+//////////
+
+
+chhikan 4 & huch'uy raphi
+ruyru qawana' 0.5 0.2 0.1 & chhikan 2 & muyuy 10 & pirqa
+ruyru qawana' 0.5 0.5 0.1 & maypi 0.9 0.000001 & mama qucha
+
+
+qocha pillpintu
+ayphu 0.5 & illay 0.5 & pillpintu
+illay 2 & chhikan 1.3 & puka ñawi
+ayphu 0.5 & chhikan 0.7 & kuyuq unu
+
+ruyru 0.3 0.9 $ qucha pillpintu;
+maypi 0.3 (-0.5) $ ruyru 0.8 $ qucha pillpintu
+
+
+
+illay 0.8 $ yananiraqkuna 0.8 $ sunqu;
+haykam 4 0 $ hsv (ramp 0.5 0 0.66) 0.5 0.6 $ tawa kuchu 0.5 $ yananiraqkuna 0.7 $ wayta canchis
+
+
+chikan 1.2 1.2 $ urqu;
+ayphu 0.5 $ yunka
+
+
+snapMetre 4 $ riti urqu;
+chiqichiy (chay 0 20 $ qinqu 0.1) $ chikan 0.7 $ qumir wayta llimpi
+
+chikan 2 $ urqu llimpi;
+ruyru 0.5 0.2 0.1 $ chikan 2 $ urqu llimpi;
+ruyru 0.5 0.5 0.1 $ maypi 0.9 0.000001 $ video urqu llimpi;
+
+
+
+
+chikan 4 $ urqu llimpi,
+ruyru 0.5 0.2 0.1 $ chikan 2 $ muyuy 10 $ urqu llimpi;
+ruyru 0.5 0.5 0.1 $ maypi 0.9 0.000001 $ urqu llimpi;
+
+
+
+Urpicha//
+ayphu (sin 0.2) $ chikan 0.3 0 $ muyuy 90 $ chikan 2 $ sapa 10.9 $ nina rapi;
+ayphu (sin 0.9) $ chikan (-0.6) 0 $ muyuy 59 $ chikan 2 $ sapa 10.9 $ yutucha
+
+
+Chascachan//
+ayphu (qinqu 0.1) $ chikan (qinqu 0.3) 0 $ muyuy (qinqu 90) $ chikan (qinqu 0.2) $ sapa 10.9 $ qarachi;
+ayphu (sin 0.2) $chikn (-0.6) 0 $ muyuy (sin 0.9) $ chikan 2 $ sapa10.9 $ kulli
+
+
+kunturcha//
+circleMask (sin 30) $ ayphu (sin 0.1) $ maypi 0 0 $ muyuy 0 $ chikan (qinqu 0.2) $ sapa 40.9 $ mallkukuna;
+ayphu 0.3 $ sapa 40.9 $ mallkukuna
+
+kausa Tikachan//
+ruyru (sin 30) $ ayphu (qinqu 0.1) $ chikan 1 2 $ mayuye 0 $ chikan 0.9 $ sapa 40.9 $ urquta musquy;
+llimpichay (sin 1.3) $ ayphu 0.6 $ chikan 0 0 $ muyuy 0 $ chikan 0.9 $ sapa 40.9 $ urquta musquy;
+ruyru (qinqu 30) $ ayphu (sin 0.1) $ chikan 1 0 $ muyuy 0 $ chikan 0.9 $ sapa 40.9 $ tikapi pillpintu,
+llimpichay (sin 1.3) $ ruyru (sin 30) $ ayphu (qinqu 0.6) $ chikan 0 0 $ muyuy 0 $ chikan 0.9 $ sapa 40.9 $ tikapi pillpintu
+
+
+
+
+
+///
+AUN me falta remplazar las urls .lo dejo para q no se pierda
+
+
+
+
+ ruyru 0.5 & winara 0.5 & tikakunacha llimpi
+
+ruyru 0.5 & winara 0.5 & video "achokcha"
+
+sayay 0.5 & sayay 0.8 & video "achokcha"
+
+sayay 0.2 & sayay 1.8 & video "achokcha"
+
+sayay 0.5 & sayay 2 & video "https://yupanasimi.org/video/702.mp4"
+
+sayay 1.5 & sayay 2.3 & video "https://yupanasimi.org/video/602.mp4"
+
+sayay 0.2 & sayay 2.3 & video "https://yupanasimi.org/video/601.mp4"
+
+sayay 0.1 & sayay 0.3 & video "https://yupanasimi.org/video/601.mp4"
+
+sayay 0.1 & sayay 0.3 & chikanX 0.0 & chikanY (-0.5) & video "https://yupanasimi.org/video/601.mp4"
+
+sayay 0.1 & sayay 0.3 & chikanX 0.0 & chikanY (-0.5) & muyuy 50 & video "https://yupanasimi.org/video/603.mp4"
+
+sayay 0.1 & sayay 0.9 & chikanX 0.0 & chikanY (-0.5) & muyuy 90 & video "https://yupanasimi.org/video/603.mp4"
+
+sayay 0.9 & sayay 0.2 & chikanX (-0.9) & chikanY (-0.1) & muyuy 90 & video "https://yupanasimi.org/video/403.mp4"
+
+illay 1.5 & yananiraqkuna 0.5 & sayay 0.9 & sayay 0.2 & chikanX 0.9 & chikanY (-0.1) & muyuy 90 & video "https://yupanasimi.org/video/403.mp4"
+
+sayay 0.9 & sayay 0.2 & chikanX (-0.9) & chikanY (-0.1) & muyuy 90 & hayka 4 0 & sapa 1 6 & video "https://yupanasimi.org/video/403.mp4"
+
+chikan 0.9 & maypin (-0.3) (-0.3) & muyuy 90 & hayka 4 0 & sapa 0.1 1 "https://yupanasimi.org/video/403.mp4"
+
+ruyru' 0.7 0.5 0.35 & chikan 0.4 & muyuy 270 & sapa 0.2 0 "http://yupanasimi.org/video/213.mp4";
+
+chikanX 0.3 & chikanY (-0.1) &  sayay 0.5 & sayay 0.8  & video "http://yupanasimi.org/video/601.mp4"
+
+chikan 0.9 & maypin (-0.3) (-0.3) & muyuy 90 & hayka 0.1 (-0.3) & sapa 0.1 1 "https://yupanasimi.org/video/303.mp4"
+
+chikan 0.9 & maypin 0.3 0.3 & muyuy 90 & hayka 0.1 (-0.3) & sapa 2 0.1 "https://yupanasimi.org/video/301.mp4"
+
+chikan 0.9 & maypin (qinqu 0.7) 0.3 & muyuy (pata 90 0.3 0.2) & hayka 0.1 (-0.3) & sapa 2 0.1 "https://yupanasimi.org/video/301.mp4"
+
+chikanY (qinqu 0.1) & ruyru' ( pata 3 0.2 0.9) 0.5 0.5  & muyuy 270 & sapa 2 0 "http://yupanasimi.org/video/713.mp4"; 
+
+chikanY (qinqu 0.1) & ruyru' (pata 0.3 0.2 0.9) 0.5 0.5  & muyuy 190 & sapa 2 0 "http://yupanasimi.org/video/713.mp4"; 
+
+maypin (chay 0.2 (-0.2) & qinqu 0.21) 0.3 & muyuy (qinqu (-12)) & hayka 0.1 (-0.3) & sapa 2 0.1 "https://yupanasimi.org/video/301.mp4"
+
+maypin (chay 0.2 (-0.2) & qinqu 0.21) 0.3 & muyuy (qinqu (-12)) & hayka 0.1 (-0.3) & sapa 2 0.1 "https://yupanasimi.org/video/301.mp4"
+
+maypin (chay 0.2 (-0.2) & qinqu 0.21) 0.3 & muyuy (qinqu (-12)) & sapa 2 0.1 "https://yupanasimi.org/video/301.mp4"
+
+ruyru (chay 0.5 0.9 & qinqu 0.9) & maypin (qinqu 0.3) (qinqu 0.5) & video "http://yupanasimi.org/video/701.mp4"
+
+ruyru (chay 0.5 0.7 & qinqu 0.9) & maypin (chay 0.2 0.9 & qinqu 0.21) 0.3 & muyuy 90 & sapa 2 0.1 "https://yupanasimi.org/video/301.mp4"
+
+chikan 2 & yananiraqkuna 0.7 & llimpichay 0.01 & ayphu (qinqu 0.1) & sapa 4 0.1 "https://yupanasimi.org/video/009.mp4";
+
+chikanX (qinqu 0.1) & ruyru 0.7 & ayphu 0.7 & tupachiy 0.7 & ayphu (qinqu 0.1) & sapa 2 0.1 "https://yupanasimi.org/video/209.mp4"
+
+ruyru (chay 0.5 0.7 & qinqu 0.9) & maypin (chay 0.2 0.9 & qinqu 0.21) 0.3 & muyuy 90 & ayphu (qinqu 0.1) & sapa 2 0.1 "https://yupanasimi.org/video/403.mp4"
+
+maypin (qinqu 0.3) (qinqu 0.5) & ruyru (chay 0.5 0.9 & qinqu 0.9) & muyuy 90 & ayphu (qinqu 0.1) & sapa 2 0 "http://yupanasimi.org/video/711.mp4"; 
+
+chikan (chay 1 2 & qinqu 0.1) & yananiraqkuna (qinqu 0.7) & llimpichay 0.9 & ayphu (qinqu 0.1 * 15) & sapa 4 0.1 "https://yupanasimi.org/video/009.mp4";
+yananiraqkuna (qinqu 0.7) & chikanX (qinqu 0.1) & ruyru 0.7 & ayphu 0.7 & tupachiy 0.7 & ayphu (qinqu 0.1) & sapa 2 0.1 "https://yupanasimi.org/video/209.mp4"
+
+yananiraqkuna (qinqu 0.2) & ruyru (chay 0.5 0.7 & qinqu 0.9) & maypin (chay 0.2 0.9 & qinqu 0.21) 0.3 & muyuy 90 & ayphu (qinqu 0.1 * 9) & sapa 2 0.1 "https://yupanasimi.org/video/403.mp4"
+
+yananiraqkuna (qinqu 0.4) & maypin (qinqu 0.3) (qinqu 0.5) & ruyru (chay 0.5 0.9 & qinqu 0.9) & muyuy 90 & ayphu (qinqu 0.1) & sapa 2 0 "http://yupanasimi.org/video/711.mp4"; 
+
+yananiraqkuna (qinqu 0.9) & ruyru (chay 0.5 0.7 & qinqu 0.9) & maypin (chay 0.2 0.9 & qinqu 0.51) 0.3 & muyuy 90 & ayphu (qinqu 0.3 * 9) & sapa 2 0.1 "https://yupanasimi.org/video/313.mp4"
+
+
+chikan (chay 1 2 & qinqu 0.1) & chiqichiy (qinqu 0.3 * 10) & yananiraqkuna (qinqu 0.1) & llimpichay 0.9 & ayphu (qinqu 0.1 * 15) & sapa 4 0.1 "achokcha";
+yananiraqkuna (qinqu 0.7) & chikanX (qinqu 0.1) & tawa kuchu 0.7 & ayphu 0.7 & tupachiy 0.7 & ayphu (qinqu 0.1) & sapa 0.3 0.1 "https://yupanasimi.org/video/721.mp4"
+
+
+yananiraqkuna (qinqu 0.2) & tawa kuchu (chay 0.1 0.4 & qinqu 0.9) & maypin (chay 0.6 0.7 & qinqu 0.21) 0.3 & muyuy 90 & ayphu (qinqu 0.5 * 9) & sapa 0.3 0.1 "https://yupanasimi.org/video/727.mp4"
+
+yananiraqkuna (qinqu 0.4) & maypin (qinqu 0.3) (qinqu 0.5) & tawa kuchu (chay 0.1 0.5 & qinqu 0.9 * 2) & muyuy 90 & ayphu (qinqu 0.3) & sapa 0.3 0 "http://yupanasimi.org/video/603.mp4"; 
+
+yananiraqkuna (qinqu 0.1) & tawa kuchu (chay 0.1 0.3 & qinqu 0.9) & maypin (chay 0.2 0.4 & qinqu 0.51) 0.3 & muyuy 90 & ayphu (qinqu 0.1 * 9) & sapa 0.2 0.1 "https://yupanasimi.org/video/313.mp4"
+
+
+
+
+
+
+
+ruyru 0.3 & video "http://yupanasimi.org/video/213.mp4"
+ruyru 0.8 & sayay 0.8 & sayay 0.8  & video "http://yupanasimi.org/video/716.mp4"
+ sayay 0.8 & sayay 0.8  & video "http://yupanasimi.org/video/721.mp4"
+ chikanX 0.9 & chikanY (-0.1) &  sayay 0.5 & sayay 0.8  & video "http://yupanasimi.org/video/721.mp4"
+chikanY (qinqu 0.2) & ruyru' ( pata 3 0.2 0.9) 0.5 0.5  & muyuy (qinqu 0.1) & sapa 2 0 "http://yupanasimi.org/video/710.mp4"; 
+size 0.1 & chikanY (qinqu 0.1) & ruyru' (chay 0.1 0.9 & qinqu 0.1) 0.1 (qinqu 0.2) & muyuy 190 & sapa 2 0 "http://yupanasimi.org/video/003.mp4"
+ayphu 0.9 & size 0.1 & chikanY (qinqu 0.1) & ruyru' (chay 0.1 0.9 & qinqu 0.1) 0.1 (qinqu 0.2) & muyuy 190 & sapa 2 0 & challuy 2 & "http://yupanasimi.org/video/003.mp4"
+ayphu (qinqu 0.3) & chikanX 0.01 & chikanY (-0.1) &  sayay 0.5 & sayay 0.8  & video "http://yupanasimi.org/video/721.mp4"
+illay (qinqu 1.5) & size 0.1 & chikanY (qinqu 0.1) & ruyru' (chay 0.1 0.9 & qinqu 0.1) 0.1 (qinqu 0.2) & muyuy 190 & sapa 2 0 & challuy 2 & "http://yupanasimi.org/video/003.mp4"
+illay 1.5 & size 0.1 & chikanY (qinqu 1) & ruyru' (chay 0.1 0.9 & qinqu 0.1) 0.1 (qinqu 0.1) & muyuy 190 & sapa 2 0 & challuy 2 & "http://yupanasimi.org/video/003.mp4"
+sayay 0.5 & sayay 0.8 & chiqichiy (chay 0 20 & qinqu 0.1) & tawa kuchu (qinqu 0.5) & "http://yupanasimi.org/video/003.mp4"
+illay (qinqu 0.5) & size (qinqu 0.9) & chikanY (qinqu 1) & ruyru' (chay 0.1 0.9 & qinqu 0.51) 0.1 (qinqu 0.2) & muyuy (qinqu 190) & sapa 2 0 & challuy 5 & "http://yupanasimi.org/video/003.mp4"
+sayay (qinqu 0.5) & sayay 0.8 & chiqichiy (chay 0 20 & qinqu 0.1) & tawa kuchu (qinqu 0.5) & "http://yupanasimi.org/video/003.mp4"
+
+
+////////
+
+28 MARZO 2023
+
+/////////
+URPICHA
+
+ayphu (qinqu 0.2) &chikanX 0.3 &chikanY 0 &muyuy 90 &chikan 2 &sapa 10.9
+ 1"http://yupanasimi.org/video/727.mp4" ;ayphu (qinqu 0.9) &chikanX (-0.6) &chikanY 0 &muyuy 59 &chikan 2 &sapa 10.9
+ 1"http://yupanasimi.org/video/726.mp4"
+
+CHASKACHAN
+
+ayphu (qinqu 0.1) &chikanX (qinqu 0.3) &chikanY 0 &muyuy (qinqu 90) &chikan (qinqu 0.2) &sapa 10.9
+ 1"http://yupanasimi.org/video/703.mp4" ;ayphu (qinqu 0.2) &chikanX (-0.6) &chikanY 0 &muyuy (qinqu 0.9) &chikan 2 &sapa 10.9
+ 1"http://yupanasimi.org/video/702.mp4"
+ 
+ KUnTUrCHA
+ 
+ruyru (qinqu 30) &ayphu (qinqu 0.1) &chikanX 0 &chikanY 0 &muyuy 0 &chikan (qinqu 0.2) &sapa 40.9
+ 1"http://yupanasimi.org/video/701.mp4" ;ayphu 0.3 &sapa 40.9 1"http://yupanasimi.org/video/701.mp4"
+
+KAusanTIKACHAN
+
+ruyru (qinqu 30) &ayphu (qinqu 0.1) &chikanX 1 &chikanY 2 &muyuy 0 &chikan 0.9 &sapa 40.9 1"http://yupanasimi.org/video/724.mp4" 
+;llimpichay (qinqu 1.3) &ayphu 0.6 &chikanX 0 &chikanY 0 &muyuy 0 &chikan 0.9 &sapa 40.9 1"http://yupanasimi.org/video/724.mp4"} 
+;ruyru (qinqu 30) &ayphu (qinqu 0.1) &chikanX 1 &chikanY 0 &muyuy 0 &chikan 0.9 &sapa 40.9 1"http://yupanasimi.org/video/725.mp4" 
+;llimpichay (qinqu 1.3) &ruyru (qinqu 30) &ayphu (qinqu 0.6) &chikanX 0 &chikanY 0 &muyuy 0 &chikan 0.9 &sapa 40.9 1"http://yupanasimi.org/video/725.mp4" 
+ 
+ 
+Q'ENTECHA TIKACHA MIJUIy
+
+llimpichay 10 & hayka 0.05 0 & muyuy (-70)  & maypin (-0.6) (0.2) &chikan (qinqu 0.2) &sapa 10.9 1"http://yupanasimi.org/video/720.mp4" 
+;ayphu (qinqu 0.1) &chikanX (qinqu 0.3) &chikanY 0 &muyuy (qinqu 90) &chikan (qinqu 0.2) &sapa 10.9 1"http://yupanasimi.org/video/720.mp4" 
+;llimpichay 10 &ayphu (qinqu 0.1) &chikanX (-0.6) &chikanY 0 &muyuy (qinqu 0.9) &chikan 2 &sapa 7.9 2"http://yupanasimi.org/video/721.mp4"
+
+
+PHUyU MAMACoCHA
+
+llimpichay 96 &ayphu 0.3 &chikan 2 &chikanY (-2.3) &sapa 30.9 2"http://yupanasimi.org/video/403.mp4" 
+;ruyru (qinqu 0.3) &muyuy 45 &chikan 2 &sapa 30.9 2"http://yupanasimi.org/video/404.mp4"
+;ayphu 0.5 &muyuy 45 &chikan 22 &sapa 30.9 2"http://yupanasimi.org/video/721.mp4"
+
+MiCHIKan
+
+chikanY(qinqu 0.1) &chikanX (qinqu 0.1) &llimpichay  (qinqu 11) &muyuy (qinqu 3.9) &tawa kuchu 0.4&chikan 0.3&sapa 30.9 2 "http://yupanasimi.org/video/010.mp4" 
+;llimpichay 96 &ayphu 0.3 &chikan 2 &chikanX (0.3) &sapa 30.9 2"http://yupanasimi.org/video/502.mp4"
+;llimpichay 96 &ayphu 0.3 &chikan 2 &chikanY (2.3) &sapa 30.9 2"http://yupanasimi.org/video/502.mp4"
+;llimpichay 96 &ayphu 0.3 &chikan 2 &chikanY (-2.3) &sapa 30.9 2"http://yupanasimi.org/video/502.mp4"
+
+///////
+
+RUNTUKUNA PHAWACHKAN
+
+chikanY (qinqu 0.1) & ruyru' ( pata 3 0.2 0.9) 0.5 0.5  & muyuy 270 & sapa 2 0 "http://yupanasimi.org/video/733.mp4"; 
+
+chikan (pata 3 0 0.5) & tawa kuchu ( pata 0.1 2 0.19)  & muyuy 270 & sapa 4 0 "http://yupanasimi.org/video/731.mp4"; 
+chikanX (qinqu 0.7) & ruyru' (qinqu 0.9) 0.25 0.25  & muyuy 270 & sapa 3 0 "http://yupanasimi.org/video/803.mp4"; 
+chikanY (qinqu 0.1) & ruyru' (pata 0.3 2 0.9) 0.5 0.5  & muyuy 270 & sapa 2 0 "http://yupanasimi.org/video/733.mp4";
+
+
+chikan (pata 1 0 0.5) & chiqichiy (chay 10 20 & qinqu 0.1) & muyuy 270 & sapa 4 0 "http://yupanasimi.org/video/701.mp4"; 
+chikanX (qinqu 0.7) & ruyru' (qinqu 0.1) 0.25 0.25  & muyuy 270 & sapa 3 0 "http://yupanasimi.org/video/503.mp4"; 
+size 0.5 & ayphu (0.5 * (yaykuna 1)) & ruyru' (pata 0.3 2 0.9) 0.5 0.5  & muyuy 170 & sapa 2 0 "http://yupanasimi.org/video/713.mp4";
+
+
+
+challuy 0.5 & video "https://yupanasimi.org/video/113.mp4";
+chikanY (qinqu 0.1) & chikan (qinqu 0.5) & sapa 2 0 "https://yupanasimi.org/video/312.mp4";
+chiqichiy (chay 0 20 & qinqu 0.7) & chikan 0.5 & sapa 3 0 "https://yupanasimi.org/video/303.mp4";
+
+
+chiqichiy (chay 0 20 & qinqu 0.1)  & challuy 0.5 & muyuy (qinqu 0.5) & sapa 1 2 "https://yupanasimi.org/video/403.mp4";
+chiqichiy (chay 0 20 & qinqu 0.7) & chikan (qinqu 0.05) & sapa 3 0 "https://yupanasimi.org/video/211.mp4";
+ruyru 0.8 & chikanY (qinqu 0.1) & chikan (qinqu 0.5) & sapa 2 0 "https://yupanasimi.org/video/601.mp4";
+
+
+chiqichiy (chay 0 20 & qinqu 0.1)  & challuy 0.5 & muyuy (qinqu 0.5) & sapa 0 2 "https://yupanasimi.org/video/403.mp4";
+chiqichiy (chay 0 20 & qinqu 0.7) & chikan (qinqu 0.5) & sapa 3 0 "https://yupanasimi.org/video/211.mp4";
+ruyru (qinqu 0.8) & chikanY (qinqu 0.1) & chikan (qinqu 0.5) & sapa 2 0 "https://yupanasimi.org/video/601.mp4";
+
+
+chiqichiy (chay 0 20 & qinqu 0.1)  & challuy 0.5 & muyuy (qinqu 0.5) & sapa 0 2 "https://yupanasimi.org/video/403.mp4";
+chiqichiy (chay 0 20 & qinqu 0.7) & chikan (qinqu 0.5) & sapa 3 0 "https://yupanasimi.org/video/211.mp4";
+ruyru (qinqu 0.8) & chikanY 0.7 & chikan (qinqu 0.5) & sapa 2 0 "https://yupanasimi.org/video/601.mp4";
+ruyru (qinqu 0.8) & chikanY (-0.7) & chikan (qinqu 0.5) & sapa 1 0 "https://yupanasimi.org/video/601.mp4";
+
+
+
+
+ayphu (0.75 * (yaykuna 1)) & chikan (pata 3 0 1.5) & chiqichiy (chay 0 20 & qinqu 0.3)  & challuy 0.5 & muyuy (qinqu 0.5) & sapa 0 2 "https://yupanasimi.org/video/406.mp4";
+
+
+
+ayphu (0.75 * (yaykuna 1)) & chikan (pata 3 0 1.5) & chiqichiy (chay 0 20 & qinqu 0.3)  & challuy 0.5 & muyuy (qinqu 0.5) & sapa 0 2 "https://yupanasimi.org/video/406.mp4";
+ruyru 0.7 & maypin (qinqu 0.3) (qinqu 0.3) & chikan (qinqu 0.5) & sapa 1 0 "https://yupanasimi.org/video/701.mp4";
+ruyru 0.3 & chikanY 0.7 & chikan (qinqu 0.5) & sapa 2 0tikakunacha llimpi;
+
+
+
+
+ayphu (0.75 * (yaykuna 1)) & chikan (pata 3 0 1.5) & chiqichiy (chay 0 20 & qinqu 0.3)  & challuy 0.5 & muyuy (qinqu 0.5) & sapa 0 2 "https://yupanasimi.org/video/406.mp4";
+ruyru 0.7 & maypin (qinqu 0.3) (qinqu 0.3) & chikan (qinqu 0.5) & sapa 1 0 "https://yupanasimi.org/video/701.mp4";
+ruyru 0.7 & maypin (qinqu 0.4) (qinqu 0.4) & sapa 2 0tikakunacha llimpi;
+
+
+ ruyru 0.5 & winara 0.5 & tikakunacha llimpi
+
+ruyru 0.5 & winara 0.5 & video "achokcha"
+
+sayay 0.5 & sayay 0.8 & video "achokcha"
+
+sayay 0.2 & sayay 1.8 & video "achokcha"
+
+sayay 0.5 & sayay 2 & video "https://yupanasimi.org/video/702.mp4"
+
+sayay 1.5 & sayay 2.3 & video "https://yupanasimi.org/video/602.mp4"
+
+sayay 0.2 & sayay 2.3 & video "https://yupanasimi.org/video/601.mp4"
+
+sayay 0.1 & sayay 0.3 & video "https://yupanasimi.org/video/601.mp4"
+
+sayay 0.1 & sayay 0.3 & chikanX 0.0 & chikanY (-0.5) & video "https://yupanasimi.org/video/601.mp4"
+
+sayay 0.1 & sayay 0.3 & chikanX 0.0 & chikanY (-0.5) & muyuy 50 & video "https://yupanasimi.org/video/603.mp4"
+
+sayay 0.1 & sayay 0.9 & chikanX 0.0 & chikanY (-0.5) & muyuy 90 & video "https://yupanasimi.org/video/603.mp4"
+
+sayay 0.9 & sayay 0.2 & chikanX (-0.9) & chikanY (-0.1) & muyuy 90 & video "https://yupanasimi.org/video/403.mp4"
+
+illay 1.5 & yananiraqkuna 0.5 & sayay 0.9 & sayay 0.2 & chikanX 0.9 & chikanY (-0.1) & muyuy 90 & video "https://yupanasimi.org/video/403.mp4"
+
+sayay 0.9 & sayay 0.2 & chikanX (-0.9) & chikanY (-0.1) & muyuy 90 & hayka 4 0 & sapa 1 6 & video "https://yupanasimi.org/video/403.mp4"
+
+chikan 0.9 & maypin (-0.3) (-0.3) & muyuy 90 & hayka 4 0 & sapa 0.1 1 "https://yupanasimi.org/video/403.mp4"
+
+ruyru' 0.7 0.5 0.35 & chikan 0.4 & muyuy 270 & sapa 0.2 0 "http://yupanasimi.org/video/213.mp4";
+
+chikanX 0.3 & chikanY (-0.1) &  sayay 0.5 & sayay 0.8  & video "http://yupanasimi.org/video/601.mp4"
+
+chikan 0.9 & maypin (-0.3) (-0.3) & muyuy 90 & hayka 0.1 (-0.3) & sapa 0.1 1 "https://yupanasimi.org/video/303.mp4"
+
+chikan 0.9 & maypin 0.3 0.3 & muyuy 90 & hayka 0.1 (-0.3) & sapa 2 0.1 "https://yupanasimi.org/video/301.mp4"
+
+chikan 0.9 & maypin (qinqu 0.7) 0.3 & muyuy (pata 90 0.3 0.2) & hayka 0.1 (-0.3) & sapa 2 0.1 "https://yupanasimi.org/video/301.mp4"
+
+chikanY (qinqu 0.1) & ruyru' ( pata 3 0.2 0.9) 0.5 0.5  & muyuy 270 & sapa 2 0 "http://yupanasimi.org/video/713.mp4"; 
+
+chikanY (qinqu 0.1) & ruyru' (pata 0.3 0.2 0.9) 0.5 0.5  & muyuy 190 & sapa 2 0 "http://yupanasimi.org/video/713.mp4"; 
+
+maypin (chay 0.2 (-0.2) & qinqu 0.21) 0.3 & muyuy (qinqu (-12)) & hayka 0.1 (-0.3) & sapa 2 0.1 "https://yupanasimi.org/video/301.mp4"
+
+maypin (chay 0.2 (-0.2) & qinqu 0.21) 0.3 & muyuy (qinqu (-12)) & hayka 0.1 (-0.3) & sapa 2 0.1 "https://yupanasimi.org/video/301.mp4"
+
+maypin (chay 0.2 (-0.2) & qinqu 0.21) 0.3 & muyuy (qinqu (-12)) & sapa 2 0.1 "https://yupanasimi.org/video/301.mp4"
+
+ruyru (chay 0.5 0.9 & qinqu 0.9) & maypin (qinqu 0.3) (qinqu 0.5) & video "http://yupanasimi.org/video/701.mp4"
+
+ruyru (chay 0.5 0.7 & qinqu 0.9) & maypin (chay 0.2 0.9 & qinqu 0.21) 0.3 & muyuy 90 & sapa 2 0.1 "https://yupanasimi.org/video/301.mp4"
+
+chikan 2 & yananiraqkuna 0.7 & llimpichay 0.01 & ayphu (qinqu 0.1) & sapa 4 0.1 "https://yupanasimi.org/video/009.mp4";
+
+chikanX (qinqu 0.1) & ruyru 0.7 & ayphu 0.7 & tupachiy 0.7 & ayphu (qinqu 0.1) & sapa 2 0.1 "https://yupanasimi.org/video/209.mp4"
+
+ruyru (chay 0.5 0.7 & qinqu 0.9) & maypin (chay 0.2 0.9 & qinqu 0.21) 0.3 & muyuy 90 & ayphu (qinqu 0.1) & sapa 2 0.1 "https://yupanasimi.org/video/403.mp4"
+
+maypin (qinqu 0.3) (qinqu 0.5) & ruyru (chay 0.5 0.9 & qinqu 0.9) & muyuy 90 & ayphu (qinqu 0.1) & sapa 2 0 "http://yupanasimi.org/video/711.mp4"; 
+
+chikan (chay 1 2 & qinqu 0.1) & yananiraqkuna (qinqu 0.7) & llimpichay 0.9 & ayphu (qinqu 0.1 * 15) & sapa 4 0.1 "https://yupanasimi.org/video/009.mp4";
+yananiraqkuna (qinqu 0.7) & chikanX (qinqu 0.1) & ruyru 0.7 & ayphu 0.7 & tupachiy 0.7 & ayphu (qinqu 0.1) & sapa 2 0.1 "https://yupanasimi.org/video/209.mp4"
+
+yananiraqkuna (qinqu 0.2) & ruyru (chay 0.5 0.7 & qinqu 0.9) & maypin (chay 0.2 0.9 & qinqu 0.21) 0.3 & muyuy 90 & ayphu (qinqu 0.1 * 9) & sapa 2 0.1 "https://yupanasimi.org/video/403.mp4"
+
+yananiraqkuna (qinqu 0.4) & maypin (qinqu 0.3) (qinqu 0.5) & ruyru (chay 0.5 0.9 & qinqu 0.9) & muyuy 90 & ayphu (qinqu 0.1) & sapa 2 0 "http://yupanasimi.org/video/711.mp4"; 
+
+yananiraqkuna (qinqu 0.9) & ruyru (chay 0.5 0.7 & qinqu 0.9) & maypin (chay 0.2 0.9 & qinqu 0.51) 0.3 & muyuy 90 & ayphu (qinqu 0.3 * 9) & sapa 2 0.1 "https://yupanasimi.org/video/313.mp4"
+
+
+chikan (chay 1 2 & qinqu 0.1) & chiqichiy (qinqu 0.3 * 10) & yananiraqkuna (qinqu 0.1) & llimpichay 0.9 & ayphu (qinqu 0.1 * 15) & sapa 4 0.1 "achokcha";
+yananiraqkuna (qinqu 0.7) & chikanX (qinqu 0.1) & tawa kuchu 0.7 & ayphu 0.7 & tupachiy 0.7 & ayphu (qinqu 0.1) & sapa 0.3 0.1 "https://yupanasimi.org/video/721.mp4"
+
+
+yananiraqkuna (qinqu 0.2) & tawa kuchu (chay 0.1 0.4 & qinqu 0.9) & maypin (chay 0.6 0.7 & qinqu 0.21) 0.3 & muyuy 90 & ayphu (qinqu 0.5 * 9) & sapa 0.3 0.1 "https://yupanasimi.org/video/727.mp4"
+
+yananiraqkuna (qinqu 0.4) & maypin (qinqu 0.3) (qinqu 0.5) & tawa kuchu (chay 0.1 0.5 & qinqu 0.9 * 2) & muyuy 90 & ayphu (qinqu 0.3) & sapa 0.3 0 "http://yupanasimi.org/video/603.mp4"; 
+
+yananiraqkuna (qinqu 0.1) & tawa kuchu (chay 0.1 0.3 & qinqu 0.9) & maypin (chay 0.2 0.4 & qinqu 0.51) 0.3 & muyuy 90 & ayphu (qinqu 0.1 * 9) & sapa 0.2 0.1 "https://yupanasimi.org/video/313.mp4"
+
+
+
+
+
+
+
+ruyru 0.3 & video "http://yupanasimi.org/video/213.mp4"
+ruyru 0.8 & sayay 0.8 & sayay 0.8  & video "http://yupanasimi.org/video/716.mp4"
+ sayay 0.8 & sayay 0.8  & video "http://yupanasimi.org/video/721.mp4"
+ chikanX 0.9 & chikanY (-0.1) &  sayay 0.5 & sayay 0.8  & video "http://yupanasimi.org/video/721.mp4"
+chikanY (qinqu 0.2) & ruyru' ( pata 3 0.2 0.9) 0.5 0.5  & muyuy (qinqu 0.1) & sapa 2 0 "http://yupanasimi.org/video/710.mp4"; 
+size 0.1 & chikanY (qinqu 0.1) & ruyru' (chay 0.1 0.9 & qinqu 0.1) 0.1 (qinqu 0.2) & muyuy 190 & sapa 2 0 "http://yupanasimi.org/video/003.mp4"
+ayphu 0.9 & size 0.1 & chikanY (qinqu 0.1) & ruyru' (chay 0.1 0.9 & qinqu 0.1) 0.1 (qinqu 0.2) & muyuy 190 & sapa 2 0 & challuy 2 & "http://yupanasimi.org/video/003.mp4"
+ayphu (qinqu 0.3) & chikanX 0.01 & chikanY (-0.1) &  sayay 0.5 & sayay 0.8  & video "http://yupanasimi.org/video/721.mp4"
+illay (qinqu 1.5) & size 0.1 & chikanY (qinqu 0.1) & ruyru' (chay 0.1 0.9 & qinqu 0.1) 0.1 (qinqu 0.2) & muyuy 190 & sapa 2 0 & challuy 2 & "http://yupanasimi.org/video/003.mp4"
+illay 1.5 & size 0.1 & chikanY (qinqu 1) & ruyru' (chay 0.1 0.9 & qinqu 0.1) 0.1 (qinqu 0.1) & muyuy 190 & sapa 2 0 & challuy 2 & "http://yupanasimi.org/video/003.mp4"
+sayay 0.5 & sayay 0.8 & chiqichiy (chay 0 20 & qinqu 0.1) & tawa kuchu (qinqu 0.5) & "http://yupanasimi.org/video/003.mp4"
+illay (qinqu 0.5) & size (qinqu 0.9) & chikanY (qinqu 1) & ruyru' (chay 0.1 0.9 & qinqu 0.51) 0.1 (qinqu 0.2) & muyuy (qinqu 190) & sapa 2 0 & challuy 5 & "http://yupanasimi.org/video/003.mp4"
+sayay (qinqu 0.5) & sayay 0.8 & chiqichiy (chay 0 20 & qinqu 0.1) & tawa kuchu (qinqu 0.5) & "http://yupanasimi.org/video/003.mp4"
+
+
+////////
+
+28 MARZO 2023
+
+/////////
+URPICHA
+
+ayphu (qinqu 0.2) &chikanX 0.3 &chikanY 0 &muyuy 90 &chikan 2 &sapa 10.9
+ 1"http://yupanasimi.org/video/727.mp4" ;ayphu (qinqu 0.9) &chikanX (-0.6) &chikanY 0 &muyuy 59 &chikan 2 &sapa 10.9
+ 1"http://yupanasimi.org/video/726.mp4"
+
+CHASKACHAN
+
+ayphu (qinqu 0.1) &chikanX (qinqu 0.3) &chikanY 0 &muyuy (qinqu 90) &chikan (qinqu 0.2) &sapa 10.9
+ 1"http://yupanasimi.org/video/703.mp4" ;ayphu (qinqu 0.2) &chikanX (-0.6) &chikanY 0 &muyuy (qinqu 0.9) &chikan 2 &sapa 10.9
+ 1"http://yupanasimi.org/video/702.mp4"
+ 
+ KUnTUrCHA
+ 
+ruyru (qinqu 30) &ayphu (qinqu 0.1) &chikanX 0 &chikanY 0 &muyuy 0 &chikan (qinqu 0.2) &sapa 40.9
+ 1"http://yupanasimi.org/video/701.mp4" ;ayphu 0.3 &sapa 40.9 1"http://yupanasimi.org/video/701.mp4"
+
+KAusanTIKACHAN
+
+ruyru (qinqu 30) &ayphu (qinqu 0.1) &chikanX 1 &chikanY 2 &muyuy 0 &chikan 0.9 &sapa 40.9 1"http://yupanasimi.org/video/724.mp4" 
+;llimpichay (qinqu 1.3) &ayphu 0.6 &chikanX 0 &chikanY 0 &muyuy 0 &chikan 0.9 &sapa 40.9 1"http://yupanasimi.org/video/724.mp4"} 
+;ruyru (qinqu 30) &ayphu (qinqu 0.1) &chikanX 1 &chikanY 0 &muyuy 0 &chikan 0.9 &sapa 40.9 1"http://yupanasimi.org/video/725.mp4" 
+;llimpichay (qinqu 1.3) &ruyru (qinqu 30) &ayphu (qinqu 0.6) &chikanX 0 &chikanY 0 &muyuy 0 &chikan 0.9 &sapa 40.9 1"http://yupanasimi.org/video/725.mp4" 
+ 
+ 
+Q'ENTECHA TIKACHA MIJUIy
+
+llimpichay 10 & hayka 0.05 0 & muyuy (-70)  & maypin (-0.6) (0.2) &chikan (qinqu 0.2) &sapa 10.9 1"http://yupanasimi.org/video/720.mp4" 
+;ayphu (qinqu 0.1) &chikanX (qinqu 0.3) &chikanY 0 &muyuy (qinqu 90) &chikan (qinqu 0.2) &sapa 10.9 1"http://yupanasimi.org/video/720.mp4" 
+;llimpichay 10 &ayphu (qinqu 0.1) &chikanX (-0.6) &chikanY 0 &muyuy (qinqu 0.9) &chikan 2 &sapa 7.9 2"http://yupanasimi.org/video/721.mp4"
+
+
+PHUyU MAMACoCHA
+
+llimpichay 96 &ayphu 0.3 &chikan 2 &chikanY (-2.3) &sapa 30.9 2"http://yupanasimi.org/video/403.mp4" 
+;ruyru (qinqu 0.3) &muyuy 45 &chikan 2 &sapa 30.9 2"http://yupanasimi.org/video/404.mp4"
+;ayphu 0.5 &muyuy 45 &chikan 22 &sapa 30.9 2"http://yupanasimi.org/video/721.mp4"
+
+MiCHIKan
+
+chikanY(qinqu 0.1) &chikanX (qinqu 0.1) &llimpichay  (qinqu 11) &muyuy (qinqu 3.9) &tawa kuchu 0.4&chikan 0.3&sapa 30.9 2 "http://yupanasimi.org/video/010.mp4" 
+;llimpichay 96 &ayphu 0.3 &chikan 2 &chikanX (0.3) &sapa 30.9 2"http://yupanasimi.org/video/502.mp4"
+;llimpichay 96 &ayphu 0.3 &chikan 2 &chikanY (2.3) &sapa 30.9 2"http://yupanasimi.org/video/502.mp4"
+;llimpichay 96 &ayphu 0.3 &chikan 2 &chikanY (-2.3) &sapa 30.9 2"http://yupanasimi.org/video/502.mp4"
+
+///////
+
+RUNTUKUNA PHAWACHKAN
+
+chikanY (qinqu 0.1) & ruyru' ( pata 3 0.2 0.9) 0.5 0.5  & muyuy 270 & sapa 2 0 "http://yupanasimi.org/video/733.mp4"; 
+
+chikan (pata 3 0 0.5) & tawa kuchu ( pata 0.1 2 0.19)  & muyuy 270 & sapa 4 0 "http://yupanasimi.org/video/731.mp4"; 
+chikanX (qinqu 0.7) & ruyru' (qinqu 0.9) 0.25 0.25  & muyuy 270 & sapa 3 0 "http://yupanasimi.org/video/803.mp4"; 
+chikanY (qinqu 0.1) & ruyru' (pata 0.3 2 0.9) 0.5 0.5  & muyuy 270 & sapa 2 0 "http://yupanasimi.org/video/733.mp4";
+
+
+chikan (pata 1 0 0.5) & chiqichiy (chay 10 20 & qinqu 0.1) & muyuy 270 & sapa 4 0 "http://yupanasimi.org/video/701.mp4"; 
+chikanX (qinqu 0.7) & ruyru' (qinqu 0.1) 0.25 0.25  & muyuy 270 & sapa 3 0 "http://yupanasimi.org/video/503.mp4"; 
+size 0.5 & ayphu (0.5 * (yaykuna 1)) & ruyru' (pata 0.3 2 0.9) 0.5 0.5  & muyuy 170 & sapa 2 0 "http://yupanasimi.org/video/713.mp4";
+
+
+
+challuy 0.5 & video "https://yupanasimi.org/video/113.mp4";
+chikanY (qinqu 0.1) & chikan (qinqu 0.5) & sapa 2 0 "https://yupanasimi.org/video/312.mp4";
+chiqichiy (chay 0 20 & qinqu 0.7) & chikan 0.5 & sapa 3 0 "https://yupanasimi.org/video/303.mp4";
+
+
+chiqichiy (chay 0 20 & qinqu 0.1)  & challuy 0.5 & muyuy (qinqu 0.5) & sapa 1 2 "https://yupanasimi.org/video/403.mp4";
+chiqichiy (chay 0 20 & qinqu 0.7) & chikan (qinqu 0.05) & sapa 3 0 "https://yupanasimi.org/video/211.mp4";
+ruyru 0.8 & chikanY (qinqu 0.1) & chikan (qinqu 0.5) & sapa 2 0 "https://yupanasimi.org/video/601.mp4";
+
+
+chiqichiy (chay 0 20 & qinqu 0.1)  & challuy 0.5 & muyuy (qinqu 0.5) & sapa 0 2 "https://yupanasimi.org/video/403.mp4";
+chiqichiy (chay 0 20 & qinqu 0.7) & chikan (qinqu 0.5) & sapa 3 0 "https://yupanasimi.org/video/211.mp4";
+ruyru (qinqu 0.8) & chikanY (qinqu 0.1) & chikan (qinqu 0.5) & sapa 2 0 "https://yupanasimi.org/video/601.mp4";
+
+
+chiqichiy (chay 0 20 & qinqu 0.1)  & challuy 0.5 & muyuy (qinqu 0.5) & sapa 0 2 "https://yupanasimi.org/video/403.mp4";
+chiqichiy (chay 0 20 & qinqu 0.7) & chikan (qinqu 0.5) & sapa 3 0 "https://yupanasimi.org/video/211.mp4";
+ruyru (qinqu 0.8) & chikanY 0.7 & chikan (qinqu 0.5) & sapa 2 0 "https://yupanasimi.org/video/601.mp4";
+ruyru (qinqu 0.8) & chikanY (-0.7) & chikan (qinqu 0.5) & sapa 1 0 "https://yupanasimi.org/video/601.mp4";
+
+
+
+
+ayphu (0.75 * (yaykuna 1)) & chikan (pata 3 0 1.5) & chiqichiy (chay 0 20 & qinqu 0.3)  & challuy 0.5 & muyuy (qinqu 0.5) & sapa 0 2 "https://yupanasimi.org/video/406.mp4";
+
+
+
+ayphu (0.75 * (yaykuna 1)) & chikan (pata 3 0 1.5) & chiqichiy (chay 0 20 & qinqu 0.3)  & challuy 0.5 & muyuy (qinqu 0.5) & sapa 0 2 "https://yupanasimi.org/video/406.mp4";
+ruyru 0.7 & maypin (qinqu 0.3) (qinqu 0.3) & chikan (qinqu 0.5) & sapa 1 0 "https://yupanasimi.org/video/701.mp4";
+ruyru 0.3 & chikanY 0.7 & chikan (qinqu 0.5) & sapa 2 0tikakunacha llimpi;
+
+
+
+
+ayphu (0.75 * (yaykuna 1)) & chikan (pata 3 0 1.5) & chiqichiy (chay 0 20 & qinqu 0.3)  & challuy 0.5 & muyuy (qinqu 0.5) & sapa 0 2 "https://yupanasimi.org/video/406.mp4";
+ruyru 0.7 & maypin (qinqu 0.3) (qinqu 0.3) & chikan (qinqu 0.5) & sapa 1 0 "https://yupanasimi.org/video/701.mp4";
+ruyru 0.7 & maypin (qinqu 0.4) (qinqu 0.4) & sapa 2 0tikakunacha llimpi;
+
+
+
+///////
+
+///////
+

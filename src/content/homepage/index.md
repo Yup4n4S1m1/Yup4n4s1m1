@@ -17,10 +17,8 @@ features:
     bulletpoints:
       - "No necesitas insalar nada"
       - "Facil de usar"
-      - ""
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Aprende a programar diviertiendote"
+     
     button:
       enable: true
       label: "Aprende Yupanasimi"

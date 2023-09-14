@@ -51,21 +51,21 @@ intihina /
 ispi /
 kallpa /
 kulli /
-kulliqantu /
-kulliqoyllur /
-kullitika /
-kulliwayta /
+sisa /
+awarmatu /
+panti /
+achanqaray /
 kuyuqunu /
 kuyuqyaku /
 kuyuyyakukuna /
 liqiliqi /
 llama /
-llamacha /
+pakucha /
 llimpisapa /
-mallku /
-mallkuwikunapas /
+mallkuta /
+wikuna /
 mallkucha /
-mallkuwikunakunapas /
+mallkukuna /
 mamaqucha /
 mamaquchallimpi /
 mayu /
@@ -325,25 +325,25 @@ uruchakuna = "uruchakuna"i { return "\"http://yupanasimi.org/video/211.mp4\"; " 
 illariypiqintikuna = "illariypi qintikuna"i { return "\"http://yupanasimi.org/video/853.mp4\"; " }
 illariyqinti = "illariy qinti"i { return "\"http://yupanasimi.org/video/852.mp4\"; " }
 inkill = "inkill"i { return "\"http://yupanasimi.org/video/804.mp4\"; " }
-intihina = "intihina"i { return "\"http://yupanasimi.org/video/868.mp4\"; " }
+intihina = "intihina tika"i { return "\"http://yupanasimi.org/video/868.mp4\"; " }
 ispi = "ispi"i { return "\"http://yupanasimi.org/video/889.mp4\"; " }
 kallpa = "kallpa"i { return "\"http://yupanasimi.org/video/733.mp4\"; " }
 kulli = "kulli"i { return "\"http://yupanasimi.org/video/702.mp4\"; " }
-kulliqantu = "kulli qantu"i { return "\"http://yupanasimi.org/video/818.mp4\"; " }
-kulliqoyllur = "kulli qoyllur"i { return "\"http://yupanasimi.org/video/704.mp4\"; " }
-kullitika = "kulli tika"i { return "\"http://yupanasimi.org/video/723.mp4\"; " }
-kulliwayta = "kulli wayta"i { return "\"http://yupanasimi.org/video/705.mp4\"; " }
+sisa = "sisa"i { return "\"http://yupanasimi.org/video/818.mp4\"; " }
+awarmatu = "kulli qoyllur"i { return "\"http://yupanasimi.org/video/704.mp4\"; " }
+panti = "panti"i { return "\"http://yupanasimi.org/video/723.mp4\"; " }
+achanqaray = "achanqaray"i { return "\"http://yupanasimi.org/video/705.mp4\"; " }
 kuyuqunu = "kuyuq unu"i { return "\"http://yupanasimi.org/video/303.mp4\"; " }
 kuyuqyaku = "kuyuq yaku"i { return "\"http://yupanasimi.org/video/008.mp4\"; " }
 kuyuyyakukuna  = "kuyuy yakukuna"i { return "\"http://yupanasimi.org/video/020.mp4\"; " }
 liqiliqi = "liqi liqi"i { return "\"http://yupanasimi.org/video/859.mp4\"; " }
 llama = "llama"i { return "\"http://yupanasimi.org/video/736.mp4\"; " }
-llamacha = "llamacha"i { return "\"http://yupanasimi.org/video/738.mp4\"; " }
+pakucha = "pakucha"i { return "\"http://yupanasimi.org/video/738.mp4\"; " }
 llimpisapa = "llimpisapa"i { return "\"http://yupanasimi.org/video/730.mp4\"; " }
-mallku = "mallku"i { return "\"http://yupanasimi.org/video/824.mp4\"; " }
-mallkuwikunapas = "mallku wikuñapas"i { return "\"http://yupanasimi.org/video/824.mp4\"; " }
+mallkuta = "mallkuta"i { return "\"http://yupanasimi.org/video/824.mp4\"; " }
+wikuna = "wikuña"i { return "\"http://yupanasimi.org/video/866.mp4\"; " }
 mallkucha = "mallkucha"i { return "\"http://yupanasimi.org/video/737.mp4\"; " }
-mallkuwikunakunapas = "mallku wikuñakunapas"i { return "\"http://yupanasimi.org/video/866.mp4\"; " }
+mallkukuna = "mallkukuna"i { return "\"http://yupanasimi.org/video/701.mp4\"; " }
 mamaqucha = "mama qucha"i { return  "\"http://yupanasimi.org/video/205.mp4\"; " }
 mamaquchallimpi = "mama qucha llimpi"i { return "\"http://yupanasimi.org/video/208.mp4\"; " }
 mayu = "mayu"i { return "\"http://yupanasimi.org/video/004.mp4\"; " }

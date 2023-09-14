@@ -1,9 +1,9 @@
 [
-{"url":"101.wav","type":"audio","bank":"arpa","n":0},
-{"url":"102.wav","type":"audio","bank":"arpa","n":1},
-{"url":"103.wav","type":"audio","bank":"arpa","n":2},
-{"url":"104.wav","type":"audio","bank":"arpa","n":3},
-{"url":"105.wav","type":"audio","bank":"arpa","n":4},
-{"url":"106.wav","type":"audio","bank":"arpa","n":5},
-{"url":"107.wav","type":"audio","bank":"arpa","n":6}
+{"url":"arpa/101.wav","type":"audio","bank":"arpa","n":0},
+{"url":"arpa/102.wav","type":"audio","bank":"arpa","n":1},
+{"url":"arpa/103.wav","type":"audio","bank":"arpa","n":2},
+{"url":"arpa/104.wav","type":"audio","bank":"arpa","n":3},
+{"url":"arpa/105.wav","type":"audio","bank":"arpa","n":4},
+{"url":"arpa/106.wav","type":"audio","bank":"arpa","n":5},
+{"url":"arpa/107.wav","type":"audio","bank":"arpa","n":6}
 ]

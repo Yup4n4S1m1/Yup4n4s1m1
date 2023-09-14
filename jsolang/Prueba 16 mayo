@@ -32,15 +32,15 @@ hatunqantu /
 hatunqinti /
 hatunqoyllur /
 hatuntika /
-hatuntikakunallimpi /
+achikyay /
 hatunwayra /
 hatunwayrapiwayta /
 hatunyuraqmayu /
 huchuyrapi /
 huchuytawakuchu /
 huchuywayra /
-illa /
-illachallimpi /
+illacha /
+kusisqa /
 illallimpi /
 illapa /
 illapapipillpintu /
@@ -309,15 +309,15 @@ hatunqantu = "hatun qantu"i { return "\"http://yupanasimi.org/video/810.mp4\"; "
 hatunqinti = "hatun qinti"i { return "\"http://yupanasimi.org/video/722.mp4\"; " }
 hatunqoyllur = "hatun qoyllur"i { return "\"http://yupanasimi.org/video/715.mp4\"; " }
 hatuntika = "hatun tika"i { return "\"http://yupanasimi.org/video/717.mp4\"; " }
-hatuntikakunallimpi = "hatun tikakuna llimpi"i { return "\"http://yupanasimi.org/video/718.mp4\"; " }
+achikyay = "achikyay"i { return "\"http://yupanasimi.org/video/718.mp4\"; " }
 hatunwayra = "hatun wayra"i { return "\"http://yupanasimi.org/video/833.mp4\"; " }
 hatunwayrapiwayta = "hatun wayrapi wayta"i { return "\"http://yupanasimi.org/video/868.mp4\"; " }
 hatunyuraqmayu = "hatun yuraq mayu"i { return "\"http://yupanasimi.org/video/816.mp4\"; " }
-huchuyrapi= "huchuyrapi"i { return "\"http://yupanasimi.org/video/108.mp4\"; " }
+huchuyrapi= "huchuy rapi"i { return "\"http://yupanasimi.org/video/108.mp4\"; " }
 huchuytawakuchu = "huchuy tawa kuchu"i { return "\"http://yupanasimi.org/video/013.mp4\"; " }
 huchuywayra = "huchuy wayra"i { return "\"http://yupanasimi.org/video/864.mp4\"; " }
-illa = "illa"i { return "\"http://yupanasimi.org/video/732.mp4\"; " }
-illachallimpi = "illacha llimpi"i { return "\"http://yupanasimi.org/video/301.mp4\"; " }
+illacha = "illacha"i { return "\"http://yupanasimi.org/video/732.mp4\"; " }
+kusisqa = "kusisqa"i { return "\"http://yupanasimi.org/video/301.mp4\"; " }
 illallimpi  = "illa llimpi"i { return "\"http://yupanasimi.org/video/106.mp4\"; " }
 illapa = "illapa"i { return "\"http://yupanasimi.org/video/212.mp4\"; " }
 illapapipillpintu = "illapapi pillpintu"i { return "\"http://yupanasimi.org/video/211.mp4\"; " }

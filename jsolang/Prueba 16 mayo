@@ -43,10 +43,11 @@ illacha /
 kusisqa /
 illallimpi /
 illapa /
-illapapipillpintu /
+uruchakuna /
 illariypiqintikuna /
 illariyqinti /
 inkill /
+intihina /
 ispi /
 kallpa /
 kulli /
@@ -320,10 +321,11 @@ illacha = "illacha"i { return "\"http://yupanasimi.org/video/732.mp4\"; " }
 kusisqa = "kusisqa"i { return "\"http://yupanasimi.org/video/301.mp4\"; " }
 illallimpi  = "illa llimpi"i { return "\"http://yupanasimi.org/video/106.mp4\"; " }
 illapa = "illapa"i { return "\"http://yupanasimi.org/video/212.mp4\"; " }
-illapapipillpintu = "illapapi pillpintu"i { return "\"http://yupanasimi.org/video/211.mp4\"; " }
+uruchakuna = "uruchakuna"i { return "\"http://yupanasimi.org/video/211.mp4\"; " }
 illariypiqintikuna = "illariypi qintikuna"i { return "\"http://yupanasimi.org/video/853.mp4\"; " }
 illariyqinti = "illariy qinti"i { return "\"http://yupanasimi.org/video/852.mp4\"; " }
 inkill = "inkill"i { return "\"http://yupanasimi.org/video/804.mp4\"; " }
+intihina = "intihina"i { return "\"http://yupanasimi.org/video/868.mp4\"; " }
 ispi = "ispi"i { return "\"http://yupanasimi.org/video/889.mp4\"; " }
 kallpa = "kallpa"i { return "\"http://yupanasimi.org/video/733.mp4\"; " }
 kulli = "kulli"i { return "\"http://yupanasimi.org/video/702.mp4\"; " }

@@ -7,7 +7,7 @@ achkanqucha /
 achokcha /
 amaru /
 anchatawayra /
-anqas /
+anqaschiy /
 anqaschallwa /
 asichay /
 anqasqantu /
@@ -282,7 +282,7 @@ achkanqucha  = "achkan qucha"i { return "\"https://yupanasimi.org/video/022.mp4\
 achokcha  = "achokcha"i { return "\"https://yupanasimi.org/video/709.mp4\"; " }
 amaru = "amaru"i { return "\"https://yupanasimi.org/video/405.mp4\"; " }
 anchatawayra = "anchata wayra"i { return "\"https://yupanasimi.org/video/811.mp4\"; " }
-anqas = "anqas"i { return "\"https://yupanasimi.org/video/878.mp4\"; " }
+anqaschiy = "anqaschiy"i { return "\"https://yupanasimi.org/video/878.mp4\"; " }
 anqaschallwa = "anqas challwa"i { return "\"https://yupanasimi.org/video/827.mp4\"; " }
 asichay = "asichay"i { return "\"https://yupanasimi.org/video/828.mp4\"; " }
 anqasqantu = "anqas qantu"i { return "\"https://yupanasimi.org/video/813.mp4\"; " }

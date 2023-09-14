@@ -9,20 +9,20 @@ amaru /
 anchatawayra /
 anqas /
 anqaschallwa /
-anqaspillpintu /
+asichay /
 anqasqantu /
 anqastika /
-anqaswayracha /
-anqasya /
-anawi /
+llipiqyay /
+tikarina /
+rupha /
 anawicha /
 chakana /
 chakanacha /
-chakanallimpi /
+pachatupuy /
 challwa /
-challwakunallimpi /
-challwallimpi /
-challwayutupas /
+karachi /
+suchi /
+trucha /
 chiwaku /
 hatunkuntur /
 hatunmamaqucha /
@@ -286,20 +286,20 @@ amaru = "amaru"i { return "\"https://yupanasimi.org/video/405.mp4\"; " }
 anchatawayra = "anchata wayra"i { return "\"https://yupanasimi.org/video/811.mp4\"; " }
 anqas = "anqas"i { return "\"https://yupanasimi.org/video/878.mp4\"; " }
 anqaschallwa = "anqas challwa"i { return "\"https://yupanasimi.org/video/827.mp4\"; " }
-anqaspillpintu = "anqas pillpintu"i { return "\"https://yupanasimi.org/video/828.mp4\"; " }
+asichay = "asichay"i { return "\"https://yupanasimi.org/video/828.mp4\"; " }
 anqasqantu = "anqas qantu"i { return "\"https://yupanasimi.org/video/813.mp4\"; " }
 anqastika = "anqas tika"i { return "\"https://yupanasimi.org/video/711.mp4\"; " }
-anqaswayracha = "anqas wayracha"i { return "\"https://yupanasimi.org/video/832.mp4\"; " }
-anqasya = "anqasya"i { return "\"https://yupanasimi.org/video/881.mp4\"; " }
-anawi  = "añawi "i { return "\"https://yupanasimi.org/video/735.mp4\"; " }
+llipiqyay = "llipiqyay"i { return "\"https://yupanasimi.org/video/832.mp4\"; " }
+tikarina = "tikarina"i { return "\"https://yupanasimi.org/video/881.mp4\"; " }
+rupha = "rupha "i { return "\"https://yupanasimi.org/video/735.mp4\"; " }
 anawicha = "añawicha"i { return "\"http://yupanasimi.org/video/698.mp4\"; " }
 chakana  = "chakana"i { return "\"http://yupanasimi.org/video/015.mp4\"; " }
 chakanacha = "chakanacha"i { return "\"http://yupanasimi.org/video/305.mp4\"; " }
-chakanallimpi = "chakana llimpi"i { return "\"http://yupanasimi.org/video/302.mp4\"; " }
+pachatupuy = "pachatupuy"i { return "\"http://yupanasimi.org/video/302.mp4\"; " }
 challwa  = "challwa"i { return "\"http://yupanasimi.org/video/025.mp4\"; " }
-challwakunallimpi = "challwakuna llimpi"i { return "\"http://yupanasimi.org/video/875.mp4\"; " }
-challwallimpi = "challwa llimpi"i { return "\"http://yupanasimi.org/video/728.mp4\"; " }
-challwayutupas = "challwa yutupas"i { return "\"http://yupanasimi.org/video/862.mp4\"; " }
+karachi = "karachi"i { return "\"http://yupanasimi.org/video/875.mp4\"; " }
+suchi = "suchi"i { return "\"http://yupanasimi.org/video/728.mp4\"; " }
+trucha = "trucha yutuwan"i { return "\"http://yupanasimi.org/video/862.mp4\"; " }
 chiwaku = "chiwaku"i { return "\"http://yupanasimi.org/video/854.mp4\"; " }
 hatunkuntur = "hatun kuntur"i { return "\"http://yupanasimi.org/video/716.mp4\"; " }
 hatunmamaqucha = "hatun mama qucha"i { return "\"http://yupanasimi.org/video/821.mp4\"; " }

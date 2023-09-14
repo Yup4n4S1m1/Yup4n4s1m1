@@ -216,15 +216,13 @@ hunuy /
 achkankallpa /
 llimpichay /
 lluqsina /
-maypim /
-maypitaq /
-muyuy /
-pata /
-qinqu /
+maypi /
+huqmuyuy /
+patay /
+winqu /
 ruyruchiy /
-wichqay /
+huqwichqay /
 sapa /
-sayay /
 tawakuchu /
 tupachiy /
 winara /
@@ -262,15 +260,13 @@ hunuy = "&" { return " $ "}
 achkankallpa = "achkan kallpa"i { return " setBrightness " }
 llimpichay = "llimpichay"i { return " setSaturate " }
 lluqsina = "lluqsina"i { return " fadeOut " }
-maypim = "maypim"i { return " setCoord " }
-maypitaq = "maypitaq"i { return " setCoord " }
-muyuy = "huq muyuy"i { return " setRotate " }
-pata = "pata"i { return " ramp " }
-qinqu = "winqu"i { return " sin "}
-wichqay = "huq wichqay"i { return " circleMask´ " }
+maypi = "maypi"i { return " setCoord " }
+huqmuyuy = "huq muyuy"i { return " setRotate " }
+patay = "patay"i { return " ramp " }
+winqu = "winqu"i { return " sin "}
+huqwichqay = "huq wichqay"i { return " circleMask´ " }
 ruyruchiy = "ruyruchiy"i { return " circleMask " }
 sapa = "sapa"i { return " every " }
-sayay = "sayay"i { return " setSize " }
 tawakuchu = "tawa kuchu"i { return " sqrMask " }
 tupachiy = "tupachiy"i { return " setContrast " }
 winara = "winara"i { return " volume " }
@@ -295,7 +291,7 @@ llipiqyay = "llipiqyay"i { return "\"https://yupanasimi.org/video/832.mp4\"; " }
 tikarina = "tikarina"i { return "\"https://yupanasimi.org/video/881.mp4\"; " }
 rupha = "rupha"i { return "\"https://yupanasimi.org/video/735.mp4\"; " }
 anawicha = "añawicha"i { return "\"https://yupanasimi.org/video/698.mp4\"; " }
-chakana  = "chakana"i { return "\"https://yupanasimi.org/video/015.mp4\"; " }
+chakana  = "chakanata"i { return "\"https://yupanasimi.org/video/015.mp4\"; " }
 chakanacha = "chakanacha"i { return "\"https://yupanasimi.org/video/305.mp4\"; " }
 pachatupuy = "pachatupuy"i { return "\"https://yupanasimi.org/video/302.mp4\"; " }
 challwa  = "challwa"i { return "\"https://yupanasimi.org/video/025.mp4\"; " }

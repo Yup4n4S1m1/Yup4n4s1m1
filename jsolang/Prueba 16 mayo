@@ -2,7 +2,7 @@
 
 main = x:allRules* { return "##cineCer0\n" + x.join("") }
 
-allRules = achkanmayu /
+allRules = achkamayu /
 achkanqucha /
 achokcha /
 amaru /
@@ -87,7 +87,7 @@ muyuqkulliqantu /
 muyuqmamaqucha /
 muyuqqinti /
 muyuqqoyllur /
-muyuqwayra /
+muyuqparakas /
 muyuqllimpi /
 muyuqwayracha /
 muyuqwayrakuna /
@@ -280,7 +280,7 @@ yaykuna = "yaykuna"i { return " fadeIn " }
 // VIDEOS URL
 
 
-achkanmayu  = "achka mayu"i { return "\"https://yupanasimi.org/video/102.mp4\"; " }
+achkamayu  = "achka mayu"i { return "\"https://yupanasimi.org/video/102.mp4\"; " }
 achkanqucha  = "achkan qucha"i { return "\"https://yupanasimi.org/video/022.mp4\"; " }
 achokcha  = "achokcha"i { return "\"https://yupanasimi.org/video/709.mp4\"; " }
 amaru = "amaru"i { return "\"https://yupanasimi.org/video/405.mp4\"; " }
@@ -365,7 +365,7 @@ muyuqkulliqantu = "muyuq kulli qantu"i { return "\"http://yupanasimi.org/video/8
 muyuqmamaqucha = "muyuq mama qucha"i { return "\"http://yupanasimi.org/video/822.mp4\"; " }
 muyuqqinti = "muyuq qinti"i { return "\"http://yupanasimi.org/video/887.mp4\"; " }
 muyuqqoyllur = "muyuq qoyllur"i { return "\"http://yupanasimi.org/video/801.mp4\"; " }
-muyuqwayra = "muyuq wayra"i { return "\"http://yupanasimi.org/video/011.mp4\"; " }
+muyuqparakas = "muyuq parakas"i { return "\"http://yupanasimi.org/video/011.mp4\"; " }
 muyuqllimpi = "muyuq llimpi"i { return "\"http://yupanasimi.org/video/710.mp4\"; " }
 muyuqwayracha = "muyuq wayracha"i { return "\"http://yupanasimi.org/video/708.mp4\"; " }
 muyuqwayrakuna = "muyuq wayrakuna"i { return "\"http://yupanasimi.org/video/707.mp4\"; " }

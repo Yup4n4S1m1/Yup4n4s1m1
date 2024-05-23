@@ -1,0 +1,30 @@
+##S1m1
+
+allillay 2.2 & u_ "bandurria*3" # mayqanpas # anchasuyay "[0.1 0.5 0.1]/2" # suyay "0.75" # muyuqawa llinkuy
+
+mayninpi (allillay 0.5) & u_ "botella saruy" # utqay (akllakuy [1.1, 0.6, 0.4, 0.7]) # kuchuy "100 1000 2000" # winara "1.5 1"
+
+allillay 2.1 & u_ "ocarina phuña" # utqay (akllakuy [1.1, 0.6, 0.4, 0.7]) # chimpay "<8 2 1>"
+
+allillay 2 & u_ "[contrasanqa muhu/2] [tarka*2]/2"
+# utqay "0.3 1.5 0.4"
+
+allillay 1.1 & u_ "arpa*2" # kuchuy "100 1000 2000" # paqarin "<0 0.25 0.5>" # chimpay "<16 4 2>" # muyuqawa llinkuy # mayqanpas
+
+qutuy [allillay 2 & u_ "contrasanqa*12" # mayqanpas # kuchuy "100 1000 2000" # paqarin "<0 0.25 0.5>" # chimpay "<16 4 2>",
+allillay 2 & mitapu 7 & chaqway 5 & u_ "kachampa" # mayqanpas,
+allillay 0.5 & u_ "muhu*3" # mayqanpas # anchasuyay "[0.1 0.5 0.1]/2" # suyay "0.75" # muyuqawa llinkuy]
+
+qutuy [u_ "tarpuy(2,4)",
+sapakutin 2 (sasacha 2.5) & sapakutin 4 (tikray) & allillay 4 & kutipay 6 & u_ "waqrapuku" # winara "1 2 0.75 0.3",
+haykap 8 4 (allillay 2) (u_ "takau") # winara "1 0.5 0.75 0.3"]
+
+qutuy [ u_ "karnaval ~ pitu" # winara "0.05 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8" # muyuqawa (allillay 5 qenqoy),
+kutipay 16 & u_ "arpa ~ tarka*2" # winara "0.5 0.2 0.5",
+s "urukuna*4" # muyuqawa llinkuy # winara " 0.5 0.75 0.3" 
+]
+
+mayninpi (tikray) & kutipay 4 & qutuy [u_ "phuña ~ tarpuy*2 waqrapuku" # muyuqawa llinkuy,
+u_ "[bandurria*2] ~" # mayqanpas # muyuqawa qenqoy]
+
+u_ "takau*0.9" # anchasuyay "<0 1.01 0.7 0.2 0.5>" # suyay "1.5" # kuchuy "100 1000 4000" # chimpay "<16 4 2>" # muyuqawa llinkuy
